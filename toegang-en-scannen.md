@@ -1,0 +1,173 @@
+---
+title: Toegang en scannen
+nav_order: 5
+permalink: /toegang-en-scannen/
+---
+
+# Toegang en scannen
+{: .no_toc }
+
+Checkpoints instellen, tickets scannen met je telefoon, polsbandjes en vaste scanapparaten.
+{: .fs-6 .fw-300 }
+
+1. TOC
+{:toc}
+
+---
+
+## Checkpoints
+
+Een **checkpoint** is een plek waar tickets gescand worden: de ingang, een uitgang, een tussenpost. Ga naar
+**Toegang → Checkpoints**.
+
+![Checkpoints]({{ '/assets/images/checkpoints.png' | relative_url }})
+
+Klik op **Nieuw checkpoint** en stel in:
+
+| Instelling | Uitleg |
+|:-----------|:-------|
+| **Naam** en **Beschrijving** | Bijvoorbeeld "Hoofdingang" of "Post Molenweg". |
+| **Waarschuwing na / Maximaal** | Hoe vaak een ticket hier per geldigheidsperiode langs mag. Boven de waarschuwing wordt de scan oranje, boven het maximum rood. Leeg = geen limiet. |
+| **Max per dag / Waarschuwing per dag** | Dezelfde grenzen, maar per kalenderdag. |
+| **Minuten vóór het begin / na het einde** | Hoeveel eerder dan de geldigheid (en hoeveel later) een ticket al of nog wordt toegelaten. Leeg = de standaardmarges van je organisatie, die je bovenaan de lijst wijzigt. |
+| **Aanwezigheid** | Of een geslaagde scan de deelnemer op *Aanwezig* of *Afwezig* zet (een ingang en een uitgang), of niets doet. |
+| **Aantal dagen** | Voor evenementen over meerdere dagen, zoals een wandelvierdaagse: zie hieronder. |
+| **Actief (er kan gescand worden)** | Een checkpoint dat uit staat, kun je niet kiezen bij het scannen. |
+
+{: .info }
+Een checkpoint laat standaard alle tickettypes toe. Wil je een type alleen bij bepaalde checkpoints toelaten, dan stel
+je dat in bij het **tickettype** (*Alleen geldig bij checkpoints*). De kolom *Alleen hier geldig* in de lijst laat zien
+welke types aan een checkpoint vastzitten.
+
+### Voortgang over meerdere dagen
+
+Vul bij **Aantal dagen** in hoeveel dagen het event duurt (bijvoorbeeld 4 bij een avondvierdaagse). Na elke scan toont
+het scanscherm dan een bolletje per dag en "Dag 3 van 4"; op de laatste dag "Laatste dag!".
+
+Op de pagina van het checkpoint zie je per dag hoeveel tickets die dag langs zijn geweest. Een klik toont de namen,
+bijvoorbeeld wie alle dagen heeft gelopen, voor de uitreiking van de medailles.
+
+![Checkpoint met voortgang]({{ '/assets/images/checkpoint.png' | relative_url }})
+
+### De pagina van een checkpoint
+
+Hier zie je de instellingen, de knop **Scannen**, alle scans van dit checkpoint (ook de geweigerde, te filteren op
+resultaat) en de **checkpoint-tags** (zie [Terminals](#terminals)).
+
+{: .let_op }
+Een checkpoint waar al gescand is, kun je niet verwijderen. Zet het uit.
+
+## Scannen met je telefoon of tablet
+
+Kies in het menu **Scannen** (direct onder Dashboard). Het scherm gebruikt de hele pagina; met het kruisje rechtsboven
+ga je terug.
+
+1. Kies bij welk **checkpoint** je scant. Het checkpoint van de vorige keer staat bovenaan.
+2. Tik op de **camera**-knop en richt de camera op de QR-code van het ticket.
+3. Het resultaat verschijnt groot:
+   - **groen**: welkom, het ticket is toegelaten;
+   - **oranje**: toegelaten, maar let op (bijvoorbeeld al vaker langs geweest);
+   - **rood**: geweigerd, met de reden (al gescand, niet geldig op dit moment, niet betaald, …).
+
+   Je hoort ook een toon: een hoge piep (goed), twee piepjes (let op) of een lage zoem (fout).
+
+![Scannen]({{ '/assets/images/scan.png' | relative_url }})
+
+Onder de camera staat een balk met de verbinding en drie knoppen:
+
+- **Camera** aan/uit (met een zaklamp op telefoons die dat kunnen);
+- **Vergrootglas**: zoeken op ticketcode, naam of e-mailadres. Bij een naam kies je daarna het ticket dat je wilt
+  scannen;
+- **Tandwiel**: instellingen, zoals een ander checkpoint, een andere camera en geluid aan/uit.
+
+{: .tip }
+Een **handscanner** (een scanner die als toetsenbord werkt) werkt meteen: scan gewoon, ook zonder dat je ergens in
+klikt. Op Android met Chrome verschijnt er ook een **NFC**-knop om polsbandjes met een chip te lezen.
+
+### Zonder internet
+
+Het scanscherm downloadt op de achtergrond alle tickets van lopende en komende events. Valt het internet weg, dan
+beoordeelt je telefoon de scans zelf, met dezelfde regels. Zulke scans krijgen het label "offline beoordeeld" en
+gaan naar de server zodra er weer verbinding is. Bovenin zie je of je online bent, hoeveel scans er nog wachten en
+wanneer de gegevens voor het laatst zijn bijgewerkt.
+
+{: .let_op }
+Zolang een apparaat offline is, weet het niet wat er bij andere ingangen gescand wordt. Een ticket kan dan bij twee
+ingangen tegelijk naar binnen. Achteraf zie je dat terug in de scans van het checkpoint.
+
+### Vragen bij het ticket
+
+Heeft een [vragenlijst]({{ '/vragenlijsten/' | relative_url }}) een vraag met *Tonen op het scherm bij het scannen*,
+dan staat het antwoord onder het resultaat, bijvoorbeeld een allergie of "mag alleen met begeleiding naar huis".
+
+## Tags
+
+Een **tag** is iets dat een deelnemer krijgt en dat je scant in plaats van het ticket: een polsbandje met een chip
+(NFC), een keykoord met een QR-code. Een deelnemer kan meer tags hebben, en een tag geldt voor alle events van je
+organisatie. De QR-code op het ticket zelf blijft ook werken.
+
+### Tags uitgeven
+
+1. Open **Scannen** en kies **Uitgifte van tags** in plaats van een checkpoint.
+2. Scan de QR-code van het ticket, of zoek de deelnemer met het vergrootglas.
+3. Scan of tik de tag (USB-NFC-lezer, NFC van de telefoon, de camera voor een QR-keykoord, of typ de code).
+4. Groen = gekoppeld. Klaar voor de volgende deelnemer.
+
+Kies bovenaan de **soort** (Armband, Keykoord, …); die wordt onthouden. Tags koppelen kan ook op de pagina van een
+deelnemer.
+
+### Tags beheren
+
+**Toegang → Tags** toont alle tags, met filters op status, "niet gebruikt sinds" en "gekoppeld vóór". Per tag kun je
+hem **intrekken** (werkt niet meer, blijft in de geschiedenis) of **verwijderen**. Met **Opruimen** trek je in één keer
+alle oude tags in of verwijder je ze, bijvoorbeeld na afloop van het seizoen.
+
+![Tags]({{ '/assets/images/tags.png' | relative_url }})
+
+## Terminals
+
+Een **terminal** is een vast scanapparaat zonder eigen account: een Raspberry Pi met een scanner en een scherm bij de
+ingang, of een gedeelde Zebra-handscanner. Ga naar **Toegang → Terminals**.
+
+![Terminals]({{ '/assets/images/terminals.png' | relative_url }})
+
+### Een terminal koppelen
+
+1. Open op het apparaat het adres `https://<jouw EventVox-adres>/scanterminal/` (met de slash aan het eind). Het
+   scherm toont een code van 6 tekens.
+2. Klik in EventVox op **Terminal koppelen** en typ die code over.
+3. Geef een **naam**, kies de **soort apparaat**, waar hij **mag scannen** (alle actieve checkpoints of alleen een
+   keuze) en waar hij **nu scant**.
+4. Het apparaat start vanzelf.
+
+| Soort | Gebruik |
+|:------|:--------|
+| **Scherm zonder aanraken** | Alleen scannen, bijvoorbeeld een Raspberry Pi bij de ingang. |
+| **Met touchscreen** | Scannen én zoeken op naam, voor een handscanner met touchscreen (Zebra). |
+| **EHBO (informatie)** | Scant geen toegang, maar toont de deelnemerskaart: naam, leeftijd, medische antwoorden en de telefoonnummers van ouders. Alleen te kiezen met het recht *EHBO-terminals*. |
+
+De lijst toont per terminal of hij online is, waar hij scant, wanneer hij gezien is, de scans van vandaag en de
+wachtrij. Op de pagina van een terminal wijzig je hem, of trek je hem in (het apparaat stopt meteen en wist zijn
+gegevens).
+
+Bij **Bericht op het scherm** zet je een tekst op het scherm van de terminal. Zonder eigen bericht toont hij het bericht voor de
+scanschermen uit [Schermen]({{ '/sponsoring-en-schermen/#schermen' | relative_url }}).
+
+### Wisselen van checkpoint met een tag
+
+Op de pagina van een checkpoint maak je een **checkpoint-tag**: een QR-code om te printen, of een NFC-chip. Scan je die
+bij een terminal of op het scanscherm, dan wisselt het apparaat naar dat checkpoint. Handig als één apparaat
+afwisselend bij de ingang en bij de uitgang staat.
+
+### De EHBO-terminal
+
+Een terminal van de soort EHBO scant geen toegang. Scan het ticket of polsbandje, of zoek op naam, en de kaart van de
+deelnemer verschijnt:
+
+- naam, leeftijd en geboortedatum;
+- in een rood vlak de antwoorden die voor de EHBO bedoeld zijn (zie
+  [Vragenlijsten]({{ '/vragenlijsten/' | relative_url }}): *Tonen bij de EHBO-terminal*);
+- de gekoppelde accounts (bijvoorbeeld ouders) met hun telefoon- en noodnummer als grote belknoppen;
+- de tickets en waar de deelnemer het laatst is gescand.
+
+Elke geopende kaart wordt vastgelegd in het logboek.
