@@ -1,0 +1,38 @@
+title: EventVox handleiding
+description: Handleidingen voor organisaties die met EventVox werken
+lang: nl
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 3
+  button: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Terug naar boven"
+footer_content: "EventVox: handleiding voor organisaties."
+callouts:
+  tip:
+    title: Tip
+    color: green
+  let_op:
+    title: Let op
+    color: yellow
+  info:
+    title: Goed om te weten
+    color: blue
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
