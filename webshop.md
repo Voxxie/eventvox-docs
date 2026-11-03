@@ -36,7 +36,7 @@ Ga naar **Verkoop → Webshop**.
 |:-----------|:-------|
 | **Webshop staat aan** | Uit = bezoekers zien een melding dat de webshop gesloten is. |
 | **Titel** en **Welkomsttekst** | Bovenaan de webshop. |
-| **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVox, met de naam van je organisatie als afzender. |
+| **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVOX, met de naam van je organisatie als afzender. |
 | **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
 | **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets vasthoudt, en apart bij *betalen bij afhalen*. |
 | **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |

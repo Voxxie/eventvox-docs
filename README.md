@@ -1,6 +1,6 @@
-# EventVox handleiding
+# EventVOX handleiding
 
-De handleidingen voor organisaties (tenants) die met EventVox werken, gepubliceerd op
+De handleidingen voor organisaties (tenants) die met EventVOX werken, gepubliceerd op
 [faq.eventvox.nl](https://faq.eventvox.nl) via GitHub Pages (Jekyll met het thema
 [Just the Docs](https://just-the-docs.com)).
 

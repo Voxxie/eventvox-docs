@@ -98,13 +98,13 @@ kraam. De bestelling is meteen betaald, contant of met pin.
 2. **Tickets en producten**: links staan de tickettypes van de gepubliceerde events die nog niet voorbij zijn, met
    hoeveel er nog over zijn, en de actieve producten. Klik om ze toe te voegen. Kies per ticket voor wie het is: de
    klant zelf, een van zijn deelnemers, of *Iemand anders…* met een nieuwe naam.
-3. **Betalen**: kies **Contant** of **Pin**. Bij contant vul je in wat je ontvangt; EventVox rekent het wisselgeld uit.
+3. **Betalen**: kies **Contant** of **Pin**. Bij contant vul je in wat je ontvangt; EventVOX rekent het wisselgeld uit.
 4. **Afrekenen**. Daarna kun je de tickets meteen **printen**.
 
 De verkoop staat daarna als gewone, betaalde bestelling bij **Bestellingen**, met als bron *Kassa*.
 
 {: .info }
-De kassa is een [module]({{ '/#modules' | relative_url }}): neem contact op met EventVox om de module *Kassa* aan te
+De kassa is een [module]({{ '/#modules' | relative_url }}): neem contact op met EventVOX om de module *Kassa* aan te
 zetten. Geef de
 mensen achter de kassa een rol met het recht **Kassa: aanmaken**.
 

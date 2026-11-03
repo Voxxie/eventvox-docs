@@ -4,21 +4,21 @@ nav_order: 1
 permalink: /
 ---
 
-# EventVox handleiding
+# EventVOX handleiding
 {: .fs-9 }
 
-Alles wat je als organisatie nodig hebt om met EventVox te werken: van je eerste event tot het scannen bij de ingang.
+Alles wat je als organisatie nodig hebt om met EventVOX te werken: van je eerste event tot het scannen bij de ingang.
 {: .fs-6 .fw-300 }
 
-![Het dashboard van EventVox]({{ '/assets/images/dashboard.png' | relative_url }})
+![Het dashboard van EventVOX]({{ '/assets/images/dashboard.png' | relative_url }})
 
-## Wat is EventVox?
+## Wat is EventVOX?
 
-EventVox is het systeem voor jouw organisatie of stichting om evenementen te organiseren. Je verkoopt tickets in een
+EventVOX is het systeem voor jouw organisatie of stichting om evenementen te organiseren. Je verkoopt tickets in een
 eigen webshop, scant bezoekers bij de ingang, plant vrijwilligers in, stuurt mailings en houdt je sponsoren bij. Alles
 op één plek, in de browser op je computer, tablet of telefoon.
 
-In EventVox heet je organisatie een **tenant**. Ben je bij meer organisaties actief, dan wissel je rechtsboven van
+In EventVOX heet je organisatie een **tenant**. Ben je bij meer organisaties actief, dan wissel je rechtsboven van
 tenant.
 
 ## Waar begin je?
@@ -43,9 +43,9 @@ tenant.
 
 ## Modules
 
-Niet elke organisatie gebruikt alles. EventVox werkt met **modules** (Tickets, Webshop, Vrijwilligers, Roosters,
+Niet elke organisatie gebruikt alles. EventVOX werkt met **modules** (Tickets, Webshop, Vrijwilligers, Roosters,
 Pick-Up, Mailings, Sponsoren, Kassa, enz.). Staat een module niet aan, dan zie je die onderdelen niet in het menu. Wil je een
-module erbij? Neem contact op met EventVox.
+module erbij? Neem contact op met EventVOX.
 
 ## Rechten
 

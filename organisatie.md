@@ -24,8 +24,8 @@ webshopkopers. Filter op soort (*Beheer* of *Publiek*) en op rol.
 
 ### Iemand toevoegen
 
-- **Uitnodigen** (aanbevolen): vul het e-mailadres in en kies de rol(len). EventVox maakt een uitnodigingslink; de
-  persoon maakt daarmee zelf een account aan en kiest zijn eigen wachtwoord. Heeft diegene al een EventVox-account
+- **Uitnodigen** (aanbevolen): vul het e-mailadres in en kies de rol(len). EventVOX maakt een uitnodigingslink; de
+  persoon maakt daarmee zelf een account aan en kiest zijn eigen wachtwoord. Heeft diegene al een EventVOX-account
   (bij een andere organisatie), dan accepteert hij de uitnodiging met dat account. Open uitnodigingen staan onder de
   lijst; je kunt ze intrekken of een nieuwe link maken.
 - **Nieuwe gebruiker**: je maakt het account zelf aan, met een wachtwoord.
@@ -86,7 +86,7 @@ actief is, staat er bovenaan een balk met **Nu beëindigen**.
 
 ## API-tokens
 
-Met **Organisatie → API-tokens** koppel je andere software aan EventVox, zoals een eigen app, een script of een
+Met **Organisatie → API-tokens** koppel je andere software aan EventVOX, zoals een eigen app, een script of een
 AI-assistent.
 
 - **Nieuw token**: een naam, de geldigheid (30, 90 of 180 dagen of 1 jaar) en de rechten: al je eigen rechten, of een
@@ -106,7 +106,7 @@ ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de 
 
 ![AI-koppeling]({{ '/assets/images/mcp.png' | relative_url }})
 
-- De koppeling is een **module**: neem contact op met EventVox om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
+- De koppeling is een **module**: neem contact op met EventVOX om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
   **Organisatie → API-tokens** een kaart met het adres en hoe je de assistent koppelt.
 - Maak een token met **alleen lezen**: kies bij de rechten **Alles lezen**, of alleen de onderdelen die nodig zijn. Een
   token met andere rechten werkt niet voor de koppeling. Zulke tokens krijgen het label **MCP**. Gebruik het liefst een
@@ -121,7 +121,7 @@ het token alleen de onderdelen die nodig zijn.
 
 ## Telefoonboek
 
-Heb je IP-telefoons van Yealink, dan kunnen die het telefoonboek van je organisatie uit EventVox halen. Ga naar
+Heb je IP-telefoons van Yealink, dan kunnen die het telefoonboek van je organisatie uit EventVOX halen. Ga naar
 **Organisatie → Telefoonboek**.
 
 ![Telefoonboek]({{ '/assets/images/phonebook.png' | relative_url }})
