@@ -39,10 +39,15 @@ Ga naar **Verkoop → Webshop**.
 | **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVox, met de naam van je organisatie als afzender. |
 | **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
 | **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets vasthoudt, en apart bij *betalen bij afhalen*. |
+| **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |
 | **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
 | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
 
 Onderaan staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe).
+
+{: .info }
+De koper ziet de administratiekosten in het winkelmandje ("incl. € … administratiekosten"), bij de bestelling en in de
+bevestigingsmail. Ze tellen mee in het bedrag dat online betaald wordt.
 
 ### Betaalmethodes
 
