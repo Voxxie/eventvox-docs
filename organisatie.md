@@ -122,8 +122,8 @@ token voor de andere telefoons.
 
 ## Logo
 
-Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, en in de beheeromgeving bij
-de tenantkeuze.
+Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, rechtsboven op de tickets
+(PDF), en in de beheeromgeving bij de tenantkeuze.
 
 Ga naar **Tenants**, klik bij je organisatie op **Bewerken** en kies bij **Logo** een bestand: PNG (het liefst met
 een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Een nieuw logo vervangt het oude; met
