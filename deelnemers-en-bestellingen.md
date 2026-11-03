@@ -87,7 +87,7 @@ Openstaande bestellingen voor betalen bij afhalen vind je met het filter status 
 
 ## Kassa
 
-Met **Verkoop → Kassa** verkoop je tickets en producten ter plekke, bijvoorbeeld aan de inschrijftafel of bij een
+Met **Kassa** in het menu (direct onder Scannen) verkoop je tickets en producten ter plekke, bijvoorbeeld aan de inschrijftafel of bij een
 kraam. De bestelling is meteen betaald, contant of met pin.
 
 ![Kassa]({{ '/assets/images/pos.png' | relative_url }})

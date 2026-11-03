@@ -28,7 +28,8 @@ voor *Verkoop* heb je bijvoorbeeld leesrechten op bestellingen nodig, voor *Vrij
 ## Verkoop
 
 Wat er betaald is: tickets, producten en het totaal, per event en per tickettype. Een bestelling telt op de dag dat
-hij betaald is. Filter op **event** en op een **periode**.
+hij betaald is. De pagina opent op het **laatste event**: het event dat het laatst begonnen is of nu loopt. Kies een
+ander event, **Alle events**, of een **periode**.
 
 ![Verkoop]({{ '/assets/images/report-sales.png' | relative_url }})
 
@@ -43,7 +44,7 @@ gebruikers en acties in het logboek. Kies **30 dagen**, **90 dagen** of **1 jaar
 
 De doorgangen bij de checkpoints: hoeveel er zijn toegelaten, met een waarschuwing toegelaten of geweigerd, per
 checkpoint per dag. De grafiek laat zien op welk **uur van de dag** het druk is, handig om de bezetting bij de ingang te
-plannen. Filter op **event** en **periode**; zonder keuze zie je de laatste 30 dagen.
+plannen. Filter op **event**, **checkpoint** en **periode**; zonder event of periode zie je de laatste 30 dagen.
 
 ![Scans]({{ '/assets/images/report-scans.png' | relative_url }})
 
