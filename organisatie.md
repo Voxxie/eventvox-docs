@@ -7,7 +7,7 @@ permalink: /organisatie/
 # Organisatie
 {: .no_toc }
 
-Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, het telefoonboek, het logo en het logboek.
+Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, de AI-koppeling, het telefoonboek, het logo en het logboek.
 {: .fs-6 .fw-300 }
 
 1. TOC
@@ -98,6 +98,27 @@ AI-assistent.
 {: .let_op }
 Behandel een token als een wachtwoord. Trek een token in zodra het niet meer nodig is.
 
+## AI-koppeling (MCP)
+
+Met de AI-koppeling kan een AI-assistent, zoals Claude, vragen over je organisatie beantwoorden: "hoeveel tickets zijn
+er verkocht voor de Kerstmarkt?", "wie staat zaterdag op het rooster?" of "welke vragenlijsten zijn nog niet
+ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de assistent kan nooit iets wijzigen.
+
+![AI-koppeling]({{ '/assets/images/mcp.png' | relative_url }})
+
+- De koppeling is een **module**: neem contact op met EventVox om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
+  **Organisatie → API-tokens** een kaart met het adres en hoe je de assistent koppelt.
+- Maak een token met **alleen lezen**: kies bij de rechten **Alles lezen**, of alleen de onderdelen die nodig zijn. Een
+  token met andere rechten werkt niet voor de koppeling. Zulke tokens krijgen het label **MCP**. Gebruik het liefst een
+  applicatie-account, zodat de koppeling niet aan een persoon hangt.
+- De assistent ziet events, verkoop, aanwezigheid, rapportages, roosters en de totalen van vragenlijsten, binnen de
+  rechten van het token. **Nooit**: antwoorden op gevoelige vragen, VOG's, mails, contactgegevens of geboortedata.
+- Elke vraag van de assistent staat in het [logboek](#logboek), met het token.
+
+{: .let_op }
+Wat de assistent leest, gaat naar de dienst achter die assistent. Spreek binnen je organisatie af of dat mag, en geef
+het token alleen de onderdelen die nodig zijn.
+
 ## Telefoonboek
 
 Heb je IP-telefoons van Yealink, dan kunnen die het telefoonboek van je organisatie uit EventVox halen. Ga naar
@@ -122,8 +143,8 @@ token voor de andere telefoons.
 
 ## Logo
 
-Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, en in de beheeromgeving bij
-de tenantkeuze.
+Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, rechtsboven op de tickets
+(PDF), en in de beheeromgeving bij de tenantkeuze.
 
 Ga naar **Tenants**, klik bij je organisatie op **Bewerken** en kies bij **Logo** een bestand: PNG (het liefst met
 een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Een nieuw logo vervangt het oude; met
