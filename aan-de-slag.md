@@ -21,7 +21,7 @@ Open EventVOX in je browser en log in met je gebruikersnaam (of e-mailadres) en 
 organisatie het heeft ingesteld, kun je ook inloggen met:
 
 - **een passkey**: inloggen met je vingerafdruk, gezicht of pincode van je apparaat, zonder wachtwoord;
-- **Google**: met je Google-account;
+- **Google** of **Apple**: met je Google-account of je Apple ID;
 - **een inloglink per mail**: vul je e-mailadres in en klik op de link in de mail.
 
 Heb je je telefoon gekoppeld voor meldingen (zie [Meldingen en de app](#meldingen-en-de-app)), dan vraagt EventVOX bij

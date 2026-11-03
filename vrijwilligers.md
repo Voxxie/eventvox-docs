@@ -51,11 +51,19 @@ de persoon nog niet als gebruiker? Nodig hem of haar eerst uit bij
 - **Vragenlijsten** voor vrijwilligers, met de antwoorden.
 - **Beëindigen**: iemand stopt. De jaren en VOG's blijven bewaard; later kun je de vrijwilliger opnieuw actief maken.
 
-### VOG-instellingen
+### Instellingen: rol en VOG
 
-Op de lijst met vrijwilligers stel je bij **VOG-instellingen** in hoe lang een VOG geldig is (in maanden, leeg =
-onbeperkt) en vanaf welke leeftijd een VOG nodig is. Wie een VOG nodig heeft maar geen geldige heeft, krijgt het label
-"VOG nodig".
+Op de lijst met vrijwilligers open je **Instellingen**.
+
+![Instellingen vrijwilligers]({{ '/assets/images/employee-settings.png' | relative_url }})
+
+- **Rol voor vrijwilligers**: de rol (met de rechten) die iedere vrijwilliger van je organisatie automatisch krijgt,
+  bijvoorbeeld om het eigen rooster en de scanner te gebruiken. Een vrijwilliger krijgt de rol bij het aanmaken, bij
+  het aannemen van een aanmelding en bij opnieuw actief maken, en verliest hem bij **Beëindigen** of verwijderen. Zet
+  **Ook alle huidige vrijwilligers deze rol geven** aan om de rol meteen ook aan wie er nu al is te geven. Hiervoor heb je ook het
+  recht nodig om rollen toe te kennen.
+- **VOG**: hoe lang een VOG geldig is (in maanden, leeg = onbeperkt) en vanaf welke leeftijd een VOG nodig is. Wie
+  een VOG nodig heeft maar geen geldige heeft, krijgt het label "VOG nodig".
 
 {: .tip }
 Met [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}) krijgen vrijwilligers automatisch een mail als
@@ -68,7 +76,7 @@ daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen 
 
 ![Aanmeldingen]({{ '/assets/images/employee-applications.png' | relative_url }})
 
-- **Aannemen** maakt het account vrijwilliger (voor dit jaar), eventueel met een rol erbij.
+- **Aannemen** maakt het account vrijwilliger (voor dit jaar), met de rol voor vrijwilligers en eventueel een extra rol.
 - **Afwijzen**, met een interne notitie.
 
 {: .info }
