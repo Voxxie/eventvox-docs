@@ -21,7 +21,7 @@ Elke organisatie heeft een eigen webshop. Bezoekers maken daar een account aan (
 deelnemers toe voor wie ze kopen (zichzelf, kinderen, …) en bestellen tickets, producten en abonnementen in één
 mandje. Na het bestellen krijgen ze een bevestiging per mail, en de tickets als PDF zodra er betaald is. In de webshop
 vinden ze ook hun tickets met QR-code, hun bestellingen en de vragenlijsten die ze nog moeten invullen. Gaat iemand
-anders dan gepland, dan zetten ze het ticket zelf op een andere deelnemer met **Is voor iemand anders**, zolang het
+anders dan gepland, dan zetten ze het ticket zelf op een andere deelnemer: in **Mijn tickets** het ticket openen en op **Ticket overzetten** klikken (naast PDF), zolang het
 ticket niet gescand of verlopen is.
 
 ![De webshop voor bezoekers]({{ '/assets/images/shop-buy.png' | relative_url }})

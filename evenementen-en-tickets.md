@@ -105,7 +105,7 @@ Klik op een ticketcode om het ticket te openen. Daar zie je:
 - de **PDF** om te printen of te mailen, met QR-code;
 - de **scans** van het ticket;
 - de **vragenlijsten** van het ticket;
-- **Andere deelnemer**: zet het ticket op een andere deelnemer van dezelfde koper, of maak meteen een nieuwe
+- **Ticket overzetten** (knop bovenaan, naast PDF): zet het ticket op een andere deelnemer van dezelfde koper, of maak meteen een nieuwe
   deelnemer aan. Dat kan niet bij een geannuleerd ticket, een abonnementsticket, als de nieuwe deelnemer dit ticket al
   heeft of als het ticket een ander ticket vereist dat de nieuwe deelnemer niet heeft. Antwoorden op vragenlijsten van
   het ticket vervallen; een lidmaatschap dat het ticket gaf, gaat mee;
