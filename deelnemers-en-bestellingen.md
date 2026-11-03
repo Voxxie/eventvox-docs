@@ -60,7 +60,8 @@ tickets en scans tonen** zie je alles.
 
 ## Bestellingen
 
-**Verkoop → Bestellingen** toont alle bestellingen, uit de webshop en uitgegeven door de organisatie. Filter op
+**Verkoop → Bestellingen** toont alle bestellingen: uit de webshop, van de [kassa](#kassa) en uitgegeven door de
+organisatie. Filter op
 **status** (wacht op betaling, betaald, geannuleerd, verlopen) en **betaalmethode**.
 
 ![Bestellingen]({{ '/assets/images/orders.png' | relative_url }})
@@ -69,7 +70,7 @@ Open een bestelling voor de details:
 
 ![Bestelling]({{ '/assets/images/order.png' | relative_url }})
 
-- de **koper**, het totaal en de bron (webshop of uitgegeven);
+- de **koper**, het totaal en de bron (webshop, kassa of uitgegeven);
 - de **betalingen** (handmatig of online, met de status);
 - de **tickets** en producten, met de PDF van de hele bestelling;
 - **Markeer als betaald** (bij een bestelling die wacht, bijvoorbeeld een overboeking die binnen is) en
@@ -83,3 +84,27 @@ niet.
 {: .tip }
 Openstaande bestellingen voor betalen bij afhalen vind je met het filter status *Wacht op betaling* en betaalmethode
 *Betalen bij afhalen*.
+
+## Kassa
+
+Met **Verkoop → Kassa** verkoop je tickets en producten ter plekke, bijvoorbeeld aan de inschrijftafel of bij een
+kraam. De bestelling is meteen betaald, contant of met pin.
+
+![Kassa]({{ '/assets/images/pos.png' | relative_url }})
+
+1. **Klant**: zoek een bestaande klant op naam of e-mailadres, of kies **Nieuwe klant** en vul de naam in (het
+   e-mailadres is optioneel). Een nieuwe klant krijgt een webshopaccount; is het e-mailadres al bekend, dan wordt dat
+   account gebruikt.
+2. **Tickets en producten**: links staan de tickettypes van de gepubliceerde events die nog niet voorbij zijn, met
+   hoeveel er nog over zijn, en de actieve producten. Klik om ze toe te voegen. Kies per ticket voor wie het is: de
+   klant zelf, een van zijn deelnemers, of *Iemand anders…* met een nieuwe naam.
+3. **Betalen**: kies **Contant** of **Pin**. Bij contant vul je in wat je ontvangt; EventVox rekent het wisselgeld uit.
+4. **Afrekenen**. Daarna kun je de tickets meteen **printen**.
+
+De verkoop staat daarna als gewone, betaalde bestelling bij **Bestellingen**, met als bron *Kassa*.
+
+{: .info }
+De kassa is een [module]({{ '/#modules' | relative_url }}): neem contact op met EventVox om de module *Kassa* aan te
+zetten. Geef de
+mensen achter de kassa een rol met het recht **Kassa: aanmaken**.
+

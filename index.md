@@ -28,6 +28,7 @@ tenant.
 | inloggen en de weg vinden                       | [Aan de slag]({{ '/aan-de-slag/' | relative_url }})        |
 | een event aanmaken en tickets verkopen          | [Evenementen en tickets]({{ '/evenementen-en-tickets/' | relative_url }}) |
 | zien wie er komt, en bestellingen beheren       | [Deelnemers en bestellingen]({{ '/deelnemers-en-bestellingen/' | relative_url }}) |
+| ter plekke verkopen aan de kassa                | [Kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}) |
 | bezoekers scannen bij de ingang                 | [Toegang en scannen]({{ '/toegang-en-scannen/' | relative_url }}) |
 | de webshop instellen                            | [Webshop]({{ '/webshop/' | relative_url }})                |
 | vrijwilligers bijhouden en inroosteren          | [Vrijwilligers]({{ '/vrijwilligers/' | relative_url }}) en [Roosters]({{ '/roosters/' | relative_url }}) |
@@ -37,12 +38,13 @@ tenant.
 | mailen, nieuws plaatsen en meldingen instellen  | [Communicatie]({{ '/communicatie/' | relative_url }})      |
 | sponsoren bijhouden en schermen vullen          | [Sponsoring en schermen]({{ '/sponsoring-en-schermen/' | relative_url }}) |
 | afvinklijsten bijhouden                         | [Checklists]({{ '/checklists/' | relative_url }})          |
+| cijfers bekijken en exporteren                  | [Rapportages]({{ '/rapportages/' | relative_url }})        |
 | gebruikers en rechten beheren                   | [Organisatie]({{ '/organisatie/' | relative_url }})        |
 
 ## Modules
 
 Niet elke organisatie gebruikt alles. EventVox werkt met **modules** (Tickets, Webshop, Vrijwilligers, Roosters,
-Pick-Up, Mailings, Sponsoren, enz.). Staat een module niet aan, dan zie je die onderdelen niet in het menu. Wil je een
+Pick-Up, Mailings, Sponsoren, Kassa, enz.). Staat een module niet aan, dan zie je die onderdelen niet in het menu. Wil je een
 module erbij? Neem contact op met EventVox.
 
 ## Rechten

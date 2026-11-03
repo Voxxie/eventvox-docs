@@ -37,8 +37,9 @@ je je account aan en kies je zelf je wachtwoord.
 ![Dashboard]({{ '/assets/images/dashboard.png' | relative_url }})
 
 - **Links** staat het menu. De onderdelen zijn in groepen ingedeeld: *Voor mij*, *Evenementen*, *Toegang*,
-  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring* en *Organisatie*. Een klik op een groep klapt hem open. Met
-  de knop naast het logo klap je het menu in tot alleen pictogrammen.
+  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. Een klik op een groep klapt
+  hem open. Met de knop naast het logo klap je het menu in tot alleen pictogrammen. Pagina's die je vaak gebruikt zet je
+  bij [Favorieten](#favorieten).
 - **Bovenaan** staat de zoekbalk. Begin gewoon te typen, waar je ook bent: EventVox zoekt in events, gebruikers, rollen,
   tickets (ticketcode of naam), bestellingen en sponsoren. Met de pijltjes kies je een resultaat, Enter opent het.
 - **Rechtsboven** kies je de organisatie (tenant) waarin je werkt, en via je naam open je je profiel of log je uit.
@@ -50,10 +51,38 @@ Het dashboard is je startpagina. Je ziet er:
 - per event dat **nu bezig** is: hoeveel tickets er verkocht zijn (ook per tickettype) en hoeveel deelnemers er aanwezig
   zijn. De kaart ververst zichzelf elke 30 seconden. Een klik op *Aanwezig*, *Afwezig* of *Nog niet gescand* opent de
   deelnemerslijst met dat filter;
+- **tegels met wat aandacht nodig heeft** (zie hieronder);
+- de **verkoop** van de komende events per dag, de **volgende Pick-Up ronde**, de **jubilarissen** van dit jaar en het
+  aantal **nieuwe kopers** van de afgelopen week;
 - de **komende events**, met het aantal verkochte tickets;
 - als je vrijwilliger bent: je eerstvolgende **diensten** en de events waarvoor je je beschikbaarheid nog kunt
   doorgeven;
 - nieuwsberichten die voor het dashboard bedoeld zijn.
+
+Een tegel staat er alleen als er iets te doen is en je de rechten voor dat onderdeel hebt. Een klik op de tegel opent
+de lijst met precies die gevallen.
+
+| Tegel | Wat het betekent |
+|:------|:-----------------|
+| Aanmeldingen als vrijwilliger | Aanmeldingen die nog wachten op goedkeuren of afwijzen. |
+| VOG's aan te vragen | Vrijwilligers die een VOG nodig hebben, maar er nog geen hebben. |
+| VOG verloopt | VOG's die binnen 2 maanden verlopen. |
+| Wachten op betaling | Bestellingen die nog niet betaald zijn. |
+| Producten af te geven | Betaalde bestellingen met producten die nog niet zijn afgegeven. |
+| Verplichte vragenlijsten | Deelnemers die een verplichte vragenlijst nog niet hebben ingevuld. |
+| Mislukte mailings | Mailings van de afgelopen 30 dagen met berichten die niet verstuurd konden worden. |
+| Terminals offline | Scanterminals die niet bereikbaar zijn terwijl er een event bezig is. |
+| Scans in de wachtrij | Scans die een terminal nog niet aan EventVox heeft kunnen doorgeven. |
+
+### Favorieten
+
+Klik op het **sterretje** bovenaan (naast de zoekbalk) om de pagina waarop je bent bij je favorieten te zetten. Dat kan
+een lijst zijn, maar ook één event, checkpoint of rooster. Je favorieten staan in het menu onder **Favorieten**, direct
+onder Dashboard. Nog een keer op het (gele) sterretje klikken haalt de pagina er weer af.
+
+![Favorieten]({{ '/assets/images/favorites.png' | relative_url }})
+
+Favorieten zijn van jou alleen en gelden per organisatie.
 
 ## Lijsten, zoeken en exporteren
 
