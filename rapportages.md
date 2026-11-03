@@ -27,7 +27,7 @@ voor *Verkoop* heb je bijvoorbeeld leesrechten op bestellingen nodig, voor *Vrij
 
 ## Verkoop
 
-Wat er betaald is: tickets, producten en het totaal, per event en per tickettype. Een bestelling telt op de dag dat
+Wat er betaald is: tickets, producten, administratiekosten (als je die rekent) en het totaal, per event en per tickettype. Een bestelling telt op de dag dat
 hij betaald is. De pagina opent op het **laatste event**: het event dat het laatst begonnen is of nu loopt. Kies een
 ander event, **Alle events**, of een **periode**.
 
