@@ -133,9 +133,9 @@ ingang, of een gedeelde Zebra-handscanner. Ga naar **Toegang → Terminals**.
 
 ### Een terminal koppelen
 
-1. Open op het apparaat het adres `https://<jouw EventVox-adres>/scanterminal/` (met de slash aan het eind). Het
+1. Open op het apparaat het adres `https://<jouw EventVOX-adres>/scanterminal/` (met de slash aan het eind). Het
    scherm toont een code van 6 tekens.
-2. Klik in EventVox op **Terminal koppelen** en typ die code over.
+2. Klik in EventVOX op **Terminal koppelen** en typ die code over.
 3. Geef een **naam**, kies de **soort apparaat**, waar hij **mag scannen** (alle actieve checkpoints of alleen een
    keuze) en waar hij **nu scant**.
 4. Het apparaat start vanzelf.

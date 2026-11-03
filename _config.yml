@@ -1,5 +1,5 @@
-title: EventVox handleiding
-description: Handleidingen voor organisaties die met EventVox werken
+title: EventVOX handleiding
+description: Handleidingen voor organisaties die met EventVOX werken
 lang: nl
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 plugins:
@@ -14,7 +14,7 @@ search:
 heading_anchors: true
 back_to_top: true
 back_to_top_text: "Terug naar boven"
-footer_content: "EventVox: handleiding voor organisaties."
+footer_content: "EventVOX: handleiding voor organisaties."
 callouts:
   tip:
     title: Tip

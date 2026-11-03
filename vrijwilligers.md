@@ -46,7 +46,7 @@ de persoon nog niet als gebruiker? Nodig hem of haar eerst uit bij
 - **Jaren**: het aantal jaren dat iemand meehelpt, met de jaren als labels. Voeg een jaar toe of haal er een weg met
   het kruisje.
 - **VOG**: de huidige status en tot wanneer hij geldig is. Met de knoppen leg je vast dat een VOG is **aangevraagd**,
-  voer je een **geldige VOG** in (nummer en datum van afgifte; EventVox rekent uit tot wanneer hij geldig is) of noteer
+  voer je een **geldige VOG** in (nummer en datum van afgifte; EventVOX rekent uit tot wanneer hij geldig is) of noteer
   je dat hij is **afgekeurd**.
 - **Vragenlijsten** voor vrijwilligers, met de antwoorden.
 - **Beëindigen**: iemand stopt. De jaren en VOG's blijven bewaard; later kun je de vrijwilliger opnieuw actief maken.
@@ -72,9 +72,9 @@ daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen 
 - **Afwijzen**, met een interne notitie.
 
 {: .info }
-Wie zich heeft aangemeld maar nog niet is aangenomen, kan in EventVox al zijn **beschikbaarheid** doorgeven. De
+Wie zich heeft aangemeld maar nog niet is aangenomen, kan in EventVOX al zijn **beschikbaarheid** doorgeven. De
 planners zien die pas na het aannemen; dan telt alles wat diegene al heeft ingevuld meteen mee.
 
 ![Aanmelden in de webshop]({{ '/assets/images/shop-volunteer.png' | relative_url }})
 
-Een aangenomen vrijwilliger ziet in de webshop een knop **Naar de EventVox-app**, die meteen *Mijn rooster* opent.
+Een aangenomen vrijwilliger ziet in de webshop een knop **Naar de EventVOX-app**, die meteen *Mijn rooster* opent.

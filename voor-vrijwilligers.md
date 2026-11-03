@@ -19,7 +19,7 @@ Ben je vrijwilliger, dan vind je in het menu onder **Voor mij** alles wat voor j
 rechten voor nodig.
 
 {: .tip }
-Installeer EventVox als app op je telefoon en zet de meldingen aan (zie
+Installeer EventVOX als app op je telefoon en zet de meldingen aan (zie
 [Meldingen en de app]({{ '/aan-de-slag/#meldingen-en-de-app' | relative_url }})). Dan krijg je een bericht als je
 bent ingepland, en een herinnering vlak voor je dienst.
 
@@ -64,4 +64,4 @@ aanpassen.
 ## Via de webshop
 
 Heeft je organisatie een webshop, dan meld je je daar aan als vrijwilliger via **Vrijwilliger**. Ben je aangenomen, dan
-staat daar een knop **Naar de EventVox-app**. Je logt in met hetzelfde account.
+staat daar een knop **Naar de EventVOX-app**. Je logt in met hetzelfde account.

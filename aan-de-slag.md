@@ -17,14 +17,14 @@ Inloggen, de weg vinden en je eigen account instellen.
 
 ## Inloggen
 
-Open EventVox in je browser en log in met je gebruikersnaam (of e-mailadres) en wachtwoord. Afhankelijk van hoe jouw
+Open EventVOX in je browser en log in met je gebruikersnaam (of e-mailadres) en wachtwoord. Afhankelijk van hoe jouw
 organisatie het heeft ingesteld, kun je ook inloggen met:
 
 - **een passkey**: inloggen met je vingerafdruk, gezicht of pincode van je apparaat, zonder wachtwoord;
 - **Google**: met je Google-account;
 - **een inloglink per mail**: vul je e-mailadres in en klik op de link in de mail.
 
-Heb je je telefoon gekoppeld voor meldingen (zie [Meldingen en de app](#meldingen-en-de-app)), dan vraagt EventVox bij
+Heb je je telefoon gekoppeld voor meldingen (zie [Meldingen en de app](#meldingen-en-de-app)), dan vraagt EventVOX bij
 inloggen met een wachtwoord om goedkeuring op je telefoon. Het inlogscherm toont een getal; tik op je telefoon
 hetzelfde getal aan. Was jij het niet, tik dan op **Dit was ik niet**.
 
@@ -40,7 +40,7 @@ je je account aan en kies je zelf je wachtwoord.
   *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. Een klik op een groep klapt
   hem open. Met de knop naast het logo klap je het menu in tot alleen pictogrammen. Pagina's die je vaak gebruikt zet je
   bij [Favorieten](#favorieten).
-- **Bovenaan** staat de zoekbalk. Begin gewoon te typen, waar je ook bent: EventVox zoekt in events, gebruikers, rollen,
+- **Bovenaan** staat de zoekbalk. Begin gewoon te typen, waar je ook bent: EventVOX zoekt in events, gebruikers, rollen,
   tickets (ticketcode of naam), bestellingen en sponsoren. Met de pijltjes kies je een resultaat, Enter opent het.
 - **Rechtsboven** kies je de organisatie (tenant) waarin je werkt, en via je naam open je je profiel of log je uit.
 
@@ -72,7 +72,7 @@ de lijst met precies die gevallen.
 | Verplichte vragenlijsten | Deelnemers die een verplichte vragenlijst nog niet hebben ingevuld. |
 | Mislukte mailings | Mailings van de afgelopen 30 dagen met berichten die niet verstuurd konden worden. |
 | Terminals offline | Scanterminals die niet bereikbaar zijn terwijl er een event bezig is. |
-| Scans in de wachtrij | Scans die een terminal nog niet aan EventVox heeft kunnen doorgeven. |
+| Scans in de wachtrij | Scans die een terminal nog niet aan EventVOX heeft kunnen doorgeven. |
 
 ### Favorieten
 
@@ -86,7 +86,7 @@ Favorieten zijn van jou alleen en gelden per organisatie.
 
 ## Lijsten, zoeken en exporteren
 
-Alle lijsten in EventVox werken hetzelfde:
+Alle lijsten in EventVOX werken hetzelfde:
 
 - **Zoeken**: het zoekveld boven de lijst zoekt in de hele lijst, niet alleen in wat je ziet.
 - **Sorteren**: klik op een kolomkop.
@@ -112,7 +112,7 @@ Hier wijzig je:
 
 ## Meldingen en de app
 
-EventVox kun je installeren als app:
+EventVOX kun je installeren als app:
 
 - **Android** (Chrome): menu → *App installeren*;
 - **iPhone/iPad**: deelknop → *Zet op beginscherm*;
