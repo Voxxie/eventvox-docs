@@ -64,7 +64,7 @@ Klik op **Publiceren** als alles klaar is.
 
 - **Ticketkopers** zien de vragenlijst in de webshop, bij hun bestelling en bij het ticket. Het overzicht in de webshop
   toont welke vragenlijsten nog open staan.
-- Een vragenlijst voor **alle deelnemers** staat in de webshop bij **Vragenlijsten**, voor elke eigen deelnemer, ook
+- Een vragenlijst voor **alle deelnemers** staat in de webshop bij **Vragenlijsten** (in het menu onder je naam) en op de pagina van de deelnemer, voor elke eigen deelnemer, ook
   zonder ticket.
 - **Vrijwilligers** vullen hem in bij **Voor mij → Mijn vragenlijsten**.
 - Met het juiste recht vul je hem zelf in voor iemand, op de pagina van het ticket, de vrijwilliger of de deelnemer.
