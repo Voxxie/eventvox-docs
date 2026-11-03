@@ -1,13 +1,13 @@
 ---
 title: Organisatie
-nav_order: 15
+nav_order: 16
 permalink: /organisatie/
 ---
 
 # Organisatie
 {: .no_toc }
 
-Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens en het logboek.
+Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, het telefoonboek en het logboek.
 {: .fs-6 .fw-300 }
 
 1. TOC
@@ -97,6 +97,28 @@ AI-assistent.
 
 {: .let_op }
 Behandel een token als een wachtwoord. Trek een token in zodra het niet meer nodig is.
+
+## Telefoonboek
+
+Heb je IP-telefoons van Yealink, dan kunnen die het telefoonboek van je organisatie uit EventVox halen. Ga naar
+**Organisatie → Telefoonboek**.
+
+![Telefoonboek]({{ '/assets/images/phonebook.png' | relative_url }})
+
+- Iedereen met een **beheerrol** en een telefoonnummer in zijn profiel staat er vanzelf in.
+- Onder **Extra nummers** zet je nummers die geen gebruiker zijn, zoals een intercom of een leverancier. Klik
+  **Opslaan** na een wijziging.
+
+Zo stel je de telefoon in:
+
+1. Maak bij [API-tokens](#api-tokens) een token met alleen het recht **Gebruikers: lezen**. Doe dat het liefst met een
+   applicatie-account, zodat het token niet aan een persoon hangt.
+2. Kopieer het adres van de pagina en zet het token erachter.
+3. Vul dat adres op de telefoon in onder **Directory → Remote Phone Book**.
+
+{: .let_op }
+Het token staat in het adres op de telefoon. Trek het in als een telefoon weg is of gestolen wordt, en maak een nieuw
+token voor de andere telefoons.
 
 ## Logboek
 
