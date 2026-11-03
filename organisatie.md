@@ -7,7 +7,7 @@ permalink: /organisatie/
 # Organisatie
 {: .no_toc }
 
-Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, het telefoonboek en het logboek.
+Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, het telefoonboek, het logo en het logboek.
 {: .fs-6 .fw-300 }
 
 1. TOC
@@ -119,6 +119,17 @@ Zo stel je de telefoon in:
 {: .let_op }
 Het token staat in het adres op de telefoon. Trek het in als een telefoon weg is of gestolen wordt, en maak een nieuw
 token voor de andere telefoons.
+
+## Logo
+
+Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, en in de beheeromgeving bij
+de tenantkeuze.
+
+Ga naar **Tenants**, klik bij je organisatie op **Bewerken** en kies bij **Logo** een bestand: PNG (het liefst met
+een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Een nieuw logo vervangt het oude; met
+**Logo verwijderen** haal je het weg. Hiervoor heb je het recht **Tenants: wijzigen** nodig.
+
+![Logo]({{ '/assets/images/tenant-logo.png' | relative_url }})
 
 ## Logboek
 
