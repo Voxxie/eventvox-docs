@@ -49,7 +49,11 @@ Bij **Gevraagd aan** kies je wie de vragenlijst moet invullen:
 
 - de kopers van een **tickettype**;
 - alle tickets van een **event**;
-- de **vrijwilligers**.
+- de **vrijwilligers**;
+- **alle deelnemers (ook zonder ticket)**: iedereen die als deelnemer bij een account van je organisatie hoort. Handig
+  voor vragen die je maar één keer wilt stellen, zoals allergieën of medicijnen. Dit kan alleen als de vragenlijst
+  **één keer per deelnemer** wordt ingevuld (bij Instellingen). Heeft de deelnemer een ticket, dan staat dezelfde
+  vragenlijst ook daar, en het antwoord geldt voor al diens tickets, ook bij latere events.
 
 Per doelgroep stel je in of hij **verplicht** is, vanaf en tot wanneer hij **open** is, en tot wanneer antwoorden
 **gewijzigd** mogen worden.
@@ -60,8 +64,10 @@ Klik op **Publiceren** als alles klaar is.
 
 - **Ticketkopers** zien de vragenlijst in de webshop, bij hun bestelling en bij het ticket. Het overzicht in de webshop
   toont welke vragenlijsten nog open staan.
+- Een vragenlijst voor **alle deelnemers** staat in de webshop bij **Vragenlijsten**, voor elke eigen deelnemer, ook
+  zonder ticket.
 - **Vrijwilligers** vullen hem in bij **Voor mij → Mijn vragenlijsten**.
-- Met het juiste recht vul je hem zelf in voor iemand, op de pagina van het ticket of de vrijwilliger.
+- Met het juiste recht vul je hem zelf in voor iemand, op de pagina van het ticket, de vrijwilliger of de deelnemer.
 
 ## Resultaten
 
