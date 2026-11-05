@@ -73,8 +73,12 @@ body::before {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: $body-heading-color;
-  font-weight: 700;
+  // The name in the colour of the app's logo text (.logo-text in eventvox-frontend/public/assets/app.css)
+  color: #57002e;
+  font-weight: 600;
+  &:hover {
+    color: #57002e;
+  }
 }
 .site-title .site-logo {
   flex: 0 0 34px;
