@@ -47,29 +47,40 @@ Bij het kopen:
   De bestelling bewaart de gegevens zoals ze op dat moment zijn; wijzigt de koper ze later, dan blijft de bestelling
   ze houden. Wat verplicht is, stel je in bij **Gegevens van de koper** (zie hieronder).
 
-Je opent de webshop zoals bezoekers hem zien via **Verkoop → Bezoekersgedeelte**. Die opent in een nieuw tabblad.
+Je opent de webshop zoals bezoekers hem zien via **Verkoop → Bezoekersgedeelte**, of met de knop **Bezoekersgedeelte**
+bovenaan de webshopinstellingen. Die opent in een nieuw tabblad.
 
 ## De webshop instellen
 
-Ga naar **Verkoop → Webshop**.
+Ga naar **Verkoop → Webshop**. De instellingen staan in tabbladen:
+
+- **Algemeen**: aan/uit, titel, welkomsttekst, mailbox en registreren;
+- **Betalen**: de betaalmethodes en de koppelingen met online betaalproviders;
+- **Bestellen**: hoe lang bestellingen tickets vasthouden, administratiekosten, gegevens van de koper en leeftijd;
+- **Extra**: vrijwilligers en abonnementen (alleen met die modules);
+- **Delen**: het adres van de webshop en de code om hem in te sluiten.
+
+Met **Opslaan** onderin bewaar je alle tabbladen in één keer; je kunt dus rustig tussen de tabbladen wisselen. Staat
+er nog iets niet opgeslagen, dan zie je dat naast de knop. Klopt er iets niet, dan krijgt het tabblad een rood
+bolletje en springt de pagina ernaartoe. De koppelingen met betaalproviders worden wel meteen opgeslagen.
 
 ![Webshop-instellingen]({{ '/assets/images/webshop.png' | relative_url }})
 
-| Instelling | Uitleg |
-|:-----------|:-------|
-| **Webshop staat aan** | Uit = bezoekers zien een melding dat de webshop gesloten is. |
-| **Titel** en **Welkomsttekst** | Bovenaan de webshop. |
-| **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVOX, met de naam van je organisatie als afzender. |
-| **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
-| **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets (en producten) vasthoudt, en apart bij *betalen bij afhalen*. Daarna vervalt de bestelling en komen ze weer vrij. |
-| **Bij online betalen** | Hoe lang (in minuten, standaard 30) een bestelling vastgehouden wordt vanaf het moment dat de koper online gaat betalen; nooit langer dan *Tickets vasthouden*. Wie bij de betaalpagina afhaakt, geeft de tickets zo snel weer vrij voor anderen. Alleen als online betalen kan. |
-| **Leeftijd** | Wat er gebeurt als de leeftijd van een deelnemer niet past bij een tickettype met een leeftijdsgrens: een **harde eis** (niet te bestellen, ook niet zonder geboortedatum) of **alleen een waarschuwing**. Per tickettype kun je hiervan afwijken. |
-| **Gegevens van de koper** | Wat een koper ingevuld moet hebben om te bestellen: **niets**, een **telefoonnummer** (standaard) of **adres en telefoonnummer**. De koper controleert zijn gegevens altijd bij het bestellen. |
-| **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |
-| **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
-| **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
+| Tabblad | Instelling | Uitleg |
+|:--------|:-----------|:-------|
+| Algemeen | **Webshop staat aan** | Uit = bezoekers zien een melding dat de webshop gesloten is. |
+| Algemeen | **Titel** en **Welkomsttekst** | Bovenaan de webshop. |
+| Algemeen | **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVOX, met de naam van je organisatie als afzender. |
+| Algemeen | **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
+| Bestellen | **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets (en producten) vasthoudt, en apart bij *betalen bij afhalen*. Daarna vervalt de bestelling en komen ze weer vrij. |
+| Bestellen | **Bij online betalen** | Hoe lang (in minuten, standaard 30) een bestelling vastgehouden wordt vanaf het moment dat de koper online gaat betalen; nooit langer dan *Tickets vasthouden*. Wie bij de betaalpagina afhaakt, geeft de tickets zo snel weer vrij voor anderen. Alleen als online betalen kan. |
+| Bestellen | **Leeftijd** | Wat er gebeurt als de leeftijd van een deelnemer niet past bij een tickettype met een leeftijdsgrens: een **harde eis** (niet te bestellen, ook niet zonder geboortedatum) of **alleen een waarschuwing**. Per tickettype kun je hiervan afwijken. |
+| Bestellen | **Gegevens van de koper** | Wat een koper ingevuld moet hebben om te bestellen: **niets**, een **telefoonnummer** (standaard) of **adres en telefoonnummer**. De koper controleert zijn gegevens altijd bij het bestellen. |
+| Bestellen | **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |
+| Extra | **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
+| Extra | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
 
-Onderaan staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe).
+Op het tabblad **Delen** staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe).
 
 {: .info }
 De koper ziet de administratiekosten in het winkelmandje ("incl. € … administratiekosten"), bij de bestelling en in de
@@ -88,12 +99,13 @@ Per methode zet je hem aan of uit en geef je hem een eigen naam en uitleg. Met d
 de webshop meer methodes aan, dan kiest de koper er een bij het bestellen. Kost de bestelling niets (alleen gratis
 tickets of producten), dan hoeft de koper niets te kiezen: de bestelling is meteen betaald.
 
-**Online betalen koppelen:** klik op **Koppelen met Mollie** en log in bij Mollie om toestemming te geven. Daarna kies
-je het **websiteprofiel**. Een nieuwe koppeling begint in **testmodus**: dan zien alleen beheerders de methode in de
+**Online betalen koppelen:** op het tabblad **Betalen** staat onder de betaalmethodes per provider een regel met de
+status (*Niet gekoppeld*, *Testmodus*, *Gekoppeld*). Klik op **Koppelen met Mollie** en log in bij Mollie om toestemming te geven. Daarna kies je via
+**Beheren** het **websiteprofiel**; daar zet je ook de testmodus en ontkoppel je. Een nieuwe koppeling begint in **testmodus**: dan zien alleen beheerders de methode in de
 webshop. Zet de testmodus uit als je echt geld wilt ontvangen.
 
 **myPOS koppelen:** maak in je myPOS-account een webwinkel (**Stores → eCommerce**). Op het tabblad **Integration**
-van die winkel genereer je het **configuratiepakket**. Klik in EventVOX op **myPOS-gegevens invoeren** en plak het
+van die winkel genereer je het **configuratiepakket**. Klik in EventVOX op **Gegevens invoeren** bij myPOS en plak het
 pakket (of vul Store ID, walletnummer, key index, private key en het certificaat van myPOS los in). De gegevens worden
 versleuteld bewaard. Ook een myPOS-koppeling begint in **testmodus**: de betaling gaat dan naar de testomgeving van
 myPOS, dus gebruik daar eerst de testgegevens van je winkel. Klaar met testen? Kies **Gegevens vervangen**, plak het
