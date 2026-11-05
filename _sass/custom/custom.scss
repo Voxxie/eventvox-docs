@@ -42,6 +42,16 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+// Colours that differ between the light scheme (eventvox) and the dark one (eventvox-dark, when the visitor's system
+// is dark; see _includes/head_custom.html), as on the landing page
+$evx-dark: $color-scheme == dark;
+$evx-brand: if($evx-dark, #c7b6bf, #57002e);
+$evx-surface: if($evx-dark, #182035, #fff);
+$evx-muted: if($evx-dark, #9aa4ba, #5a6478);
+$evx-pill-color: if($evx-dark, #ec9be3, #8a1180);
+$evx-pill-bg: if($evx-dark, rgba(167, 21, 155, 0.18), #f8e8f6);
+$evx-pill-border: if($evx-dark, rgba(224, 112, 212, 0.35), #ecc5e8);
+
 // Headings, the site title and buttons in Lexend, as on the landing page
 h1, h2, h3, h4, h5, h6,
 .site-title,
@@ -74,10 +84,10 @@ body::before {
   align-items: center;
   gap: 10px;
   // The name in the colour of the app's logo text (.logo-text in eventvox-frontend/public/assets/app.css)
-  color: #57002e;
+  color: $evx-brand;
   font-weight: 600;
   &:hover {
-    color: #57002e;
+    color: $evx-brand;
   }
 }
 .site-title .site-logo {
@@ -128,7 +138,7 @@ $icon-login: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' v
   padding: 8px 14px;
   border: 1px solid $border-color;
   border-radius: 10px;
-  background: #fff;
+  background: $evx-surface;
   color: $body-heading-color;
   font-family: $heading-font-family;
   font-size: 15px;
@@ -146,7 +156,7 @@ $icon-login: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' v
   }
   &:hover {
     border-color: $btn-primary-color;
-    background: #fff;
+    background: $evx-surface;
     color: $body-heading-color;
   }
 }
@@ -189,15 +199,15 @@ code.recht {
   font-size: 0.8em;
   line-height: 1.5;
   white-space: nowrap;
-  color: #8a1180;
-  background-color: #f8e8f6;
-  border: 1px solid #ecc5e8;
+  color: $evx-pill-color;
+  background-color: $evx-pill-bg;
+  border: 1px solid $evx-pill-border;
   border-radius: 999px;
 }
 
 // The line with those pills under a heading: a little smaller and quieter than the text
 p.rechten {
   font-size: 0.875em;
-  color: #5a6478;
+  color: $evx-muted;
   margin-top: -0.25em;
 }

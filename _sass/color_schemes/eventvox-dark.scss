@@ -1,0 +1,18 @@
+// The dark colours of EventVOX, as the landing page (eventvox.nl/welkom/, welkom.css) in dark mode. Built into
+// assets/css/just-the-docs-eventvox-dark.css, which _includes/head_custom.html loads when the visitor's system is set to
+// dark. Based on the theme's dark scheme (its code colours too), these override it.
+@import "color_schemes/dark";
+
+$body-background-color: #0e1220;
+$body-heading-color: #e9ecf4;
+$body-text-color: #c9cfdc;
+$link-color: #e070d4;
+$nav-child-link-color: #c9cfdc;
+$sidebar-color: #141a2b;
+$base-button-color: #182035;
+$btn-primary-color: #a7159b;
+$feedback-color: #1a2238;
+$table-background-color: #141a2b;
+$search-background-color: #182035;
+$search-result-preview-color: #9aa4ba;
+$border-color: #263049;

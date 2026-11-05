@@ -1,0 +1,17 @@
+---
+---
+{% comment %}
+  The dark EventVOX scheme (_sass/color_schemes/eventvox-dark.scss), loaded by _includes/head_custom.html only when the
+  visitor's system is set to dark. As the theme's _includes/css/just-the-docs.scss.liquid, except that the callouts
+  (Tip, Let op, Goed om te weten) are built as for the theme's dark scheme: light text on a dark tint.
+{% endcomment %}
+{% if site.logo %}
+$logo: "{{ site.logo | relative_url }}";
+{% endif %}
+@import "./support/support";
+@import "./custom/setup";
+@import "./color_schemes/light";
+@import "./color_schemes/eventvox-dark";
+@import "./modules";
+{% include css/callouts.scss.liquid color_scheme = "dark" %}
+{% include css/custom.scss.liquid %}

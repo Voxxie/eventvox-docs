@@ -14,6 +14,9 @@ De handleidingen voor organisaties (tenants) die met EventVOX werken, gepublicee
   (`color_scheme: eventvox`), lettertypes in `_sass/custom/setup.scss` (Lexend voor koppen, Funnel Sans voor tekst,
   zelf gehost in `assets/fonts/`), de rest (logo met naam, verloopbalk, knop Inloggen, screenshots met rand) in
   `_sass/custom/custom.scss`. Zoektekst en voettekst staan in `_includes/`.
+- Donkere modus volgt de systeeminstelling van de bezoeker, zoals de landingspagina: `_includes/head_custom.html` laadt
+  `assets/css/just-the-docs-eventvox-dark.css` (schema `_sass/color_schemes/eventvox-dark.scss`) alleen bij een donker
+  systeem. Kleuren die in `custom.scss` per modus verschillen staan bovenin als `$evx-...`.
 - Alleen wat organisaties zelf gebruiken staat erin; platformbeheer (tenants, betaal- en inlogmethodes,
   systeemlogs) niet.
 

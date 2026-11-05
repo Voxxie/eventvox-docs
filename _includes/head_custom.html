@@ -2,4 +2,9 @@
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo.svg' | relative_url }}">
 <link rel="preload" href="{{ '/assets/fonts/lexend-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/funnel-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-<meta name="theme-color" content="#a7159b">
+<meta name="theme-color" content="#a7159b" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1220" media="(prefers-color-scheme: dark)">
+<!-- Dark mode follows the visitor's system setting, as on the landing page: the dark EventVOX scheme
+     (assets/css/just-the-docs-eventvox-dark.scss) after the light one, only when the system is dark. No script. -->
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-eventvox-dark.css' | relative_url }}" media="(prefers-color-scheme: dark)">
