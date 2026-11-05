@@ -17,6 +17,9 @@ Gegevens vragen aan deelnemers of vrijwilligers: noodnummers, allergieën, maten
 
 ## Een vragenlijst maken
 
+{: .rechten }
+**Rechten:** `surveys:read`{: .recht } om ze te zien; `surveys:create`{: .recht } `surveys:update`{: .recht } om ze te maken en te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Ga naar **Evenementen → Vragenlijsten** en klik op **Nieuwe vragenlijst**. Een nieuwe vragenlijst begint als
 **concept**: nog niemand ziet hem.
 
@@ -70,6 +73,9 @@ Klik op **Publiceren** als alles klaar is.
 - Met het juiste recht vul je hem zelf in voor iemand, op de pagina van het ticket, de vrijwilliger of de deelnemer.
 
 ## Resultaten
+
+{: .rechten }
+**Rechten:** `survey_answers:read`{: .recht } voor de antwoorden; `survey_sensitive:read`{: .recht } ook voor antwoorden op gevoelige vragen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Klik op **Resultaten** voor:
 

@@ -17,6 +17,9 @@ Lijsten om per persoon af te vinken: "shirt gekregen", "sleutel terug", "medaill
 
 ## Een checklist maken
 
+{: .rechten }
+**Rechten:** `checklists:create`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Ga naar **Vrijwilligers → Checklists** en klik op **Nieuwe checklist**. Geef een naam; de rest stel je op de checklist
 zelf in.
 
@@ -32,6 +35,9 @@ Met **Kolom toevoegen** maak je de vragen, zoals "Hesje gekregen" en "Hesje teru
 je de naam, verplaats je de kolom of verwijder je hem.
 
 ## Invullen
+
+{: .rechten }
+**Rechten:** geen apart recht: je ziet de checklists die voor een van je rollen bedoeld zijn. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 ![Checklist]({{ '/assets/images/checklist.png' | relative_url }})
 

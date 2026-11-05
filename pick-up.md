@@ -27,6 +27,9 @@ Met Pick-Up organiseer je ophaalrondes, bijvoorbeeld voor oud papier, spullen vo
 
 ## Een ronde aanmaken
 
+{: .rechten }
+**Rechten:** `pickups:create`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 1. Open (of maak) een rooster bij een event, bijvoorbeeld "Oud papier 2026".
 2. Kies **Tijdvakken** en voeg een tijdvak toe met als soort **Pick-Up ronde**.
 3. Vul het **maximum aantal adressen** in. Leeg of 0 = het aanmeldformulier is dicht voor deze ronde.
@@ -47,6 +50,9 @@ Nieuwsberichten met de plek *Pick-Up aanmeldformulier* staan boven het formulier
 spullen vóór 9 uur aan de straat". Zie [Nieuws]({{ '/communicatie/#nieuws' | relative_url }}).
 
 ## Een ronde beheren
+
+{: .rechten }
+**Rechten:** `pickups:read`{: .recht } om rondes te zien; `pickups:update`{: .recht } `pickups:delete`{: .recht } om ze te wijzigen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Open een ronde vanuit de lijst.
 

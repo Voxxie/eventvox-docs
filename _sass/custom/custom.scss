@@ -1,0 +1,20 @@
+// The rights a part needs, as small pills: `events:create`{: .recht } in the Markdown
+code.recht {
+  display: inline-block;
+  margin: 0.1em 0.1em;
+  padding: 0.05em 0.6em;
+  font-size: 0.8em;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #2c4a9c;
+  background-color: #eaf0ff;
+  border: 1px solid #c9d6fb;
+  border-radius: 999px;
+}
+
+// The line with those pills under a heading: a little smaller and quieter than the text
+p.rechten {
+  font-size: 0.875em;
+  color: #5c5962;
+  margin-top: -0.25em;
+}

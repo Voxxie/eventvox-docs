@@ -17,6 +17,9 @@ Wie komt er, wie heeft wat besteld, en wie is er aanwezig.
 
 ## Deelnemers
 
+{: .rechten }
+**Rechten:** `tickets:read`{: .recht } om ze te zien; `users:update`{: .recht } voor hun gegevens, `tickets:update`{: .recht } voor hun tickets, `tags:create`{: .recht } `tags:update`{: .recht } `tags:delete`{: .recht } voor hun tags. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een **deelnemer** is de persoon op het ticket: de koper zelf, een kind, een partner. Een deelnemer heeft een naam,
 geboortedatum en e-mailadres, en hangt aan een of meer accounts. Bijvoorbeeld een kind aan het account van beide
 ouders. Elk gekoppeld account ziet de deelnemer, mag hem wijzigen en kan tickets voor hem kopen.
@@ -60,6 +63,9 @@ tickets en scans tonen** zie je alles.
 
 ## Bestellingen
 
+{: .rechten }
+**Rechten:** `orders:read`{: .recht } om ze te zien; `orders:update`{: .recht } om ze te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 **Verkoop → Bestellingen** toont alle bestellingen: uit de webshop, van de [kassa](#kassa) en uitgegeven door de
 organisatie. Filter op
 **status** (wacht op betaling, betaald, geannuleerd, verlopen), **betaalmethode** en **inhoud** (met tickets of met
@@ -89,6 +95,9 @@ Openstaande bestellingen voor betalen bij afhalen vind je met het filter status 
 *Betalen bij afhalen*.
 
 ## Kassa
+
+{: .rechten }
+**Rechten:** `pos:create`{: .recht } (module Kassa). [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Met **Kassa** in het menu (direct onder Scannen) verkoop je tickets en producten ter plekke, bijvoorbeeld aan de inschrijftafel of bij een
 kraam. De bestelling is meteen betaald, contant of met pin.

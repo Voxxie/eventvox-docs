@@ -17,6 +17,9 @@ Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, de AI-koppeling, 
 
 ## Gebruikers
 
+{: .rechten }
+**Rechten:** `users:read`{: .recht } om ze te zien; `users:create`{: .recht } `users:update`{: .recht } `users:delete`{: .recht } om ze te beheren; `roles:assign`{: .recht } `roles:revoke`{: .recht } om rollen te geven en af te nemen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 **Organisatie → Gebruikers** toont iedereen met een account in je organisatie: medewerkers, vrijwilligers en
 webshopkopers. Filter op soort (*Beheer* of *Publiek*) en op rol.
 
@@ -43,6 +46,9 @@ Op de pagina van een gebruiker:
 - maak je iemand vrijwilliger, of ga je naar de vrijwilligerspagina.
 
 ## Rollen
+
+{: .rechten }
+**Rechten:** `roles:read`{: .recht } om ze te zien; `roles:create`{: .recht } `roles:update`{: .recht } `roles:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Een **rol** is een set rechten, zoals "Kassa", "Planner" of "Scanner". Een gebruiker kan meer rollen hebben; de rechten
 tellen bij elkaar op. Ga naar **Organisatie → Rollen**.
@@ -74,6 +80,54 @@ Een paar rechten om te kennen:
 | **Gevoelige antwoorden: lezen** | Antwoorden op gevoelige vragen in vragenlijsten zien. |
 | **Betaalinstellingen: wijzigen** | Betaalmethodes van de webshop wijzigen en koppelen. |
 
+## Rechten per menu-item
+
+Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten kunt. Een recht staat hier als
+`onderdeel:actie`{: .recht }; in het rollenscherm is dat de rij van het onderdeel en de kolom van de actie, bijvoorbeeld
+`events:create`{: .recht } is *Evenementen* × *aanmaken*. Een menu-item staat er bovendien alleen als de module aan staat.
+
+| Menu-item | Zien | Meer met |
+|:----------|:-----|:---------|
+| Dashboard | – | Iedereen; je ziet alleen de tegels waarvoor je de rechten hebt |
+| Scannen | `scans:create`{: .recht } | `tags:create`{: .recht } tags uitgeven |
+| Kassa | `pos:create`{: .recht } | – |
+| Voor mij (Mijn rooster, Beschikbaarheid, Mijn vragenlijsten) | – | Iedereen met de module |
+| Events → Events | `events:read`{: .recht } | `events:create`{: .recht } `events:update`{: .recht } `events:delete`{: .recht }; tickettypes: `ticket_types:create`{: .recht } `ticket_types:update`{: .recht } `ticket_types:delete`{: .recht }; tickets uitgeven: `orders:create`{: .recht } |
+| Events → Deelnemers | `tickets:read`{: .recht } | `users:update`{: .recht } `tickets:update`{: .recht } `tags:create`{: .recht } |
+| Events → Abonnementen | `subscriptions:read`{: .recht } | `subscriptions:create`{: .recht } `subscriptions:update`{: .recht } `subscriptions:delete`{: .recht } |
+| Events → Tickets | `tickets:read`{: .recht } | `tickets:update`{: .recht } |
+| Events → Vragenlijsten | `surveys:read`{: .recht } | `surveys:create`{: .recht } `surveys:update`{: .recht }; antwoorden: `survey_answers:read`{: .recht }, gevoelige: `survey_sensitive:read`{: .recht } |
+| Toegang → Checkpoints | `checkpoints:read`{: .recht } | `checkpoints:create`{: .recht } `checkpoints:update`{: .recht } `checkpoints:delete`{: .recht } |
+| Toegang → Tags | `tags:read`{: .recht } | `tags:create`{: .recht } `tags:update`{: .recht } `tags:delete`{: .recht } |
+| Toegang → Terminals | `terminals:read`{: .recht } | `terminals:create`{: .recht } `terminals:update`{: .recht } `terminals:delete`{: .recht }; EHBO: `info_terminals:update`{: .recht } |
+| Verkoop → Bestellingen | `orders:read`{: .recht } | `orders:update`{: .recht } |
+| Verkoop → Producten | `products:read`{: .recht } | `products:create`{: .recht } `products:update`{: .recht } `products:delete`{: .recht } |
+| Verkoop → Productuitgifte | `products:read`{: .recht } | `products:update`{: .recht } uitgeven |
+| Verkoop → Webshop | `webshop:read`{: .recht } | `webshop:update`{: .recht }; betaalmethodes: `payment_settings:update`{: .recht } |
+| Verkoop → Bezoekersgedeelte | – | Iedereen |
+| Vrijwilligers → Vrijwilligers | `employees:read`{: .recht } | `employees:create`{: .recht } `employees:update`{: .recht } `employees:delete`{: .recht }; VOG: `vogs:read`{: .recht } `vogs:create`{: .recht } `vogs:update`{: .recht } `vogs:delete`{: .recht }; `roles:assign`{: .recht } |
+| Vrijwilligers → Aanmeldingen | `employees:read`{: .recht } | `employees:create`{: .recht } `roles:assign`{: .recht } aannemen |
+| Vrijwilligers → Roosters | `schedules:read`{: .recht } | `schedules:create`{: .recht } `schedules:update`{: .recht } `schedules:delete`{: .recht }; inplannen: `schedule_planning:read`{: .recht } `schedule_planning:update`{: .recht } |
+| Vrijwilligers → Checklists | – | Iedereen met de module (de checklists van je rollen); `checklists:create`{: .recht } |
+| Pick-Up | `pickups:read`{: .recht } | `pickups:create`{: .recht } `pickups:update`{: .recht } `pickups:delete`{: .recht } |
+| Communicatie → Mailings | `mailings:read`{: .recht } of `mailing_sends:read`{: .recht } | `mailings:create`{: .recht } `mailings:update`{: .recht } `mailings:delete`{: .recht }; versturen: `mailing_sends:create`{: .recht } |
+| Communicatie → Mailboxen | – | Iedereen met de module (de mailboxen van je rollen); `mailboxes:create`{: .recht } `mailboxes:delete`{: .recht } |
+| Communicatie → Nieuws | `news:read`{: .recht } | `news:create`{: .recht } `news:update`{: .recht } `news:delete`{: .recht } |
+| Communicatie → Notificaties | `notification_templates:read`{: .recht } | `notification_templates:update`{: .recht } |
+| Sponsoring → Sponsoren | `sponsors:read`{: .recht } | `sponsors:create`{: .recht } `sponsors:update`{: .recht } `sponsors:delete`{: .recht } |
+| Sponsoring → Schermen | `screen_messages:read`{: .recht } of `sponsors:read`{: .recht } | `screen_messages:create`{: .recht } `screen_messages:update`{: .recht } `screen_messages:delete`{: .recht } |
+| Rapportages → Verkoop | `orders:read`{: .recht } | – |
+| Rapportages → Activiteit | `logs:read`{: .recht } | – |
+| Rapportages → Scans | `scans:read`{: .recht } | – |
+| Rapportages → Rol en abonnement | `roles:read`{: .recht } en `subscriptions:read`{: .recht } | – |
+| Rapportages → Vrijwilligers | `employees:read`{: .recht } | – |
+| Organisatie → Gebruikers | `users:read`{: .recht } | `users:create`{: .recht } `users:update`{: .recht } `users:delete`{: .recht }; rollen: `roles:assign`{: .recht } `roles:revoke`{: .recht } |
+| Organisatie → Rollen | `roles:read`{: .recht } | `roles:create`{: .recht } `roles:update`{: .recht } `roles:delete`{: .recht } |
+| Organisatie → Tijdelijke rechten | – | Wie een rol tijdelijk mag activeren |
+| Organisatie → API-tokens | `api_tokens:create`{: .recht } of `api_tokens:manage`{: .recht } | `api_tokens:manage`{: .recht } applicatie-accounts |
+| Organisatie → Telefoonboek | `users:read`{: .recht } | `users:update`{: .recht } |
+| Organisatie → Logboek | `logs:read`{: .recht } | – |
+
 ## Tijdelijke rechten
 
 Sommige rechten heb je niet elke dag nodig, bijvoorbeeld admin-rechten. Een beheerder kan een rol **tijdelijk te
@@ -85,6 +139,9 @@ Activeren bevestig je met je **passkey**, of zonder passkey op een ander gekoppe
 actief is, staat er bovenaan een balk met **Nu beëindigen**.
 
 ## API-tokens
+
+{: .rechten }
+**Rechten:** `api_tokens:create`{: .recht } voor je eigen tokens; `api_tokens:manage`{: .recht } ook voor applicatie-accounts. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Met **Organisatie → API-tokens** koppel je andere software aan EventVOX, zoals een eigen app, een script of een
 AI-assistent.
@@ -121,6 +178,9 @@ het token alleen de onderdelen die nodig zijn.
 
 ## Telefoonboek
 
+{: .rechten }
+**Rechten:** `users:read`{: .recht }; `users:update`{: .recht } om nummers te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Heb je IP-telefoons van Yealink, dan kunnen die het telefoonboek van je organisatie uit EventVOX halen. Ga naar
 **Organisatie → Telefoonboek**.
 
@@ -153,6 +213,9 @@ een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Ee
 ![Logo]({{ '/assets/images/tenant-logo.png' | relative_url }})
 
 ## Logboek
+
+{: .rechten }
+**Rechten:** `logs:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 **Organisatie → Logboek** toont alles wat er in je organisatie gebeurt: wie wat wanneer deed. Filter op gebruiker,
 periode en zoekterm. Klik bij een regel op **Bekijken** voor de details.

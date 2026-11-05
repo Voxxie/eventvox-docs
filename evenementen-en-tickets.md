@@ -17,6 +17,9 @@ Een event aanmaken, tickettypes instellen en tickets uitgeven.
 
 ## Events
 
+{: .rechten }
+**Rechten:** `events:read`{: .recht } om ze te zien; `events:create`{: .recht } `events:update`{: .recht } `events:delete`{: .recht } om ze aan te maken, te wijzigen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Ga naar **Evenementen → Events**. Je ziet alle events van je organisatie, met filters op startdatum en status.
 
 ![Lijst met events]({{ '/assets/images/events.png' | relative_url }})
@@ -50,6 +53,9 @@ Een event met tickets kun je niet verwijderen. Zet het dan op **Geannuleerd**.
 
 ## Tickettypes
 
+{: .rechten }
+**Rechten:** `ticket_types:create`{: .recht } `ticket_types:update`{: .recht } `ticket_types:delete`{: .recht }, met `events:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een tickettype is een soort kaartje voor een event, bijvoorbeeld "Volwassene", "Kind" of "Passe-partout". Je beheert
 ze op de eventpagina, in de kaart **Tickets**. Klik op **Nieuw tickettype**.
 
@@ -82,6 +88,9 @@ Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet h
 
 ## Tickets uitgeven
 
+{: .rechten }
+**Rechten:** `orders:create`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Wil je zelf tickets maken voor iemand, bijvoorbeeld voor vrijwilligers, sponsoren of een betaling aan de kassa? Klik op
 de eventpagina op **Uitgeven**.
 
@@ -96,6 +105,9 @@ de eventpagina op **Uitgeven**.
 Bij uitgeven gelden de verkoopperiode, de rollen, de leeftijd en het maximum per gebruiker niet. De capaciteit wel.
 
 ## Tickets bekijken
+
+{: .rechten }
+**Rechten:** `tickets:read`{: .recht } om ze te zien; `tickets:update`{: .recht } om ze te wijzigen of te annuleren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 **Evenementen → Tickets** toont de tickets van één event (kies het event bovenaan). Je filtert op tickettype, status
 (geldig, wacht op betaling, geannuleerd) en aanwezigheid. Een ticket van een ander event vind je het snelst via de zoekbalk

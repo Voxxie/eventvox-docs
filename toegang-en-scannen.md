@@ -17,6 +17,9 @@ Checkpoints instellen, tickets scannen met je telefoon, polsbandjes en vaste sca
 
 ## Checkpoints
 
+{: .rechten }
+**Rechten:** `checkpoints:read`{: .recht } om ze te zien; `checkpoints:create`{: .recht } `checkpoints:update`{: .recht } `checkpoints:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een **checkpoint** is een plek waar tickets gescand worden: de ingang, een uitgang, een tussenpost. Ga naar
 **Toegang → Checkpoints**.
 
@@ -58,6 +61,9 @@ resultaat) en de **checkpoint-tags** (zie [Terminals](#terminals)).
 Een checkpoint waar al gescand is, kun je niet verwijderen. Zet het uit.
 
 ## Scannen met je telefoon of tablet
+
+{: .rechten }
+**Rechten:** `scans:create`{: .recht }; `tags:create`{: .recht } om tags uit te geven. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Kies in het menu **Scannen** (direct onder Dashboard). Het scherm gebruikt de hele pagina; met het kruisje rechtsboven
 ga je terug.
@@ -102,6 +108,9 @@ dan staat het antwoord onder het resultaat, bijvoorbeeld een allergie of "mag al
 
 ## Tags
 
+{: .rechten }
+**Rechten:** `tags:read`{: .recht } om ze te zien; `tags:create`{: .recht } `tags:update`{: .recht } `tags:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een **tag** is iets dat een deelnemer krijgt en dat je scant in plaats van het ticket: een polsbandje met een chip
 (NFC), een keykoord met een QR-code. Een deelnemer kan meer tags hebben, en een tag geldt voor alle events van je
 organisatie. De QR-code op het ticket zelf blijft ook werken.
@@ -125,6 +134,9 @@ alle oude tags in of verwijder je ze, bijvoorbeeld na afloop van het seizoen.
 ![Tags]({{ '/assets/images/tags.png' | relative_url }})
 
 ## Terminals
+
+{: .rechten }
+**Rechten:** `terminals:read`{: .recht } om ze te zien; `terminals:create`{: .recht } `terminals:update`{: .recht } `terminals:delete`{: .recht } om ze te beheren; `info_terminals:update`{: .recht } voor de soort *EHBO*. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Een **terminal** is een vast scanapparaat zonder eigen account: een Raspberry Pi met een scanner en een scherm bij de
 ingang, of een gedeelde Zebra-handscanner. Ga naar **Toegang → Terminals**.

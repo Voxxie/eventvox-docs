@@ -17,6 +17,9 @@ Vrijwilligers bijhouden: hun jaren, VOG's en aanmeldingen.
 
 ## De lijst met vrijwilligers
 
+{: .rechten }
+**Rechten:** `employees:read`{: .recht } om ze te zien; `employees:create`{: .recht } `employees:update`{: .recht } `employees:delete`{: .recht } om ze te beheren; `vogs:read`{: .recht } `vogs:create`{: .recht } `vogs:update`{: .recht } `vogs:delete`{: .recht } voor de VOG's; `roles:assign`{: .recht } voor de rol voor vrijwilligers. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een vrijwilliger is een gebruiker van je organisatie. Naam, e-mailadres en geboortedatum komen uit zijn of haar
 account. Ga naar **Vrijwilligers → Vrijwilligers**.
 
@@ -70,6 +73,9 @@ Met [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}) krijgen v
 hun VOG binnenkort verloopt of als ze een VOG nodig hebben.
 
 ## Aanmeldingen
+
+{: .rechten }
+**Rechten:** `employees:read`{: .recht } om ze te zien; `employees:create`{: .recht } en `roles:assign`{: .recht } om iemand aan te nemen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Staat *Aanmelden als vrijwilliger* aan in de [webshop]({{ '/webshop/' | relative_url }}), dan kunnen bezoekers zich
 daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen bij **Vrijwilligers → Aanmeldingen**.

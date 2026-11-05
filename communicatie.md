@@ -17,6 +17,9 @@ Mailboxen, mailings, nieuwsberichten en automatische notificaties.
 
 ## Mailboxen
 
+{: .rechten }
+**Rechten:** geen apart recht om ze te gebruiken: je ziet de mailboxen van je rollen; `mailboxes:create`{: .recht } `mailboxes:delete`{: .recht } om ze toe te voegen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Een **mailbox** is een e-mailadres van je organisatie, bijvoorbeeld info@ of vrijwilligers@. In EventVOX zie je de
 nieuwste berichten, krijg je desgewenst een melding bij nieuwe mail, en open je de mailbox met één klik in de webmail,
 zonder het wachtwoord te kennen. Mailboxen gebruik je ook om mailings en notificaties te versturen.
@@ -39,6 +42,9 @@ Ga naar **Communicatie → Mailboxen**.
 Je ziet alleen de mailboxen die een van je rollen mag gebruiken.
 
 ## Mailings
+
+{: .rechten }
+**Rechten:** `mailings:read`{: .recht } voor de mailings, of alleen `mailing_sends:read`{: .recht } voor wat er verstuurd is; `mailings:create`{: .recht } `mailings:update`{: .recht } `mailings:delete`{: .recht } om ze te beheren; `mailing_sends:create`{: .recht } om te versturen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Een **mailing** is een mailtemplate dat je naar een groep stuurt. Ga naar **Communicatie → Mailings**.
 
@@ -77,6 +83,9 @@ verzending kun je naar een **ander moment** zetten of **nu versturen**.
 
 ## Nieuws
 
+{: .rechten }
+**Rechten:** `news:read`{: .recht } om het te zien; `news:create`{: .recht } `news:update`{: .recht } `news:delete`{: .recht } om berichten te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Met **Communicatie → Nieuws** plaats je berichten in de webshop, op het Pick-Up formulier en op het dashboard.
 
 ![Nieuws]({{ '/assets/images/news.png' | relative_url }})
@@ -91,6 +100,9 @@ Per bericht kies je:
 ![Nieuws in de webshop]({{ '/assets/images/shop-overview.png' | relative_url }})
 
 ## Notificaties
+
+{: .rechten }
+**Rechten:** `notification_templates:read`{: .recht } om ze te zien; `notification_templates:update`{: .recht } om de teksten te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 **Communicatie → Notificaties** zijn de berichten die EventVOX automatisch stuurt, per mail en/of push.
 

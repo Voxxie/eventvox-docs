@@ -17,6 +17,9 @@ Sponsoren en hun afspraken per jaar bijhouden, en schermen vullen met sponsoren 
 
 ## Sponsoren
 
+{: .rechten }
+**Rechten:** `sponsors:read`{: .recht } om ze te zien; `sponsors:create`{: .recht } `sponsors:update`{: .recht } `sponsors:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Ga naar **Sponsoring → Sponsoren**. Je ziet elke sponsor met de afspraken van het gekozen jaar.
 
 ![Sponsoren]({{ '/assets/images/sponsors.png' | relative_url }})
@@ -40,6 +43,9 @@ De sponsorbrief verstuur je als [mailing]({{ '/communicatie/#mailings' | relativ
 jaar*, met het vinkje *dit is de sponsorbrief*. Dan wordt bij elke sponsor vastgelegd dat de brief verstuurd is.
 
 ## Schermen
+
+{: .rechten }
+**Rechten:** `screen_messages:read`{: .recht } of `sponsors:read`{: .recht } om de schermen te zien; `screen_messages:create`{: .recht } `screen_messages:update`{: .recht } `screen_messages:delete`{: .recht } voor de berichten. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Met **Sponsoring → Schermen** vul je de schermen op je evenement: een tv bij de ingang, een beamer in de zaal. Er
 is geen inlog nodig op het scherm zelf: open het adres in de browser van het scherm, op volledig scherm.

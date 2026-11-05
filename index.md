@@ -52,6 +52,8 @@ module erbij? Neem contact op met EventVOX.
 Wat je ziet en mag, hangt af van je **rollen** in de organisatie. Mis je een menu-item of een knop, dan heb je
 waarschijnlijk het recht niet. Een beheerder van jouw organisatie kan dat aanpassen; zie
 [Rollen]({{ '/organisatie/#rollen' | relative_url }}).
+Onder elk onderdeel van deze handleiding staat welke rechten je ervoor nodig hebt, zoals `events:create`{: .recht };
+het hele overzicht staat bij [Rechten per menu-item]({{ '/organisatie/#rechten-per-menu-item' | relative_url }}).
 
 {: .info }
 De schermafbeeldingen in deze handleiding komen uit een verzonnen demo-organisatie, "Stichting Vlietdorp

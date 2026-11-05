@@ -52,6 +52,9 @@ bovenaan de webshopinstellingen. Die opent in een nieuw tabblad.
 
 ## De webshop instellen
 
+{: .rechten }
+**Rechten:** `webshop:read`{: .recht } om de instellingen te zien; `webshop:update`{: .recht } om ze te wijzigen; `payment_settings:update`{: .recht } voor de betaalmethodes en koppelingen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Ga naar **Verkoop → Webshop**. De instellingen staan in tabbladen:
 
 - **Algemeen**: aan/uit, titel, welkomsttekst, mailbox en registreren;
@@ -126,6 +129,9 @@ recht krijgt een mail bij elke wijziging.
 
 ## Producten
 
+{: .rechten }
+**Rechten:** `products:read`{: .recht } om ze te zien; `products:create`{: .recht } `products:update`{: .recht } `products:delete`{: .recht } om ze te beheren; `products:update`{: .recht } ook om producten uit te geven. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Naast tickets kun je **producten** verkopen: een T-shirt, een medaille, een parkeerkaart. Ga naar **Verkoop →
 Producten**.
 
@@ -158,6 +164,9 @@ Een bestelling met *betalen bij afhalen* zet je eerst op betaald (**Markeer als 
 afgeven.
 
 ## Abonnementen
+
+{: .rechten }
+**Rechten:** `subscriptions:read`{: .recht } om ze te zien; `subscriptions:create`{: .recht } `subscriptions:update`{: .recht } `subscriptions:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Met de module Abonnementen verkoop je lidmaatschappen, donateurschappen of seizoenskaarten. Ga naar **Verkoop →
 Abonnementen** en maak een abonnement aan (bijvoorbeeld "Vrienden van de stichting").

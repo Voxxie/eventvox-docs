@@ -35,6 +35,9 @@ wat er van de vrijwilliger verwacht wordt. Die omschrijving zien ze bij hun dien
 
 ## Een rooster maken
 
+{: .rechten }
+**Rechten:** `schedules:read`{: .recht } om roosters te zien; `schedules:create`{: .recht } `schedules:update`{: .recht } `schedules:delete`{: .recht } om ze te beheren. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 1. Ga naar **Vrijwilligers → Roosters** en klik op **Nieuw rooster** (of kies op de eventpagina in de kaart *Roosters*
    voor *Nieuw rooster*).
 2. Geef een naam, kies het event en zet aan:
@@ -48,6 +51,9 @@ wat er van de vrijwilliger verwacht wordt. Die omschrijving zien ze bij hun dien
 ![Roosters]({{ '/assets/images/schedules.png' | relative_url }})
 
 ## Inplannen
+
+{: .rechten }
+**Rechten:** `schedule_planning:read`{: .recht } om de planning met beschikbaarheid te zien; `schedule_planning:update`{: .recht } om in te plannen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Open het rooster. Je ziet het **overzicht**: de vrijwilligers onder elkaar en de tijdvakken naast elkaar. De kleur van
 een vak is de beschikbaarheid; staat iemand ingepland, dan staat de dienst erin.
