@@ -1,0 +1,27 @@
+<!-- Light / dark switch, left of the buttons top right. Switches the dark stylesheet of _includes/head_custom.html on
+     (media all) or off (media not all) and remembers the choice in this browser (localStorage evx-theme). Without a
+     choice the site follows the system setting. Styles: .evx-theme-toggle in _sass/custom/custom.scss. -->
+<button type="button" class="evx-theme-toggle" id="evx-theme-toggle" aria-label="Donkere modus" aria-pressed="false"></button>
+<script>
+  (function () {
+    var css = document.getElementById('evx-dark-css');
+    var button = document.getElementById('evx-theme-toggle');
+    if (!css || !button) return;
+    var system = window.matchMedia('(prefers-color-scheme: dark)');
+    var isDark = function () { return css.media === 'all' || (css.media !== 'not all' && system.matches); };
+    var show = function () {
+      var dark = isDark();
+      button.setAttribute('aria-pressed', dark ? 'true' : 'false');
+      button.title = dark ? 'Lichte modus' : 'Donkere modus';
+      button.dataset.mode = dark ? 'dark' : 'light';
+    };
+    button.addEventListener('click', function () {
+      var dark = !isDark();
+      css.media = dark ? 'all' : 'not all';
+      try { localStorage.setItem('evx-theme', dark ? 'dark' : 'light'); } catch (e) { /* not remembered */ }
+      show();
+    });
+    if (system.addEventListener) system.addEventListener('change', show);
+    show();
+  })();
+</script>

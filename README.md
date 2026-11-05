@@ -17,6 +17,9 @@ De handleidingen voor organisaties (tenants) die met EventVOX werken, gepublicee
 - Donkere modus volgt de systeeminstelling van de bezoeker, zoals de landingspagina: `_includes/head_custom.html` laadt
   `assets/css/just-the-docs-eventvox-dark.css` (schema `_sass/color_schemes/eventvox-dark.scss`) alleen bij een donker
   systeem. Kleuren die in `custom.scss` per modus verschillen staan bovenin als `$evx-...`.
+  Met de knop met maan/zon in de bovenbalk (`_includes/header_custom.html`) kiest een bezoeker zelf licht of donker;
+  die keuze onthoudt de browser (`localStorage` `evx-theme`) en `head_custom.html` past hem toe voordat de pagina
+  getekend wordt.
 - Alleen wat organisaties zelf gebruiken staat erin; platformbeheer (tenants, betaal- en inlogmethodes,
   systeemlogs) niet.
 

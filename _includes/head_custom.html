@@ -4,7 +4,18 @@
 <link rel="preload" href="{{ '/assets/fonts/funnel-sans-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <meta name="theme-color" content="#a7159b" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e1220" media="(prefers-color-scheme: dark)">
-<!-- Dark mode follows the visitor's system setting, as on the landing page: the dark EventVOX scheme
-     (assets/css/just-the-docs-eventvox-dark.scss) after the light one, only when the system is dark. No script. -->
+<!-- Dark mode: by default it follows the visitor's system setting, as on the landing page: the dark EventVOX scheme
+     (assets/css/just-the-docs-eventvox-dark.scss) after the light one, only when the system is dark. The button in
+     _includes/header_custom.html can choose light or dark instead; that choice (localStorage evx-theme) is applied
+     here, before the page is drawn, so it does not flash. -->
 <meta name="color-scheme" content="light dark">
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-eventvox-dark.css' | relative_url }}" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" id="evx-dark-css" href="{{ '/assets/css/just-the-docs-eventvox-dark.css' | relative_url }}" media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('evx-theme'); } catch (e) { /* no storage: follow the system */ }
+    var css = document.getElementById('evx-dark-css');
+    if (theme === 'dark') css.media = 'all';
+    else if (theme === 'light') css.media = 'not all';
+  })();
+</script>
