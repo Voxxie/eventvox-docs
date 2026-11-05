@@ -98,8 +98,9 @@ kraam. De bestelling is meteen betaald, contant of met pin.
 1. **Klant**: zoek een bestaande klant op naam of e-mailadres, of kies **Nieuwe klant** en vul de naam in (het
    e-mailadres is optioneel). Een nieuwe klant krijgt een webshopaccount; is het e-mailadres al bekend, dan wordt dat
    account gebruikt.
-2. **Tickets en producten**: links staan de tickettypes van de gepubliceerde events die nog niet voorbij zijn, met
-   hoeveel er nog over zijn, en de actieve producten. Klik om ze toe te voegen. Kies per ticket voor wie het is: de
+2. **Tickets en producten**: links staan de tickettypes van de gepubliceerde events die nog niet voorbij zijn en de
+   actieve producten, als tegels met hun foto (of een icoon), de prijs en hoeveel er nog over zijn. Tik of klik op een
+   tegel om hem toe te voegen; dat werkt ook goed op een touchscreen. Kies per ticket voor wie het is: de
    klant zelf, een van zijn deelnemers, of *Iemand anders…* met een nieuwe naam.
 3. **Betalen**: kies **Contant** of **Pin**. Bij contant vul je in wat je ontvangt; EventVOX rekent het wisselgeld uit.
 4. **Afrekenen**. Daarna kun je de tickets meteen **printen**.
