@@ -6,7 +6,17 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-color_scheme: light
+# Colours and fonts of EventVOX (the app and eventvox.nl/welkom/): _sass/color_schemes/eventvox.scss,
+# _sass/custom/setup.scss (fonts) and _sass/custom/custom.scss
+color_scheme: eventvox
+logo: "/assets/images/logo.svg"
+# Top right: back to the website and to the login of EventVOX
+aux_links:
+  "EventVOX.nl":
+    - "https://eventvox.nl/welkom/"
+  "Inloggen":
+    - "https://eventvox.nl/login"
+aux_links_new_tab: false
 search_enabled: true
 search:
   heading_level: 3
