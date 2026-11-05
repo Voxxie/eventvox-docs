@@ -28,7 +28,7 @@ ticket niet gescand of verlopen is.
 
 Bij het kopen:
 
-- Heeft een tickettype een **foto**, dan staat die klein bij het ticket; met een klik wordt hij groot.
+- Heeft een tickettype of product een **foto**, dan staat die er klein bij; met een klik wordt hij groot.
 - Heeft een tickettype een **leeftijdsgrens**, dan staat die erbij ("12–17 jaar"). Bij het kiezen van de deelnemers
   rekent de webshop de leeftijd uit. Is de leeftijd een harde eis, dan kan een deelnemer die te jong of te oud is (of
   geen geboortedatum heeft) niet gekozen worden; met **Geboortedatum invullen** vult de koper die meteen in. Is het
@@ -101,6 +101,10 @@ Producten**.
 
 Per product stel je de naam, omschrijving, prijs, **voorraad**, **max. per bestelling** en de verkoopperiode in, en of
 het **te koop in de webshop** is. Vink **Af te halen** aan als de koper het product ergens ophaalt.
+
+Met **Foto in de webshop** kies je een foto (JPEG, PNG of WebP). Die staat klein bij het product in de webshop en wordt
+met een klik groot. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn
+overgenomen. Gebruik je EventVOX 1 nog, dan delen beide dezelfde foto: wijzig je hem hier, dan verandert hij daar ook.
 
 ### Productuitgifte
 
