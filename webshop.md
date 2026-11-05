@@ -34,8 +34,9 @@ Bij het kopen:
   rekent de webshop de leeftijd uit. Is de leeftijd een harde eis, dan kan een deelnemer die te jong of te oud is (of
   geen geboortedatum heeft) niet gekozen worden; met **Geboortedatum invullen** vult de koper die meteen in. Is het
   alleen een waarschuwing, dan kan het wel, met een melding erbij.
-- Onder elk ticket staan losse labels met wat er geldt: de dagen, groepsticket, leeftijd en hooguit … per
-  account. Bij de prijs staat **Nog …** als er weinig over zijn, of waarom iets niet te koop is (bijv. *Uitverkocht*). Is iets inmiddels uitverkocht als de koper op
+- Onder elk ticket en product staan losse labels met wat er geldt: de dagen, groepsticket, leeftijd en hooguit … per
+  account bij een ticket; *af te halen* en hooguit … per bestelling bij een product. Daar staat ook **Nog … beschikbaar** als er weinig over zijn, of waarom iets niet te koop is (bijv.
+  *Uitverkocht*). Is iets inmiddels uitverkocht als de koper op
   **Bestellen** klikt, dan haalt de webshop het uit het mandje (bij een product: het aantal gaat omlaag naar wat er nog
   is), zegt welk ticket of product het was en laat de rest staan.
 - Een **abonnementsticket** is geen toegangsbewijs: het staat niet bij **Mijn tickets** en heeft geen QR-code of PDF.
