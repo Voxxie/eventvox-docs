@@ -43,6 +43,9 @@ Bij het kopen:
   Het abonnement zelf staat bij de abonnementen van de koper, en op de bestelling als *Abonnement*.
 - Moet de koper iets **afhalen** (of betalen bij afhalen), dan staat er op de bestelling een **QR-code**. Die laat de
   koper zien bij de [productuitgifte](#productuitgifte).
+- Na **Bestellen** controleert de koper zijn **adres en telefoonnummers**. Wat hij wijzigt, komt ook op zijn account.
+  De bestelling bewaart de gegevens zoals ze op dat moment zijn; wijzigt de koper ze later, dan blijft de bestelling
+  ze houden. Wat verplicht is, stel je in bij **Gegevens van de koper** (zie hieronder).
 
 Je opent de webshop zoals bezoekers hem zien via **Verkoop → Bezoekersgedeelte**. Die opent in een nieuw tabblad.
 
@@ -61,6 +64,7 @@ Ga naar **Verkoop → Webshop**.
 | **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets (en producten) vasthoudt, en apart bij *betalen bij afhalen*. Daarna vervalt de bestelling en komen ze weer vrij. |
 | **Bij online betalen** | Hoe lang (in minuten, standaard 30) een bestelling vastgehouden wordt vanaf het moment dat de koper online gaat betalen; nooit langer dan *Tickets vasthouden*. Wie bij de betaalpagina afhaakt, geeft de tickets zo snel weer vrij voor anderen. Alleen als online betalen kan. |
 | **Leeftijd** | Wat er gebeurt als de leeftijd van een deelnemer niet past bij een tickettype met een leeftijdsgrens: een **harde eis** (niet te bestellen, ook niet zonder geboortedatum) of **alleen een waarschuwing**. Per tickettype kun je hiervan afwijken. |
+| **Gegevens van de koper** | Wat een koper ingevuld moet hebben om te bestellen: **niets**, een **telefoonnummer** (standaard) of **adres en telefoonnummer**. De koper controleert zijn gegevens altijd bij het bestellen. |
 | **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |
 | **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
 | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |

@@ -71,7 +71,8 @@ Open een bestelling voor de details:
 
 ![Bestelling]({{ '/assets/images/order.png' | relative_url }})
 
-- de **koper**, het totaal en de bron (webshop, kassa of uitgegeven);
+- de **koper**, met zijn **adres en telefoonnummers** zoals ze waren bij het bestellen (ook bij de kassa en bij
+  uitgeven), het totaal en de bron (webshop, kassa of uitgegeven);
 - de **betalingen** (handmatig of online, met de status);
 - de **tickets** en producten, met de PDF van de hele bestelling; af te halen producten geef je hier ook af (zie
   [Productuitgifte]({{ '/webshop/#productuitgifte' | relative_url }}));
