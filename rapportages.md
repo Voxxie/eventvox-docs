@@ -22,6 +22,8 @@ voor *Verkoop* heb je bijvoorbeeld leesrechten op bestellingen nodig, voor *Vrij
 
 - Beweeg over een staaf in een grafiek voor het precieze getal; de tabel eronder geeft dezelfde cijfers.
 - Met de knop **Excel** bij een tabel download je precies die rijen.
+- Een **periode** kies je met een begin- en einddatum (**Vanaf** en **Tot en met**), of met een snelknop: **30 dagen**,
+  **90 dagen** of **1 jaar**, steeds tot en met vandaag. De snelknop vult beide data in; daarna kun je ze nog aanpassen.
 - Zet een rapportage die je vaak gebruikt bij je [favorieten]({{ '/aan-de-slag/#favorieten' | relative_url }}); de
   gekozen filters gaan mee.
 
@@ -36,7 +38,7 @@ ander event, **Alle events**, of een **periode**.
 ## Activiteit
 
 Wat er per dag gebeurde in je organisatie: tickets gemaakt, bestellingen betaald, omzet, nieuwe accounts, actieve
-gebruikers en acties in het logboek. Kies **30 dagen**, **90 dagen** of **1 jaar**.
+gebruikers en acties in het logboek. Kies een periode van hooguit twee jaar; zonder keuze zie je de laatste 30 dagen.
 
 ![Activiteit]({{ '/assets/images/report-activity.png' | relative_url }})
 
