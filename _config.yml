@@ -12,7 +12,7 @@ color_scheme: eventvox
 logo: "/assets/images/logo.svg"
 # Top right: back to the website and to the login of EventVOX
 aux_links:
-  "EventVOX.nl":
+  "Naar de website":
     - "https://eventvox.nl/welkom/"
   "Inloggen":
     - "https://eventvox.nl/login"
