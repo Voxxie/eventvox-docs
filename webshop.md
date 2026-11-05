@@ -33,7 +33,8 @@ Bij het kopen:
   rekent de webshop de leeftijd uit. Is de leeftijd een harde eis, dan kan een deelnemer die te jong of te oud is (of
   geen geboortedatum heeft) niet gekozen worden; met **Geboortedatum invullen** vult de koper die meteen in. Is het
   alleen een waarschuwing, dan kan het wel, met een melding erbij.
-- Bij weinig tickets of producten staat er **Nog … beschikbaar**. Is iets inmiddels uitverkocht als de koper op
+- Onder elk ticket staan losse labels met wat er geldt: de dagen, groepsticket, leeftijd, hooguit … per account, te
+  koop tot. Bij de prijs staat **Nog …** als er weinig over zijn, of waarom iets niet te koop is (bijv. *Uitverkocht*). Is iets inmiddels uitverkocht als de koper op
   **Bestellen** klikt, dan haalt de webshop het uit het mandje (bij een product: het aantal gaat omlaag naar wat er nog
   is), zegt welk ticket of product het was en laat de rest staan.
 - Een **abonnementsticket** is geen toegangsbewijs: het staat niet bij **Mijn tickets** en heeft geen QR-code of PDF.
@@ -78,7 +79,8 @@ In de kaart **Betaalmethodes** zie je welke methodes je organisatie mag aanbiede
 - **Online betalen** (bijvoorbeeld via Mollie): de koper betaalt meteen met iDEAL, creditcard, enz.
 
 Per methode zet je hem aan of uit en geef je hem een eigen naam en uitleg. Met de pijltjes bepaal je de volgorde. Biedt
-de webshop meer methodes aan, dan kiest de koper er een bij het bestellen.
+de webshop meer methodes aan, dan kiest de koper er een bij het bestellen. Kost de bestelling niets (alleen gratis
+tickets of producten), dan hoeft de koper niets te kiezen: de bestelling is meteen betaald.
 
 **Online betalen koppelen:** klik op **Koppelen met Mollie** en log in bij Mollie om toestemming te geven. Daarna kies
 je het **websiteprofiel**. Een nieuwe koppeling begint in **testmodus**: dan zien alleen beheerders de methode in de
