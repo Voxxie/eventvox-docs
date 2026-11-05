@@ -39,7 +39,8 @@ De rondes staan bij **Pick-Up** in het menu.
 
 Klik op de pagina Pick-Up op **Aanmeldformulier** voor de link. Die link is openbaar: zet hem op je website of in een
 nieuwsbrief. Mensen hebben geen account nodig. Ze kiezen een ronde die nog niet begonnen is en nog plaats heeft, en
-vullen hun adres in, met maximaal 3 foto's.
+vullen hun adres in, met maximaal 3 foto's. Op een telefoon kunnen ze met **Foto maken** meteen een foto maken met
+de camera, of met **Foto kiezen** een bestaande foto kiezen.
 
 {: .tip }
 Nieuwsberichten met de plek *Pick-Up aanmeldformulier* staan boven het formulier. Handig voor uitleg zoals "zet de
