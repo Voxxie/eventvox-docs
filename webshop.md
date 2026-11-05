@@ -82,7 +82,7 @@ In de kaart **Betaalmethodes** zie je welke methodes je organisatie mag aanbiede
 - **Overboeken**: de koper krijgt jouw uitleg (rekeningnummer, omschrijving). Zodra het geld binnen is, zet je de
   bestelling op betaald;
 - **Betalen bij afhalen**: de koper betaalt ter plekke;
-- **Online betalen** (bijvoorbeeld via Mollie): de koper betaalt meteen met iDEAL, creditcard, enz.
+- **Online betalen** (via Mollie of myPOS): de koper betaalt meteen met iDEAL, creditcard, enz.
 
 Per methode zet je hem aan of uit en geef je hem een eigen naam en uitleg. Met de pijltjes bepaal je de volgorde. Biedt
 de webshop meer methodes aan, dan kiest de koper er een bij het bestellen. Kost de bestelling niets (alleen gratis
@@ -91,6 +91,17 @@ tickets of producten), dan hoeft de koper niets te kiezen: de bestelling is mete
 **Online betalen koppelen:** klik op **Koppelen met Mollie** en log in bij Mollie om toestemming te geven. Daarna kies
 je het **websiteprofiel**. Een nieuwe koppeling begint in **testmodus**: dan zien alleen beheerders de methode in de
 webshop. Zet de testmodus uit als je echt geld wilt ontvangen.
+
+**myPOS koppelen:** maak in je myPOS-account een webwinkel (**Stores → eCommerce**). Op het tabblad **Integration**
+van die winkel genereer je het **configuratiepakket**. Klik in EventVOX op **myPOS-gegevens invoeren** en plak het
+pakket (of vul Store ID, walletnummer, key index, private key en het certificaat van myPOS los in). De gegevens worden
+versleuteld bewaard. Ook een myPOS-koppeling begint in **testmodus**: de betaling gaat dan naar de testomgeving van
+myPOS, dus gebruik daar eerst de testgegevens van je winkel. Klaar met testen? Kies **Gegevens vervangen**, plak het
+echte pakket en zet de testmodus uit. Terugbetalen doe je in je myPOS-account.
+
+{: .info }
+Is een bestelling al verlopen of geannuleerd als de myPOS-betaling binnenkomt, dan weigert EventVOX hem en betaalt
+myPOS het bedrag vanzelf terug aan de koper.
 
 {: .let_op }
 Zet bij Mollie geen trage betaalmethodes aan, zoals **bankoverschrijving**. Zo'n betaling komt pas na dagen binnen,
