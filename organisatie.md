@@ -222,8 +222,10 @@ meestuurt.
 
 1. Installeer [Node.js](https://nodejs.org/){:target="_blank"} (de LTS-versie), als dat nog niet op de computer staat.
 2. Open in Claude Desktop **Instellingen → Developer → Edit Config**. Dat opent het bestand
-   `claude_desktop_config.json`. Op Windows staat het in `%APPDATA%\Claude\`, op een Mac in
-   `~/Library/Application Support/Claude/`.
+   `claude_desktop_config.json`. Op Windows staat het in `%APPDATA%\Claude\` (geïnstalleerd via de Microsoft Store:
+   in `%LOCALAPPDATA%\Packages\Claude_...\LocalCache\Roaming\Claude\`), op een Mac in
+   `~/Library/Application Support/Claude/`. Gebruik bij twijfel gewoon **Edit Config**: die opent altijd het juiste
+   bestand.
 3. Zet dit erin (staat er al iets in `mcpServers`, voeg dan alleen het blok `"eventvox"` toe) en vervang `evx_...`
    door je token:
 
