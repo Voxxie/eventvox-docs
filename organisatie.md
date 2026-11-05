@@ -205,6 +205,60 @@ ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de 
 Wat de assistent leest, gaat naar de dienst achter die assistent. Spreek binnen je organisatie af of dat mag, en geef
 het token alleen de onderdelen die nodig zijn.
 
+### Koppelen met Claude
+
+Het adres van de koppeling staat op de kaart bij **Organisatie → API-tokens**, bijvoorbeeld
+`https://backend.ingestel.nl/mcp`. De assistent stuurt bij elke vraag je token mee. Hoe je dat instelt, hangt af van
+de app.
+
+**Claude Code** (in de terminal): één opdracht. De kaart bij API-tokens geeft hem kant-en-klaar, met je token erin.
+
+```bash
+claude mcp add --transport http eventvox https://backend.ingestel.nl/mcp --header "Authorization: Bearer evx_..."
+```
+
+**Claude Desktop** (Windows en Mac): via het configuratiebestand, met het hulpprogramma *mcp-remote* dat het token
+meestuurt.
+
+1. Installeer [Node.js](https://nodejs.org/){:target="_blank"} (de LTS-versie), als dat nog niet op de computer staat.
+2. Open in Claude Desktop **Instellingen → Developer → Edit Config**. Dat opent het bestand
+   `claude_desktop_config.json`. Op Windows staat het in `%APPDATA%\Claude\`, op een Mac in
+   `~/Library/Application Support/Claude/`.
+3. Zet dit erin (staat er al iets in `mcpServers`, voeg dan alleen het blok `"eventvox"` toe) en vervang `evx_...`
+   door je token:
+
+   ```json
+   {
+     "mcpServers": {
+       "eventvox": {
+         "command": "npx",
+         "args": [
+           "-y", "mcp-remote", "https://backend.ingestel.nl/mcp",
+           "--header", "Authorization:${AUTH_HEADER}"
+         ],
+         "env": {
+           "AUTH_HEADER": "Bearer evx_..."
+         }
+       }
+     }
+   }
+   ```
+
+4. Sla het bestand op, sluit Claude Desktop helemaal af (ook in het systeemvak) en start het opnieuw. Bij de knop voor
+   tools in een nieuw gesprek staat dan **eventvox**.
+
+Vraag daarna bijvoorbeeld: *"Hoeveel tickets zijn er verkocht voor de Kerstmarkt?"*
+
+{: .info }
+Koppelen via **Instellingen → Connectors → Custom connector** in Claude Desktop, op claude.ai of in de Claude-app op
+je telefoon werkt nog niet. Daar logt Claude zelf in via OAuth, en die manier van inloggen heeft EventVOX nog niet.
+Gebruik tot die tijd Claude Code of het configuratiebestand hierboven.
+
+{: .let_op }
+Het token staat leesbaar in het configuratiebestand. Gebruik daarom een token met alleen leesrechten, het liefst van
+een applicatie-account, en trek het in als de computer niet meer gebruikt wordt voor de koppeling.
+
+
 ## Telefoonboek
 
 {: .rechten }
