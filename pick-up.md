@@ -17,7 +17,14 @@ Ophaalrondes: mensen melden een adres aan, vrijwilligers halen de spullen op.
 
 ## Hoe Pick-Up werkt
 
-Met Pick-Up organiseer je ophaalrondes, bijvoorbeeld voor oud papier, spullen voor een rommelmarkt of kerstbomen.
+Met Pick-Up organiseer je ophaalrondes, bijvoorbeeld voor hout voor het bouwdorp, oud papier, spullen voor een
+rommelmarkt of kerstbomen.
+
+{: .tip }
+**Voorbeeld: hout voor het bouwdorp.** Voor een bouwdorp is veel hout nodig. Zet een paar weken van tevoren een ronde
+op een zaterdagochtend klaar en deel de link van het aanmeldformulier in de nieuwsbrief en op social media. Mensen
+melden zelf hun adres aan, met een foto van de stapel pallets of planken. Zo zie je vooraf of er een aanhanger nodig
+is. Op de dag zelf rijden de ingeplande vrijwilligers de adressen langs op de kaart en vinken ze af wat is opgehaald.
 
 1. Je maakt een **ronde** aan: een tijdvak van de soort *Pick-Up ronde* in een [rooster]({{ '/roosters/' | relative_url }}).
 2. Mensen melden hun adres aan via het **openbare aanmeldformulier**, eventueel met foto's van wat er opgehaald moet

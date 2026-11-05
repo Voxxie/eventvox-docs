@@ -40,6 +40,7 @@ tenant.
 | afvinklijsten bijhouden                         | [Checklists]({{ '/checklists/' | relative_url }})          |
 | cijfers bekijken en exporteren                  | [Rapportages]({{ '/rapportages/' | relative_url }})        |
 | gebruikers en rechten beheren                   | [Organisatie]({{ '/organisatie/' | relative_url }})        |
+| andere software koppelen via de API             | [API-tokens en API-documentatie]({{ '/organisatie/#api-tokens' | relative_url }}) |
 
 ## Modules
 

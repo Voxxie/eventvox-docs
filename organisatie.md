@@ -156,6 +156,34 @@ AI-assistent.
 {: .let_op }
 Behandel een token als een wachtwoord. Trek een token in zodra het niet meer nodig is.
 
+### De API-documentatie
+
+Alles wat je via de API kunt, staat in de **[API-documentatie](https://backend.ingestel.nl/){:target="_blank"}**. Daar
+zie je per onderdeel (events, tickets, deelnemers, roosters, vrijwilligers, …) welke aanvragen er zijn, wat je
+meestuurt en wat je terugkrijgt.
+
+- **Uitproberen:** klik rechtsboven op **Authorize**, plak je token (zonder het woord *Bearer*) en kies bij een aanvraag
+  **Try it out**. Let op: wat je daar uitvoert, gebeurt echt in je organisatie. Gebruik voor proberen een token met
+  alleen leesrechten.
+- **Voor ontwikkelaars:** de technische beschrijving staat als OpenAPI-bestand op
+  [backend.ingestel.nl/openapi.json](https://backend.ingestel.nl/openapi.json){:target="_blank"}. Dat kun je inladen in
+  bijvoorbeeld Postman of een codegenerator.
+
+Zo gebruik je een token in je eigen software:
+
+```bash
+curl -H "Authorization: Bearer evx_..." https://backend.ingestel.nl/events
+```
+
+- Het token werkt alleen in je eigen organisatie; die hoef je niet mee te sturen.
+- Per token kun je maximaal 300 aanvragen per minuut doen.
+- Sommige dingen kunnen bewust niet met een token, zoals inloggen, wachtwoorden, betaalkoppelingen, de webshop van
+  kopers en het beheren van API-tokens zelf.
+
+{: .info }
+Bij elk token zie je op **Organisatie → API-tokens** wanneer het voor het laatst is gebruikt en hoeveel aanvragen het
+deed. Zo zie je meteen of een koppeling nog werkt.
+
 ## AI-koppeling (MCP)
 
 Met de AI-koppeling kan een AI-assistent, zoals Claude, vragen over je organisatie beantwoorden: "hoeveel tickets zijn
