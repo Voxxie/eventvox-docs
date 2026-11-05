@@ -53,29 +53,32 @@ Een event met tickets kun je niet verwijderen. Zet het dan op **Geannuleerd**.
 Een tickettype is een soort kaartje voor een event, bijvoorbeeld "Volwassene", "Kind" of "Passe-partout". Je beheert
 ze op de eventpagina, in de kaart **Tickets**. Klik op **Nieuw tickettype**.
 
+Bovenaan staat wat je bij bijna elk tickettype invult:
+
 | Veld | Uitleg |
 |:-----|:-------|
 | **Naam** en **Beschrijving** | Zoals de koper ze in de webshop ziet. |
 | **Prijs** | In euro's. Een gratis ticket heeft prijs 0. |
 | **Capaciteit** | Hoeveel tickets er maximaal zijn. Leeg = onbeperkt. |
-| **Max. per gebruiker** | Hoeveel tickets één account mag kopen. |
+| **Max. per koper** | Hoeveel tickets één account mag kopen. |
+| **Te koop** | Uit = niet meer te koop, bestaande tickets blijven geldig. |
 | **Verkoop vanaf / tot en met** | De periode waarin het type in de webshop te koop is. Leeg = vanaf nu, tot het einde. |
-| **Actief (te koop in de webshop)** | Uit = niet meer te koop, bestaande tickets blijven geldig. |
-| **Volgorde** | De volgorde in de webshop. |
-| **Kleur op het ticket** | Een eigen kleur voor het e-ticket, zodat de scanners het type snel herkennen. |
-| **Geldigheid** | Wanneer het ticket toegang geeft, bijvoorbeeld elke avond van 17:30 tot 22:00. Geen periodes = het hele event. |
-| **Rollen** | Alleen accounts met deze rol kunnen het type kopen (bijvoorbeeld "Leden"). Geen rollen = iedereen. |
-| **Alleen geldig bij checkpoints** | Vink checkpoints aan als het ticket alleen daar mag worden gescand, bijvoorbeeld een parkeerkaart alleen bij "Parkeren". Niets aangevinkt = overal geldig. |
-| **Groepsticket** | Het type wordt per groep verkocht (bijv. een tafel voor 8). Elk groepslid krijgt een eigen ticket. |
-| **Leeftijd** | Minimale en/of maximale leeftijd van de deelnemer, op de eerste geldige dag van het ticket (zonder geldigheid: de start van het event). Kies wat er gebeurt als de leeftijd niet klopt: een **harde eis** (niet te bestellen; de deelnemer moet dan ook een geboortedatum hebben), **alleen een waarschuwing**, of **zoals ingesteld bij de webshop**. Leeg = geen grens. |
-| **Foto in de webshop** | Een foto (JPEG, PNG of WebP) die klein bij het tickettype in de webshop staat en met een klik groot wordt. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
 
-Met de module **Abonnementen** zijn er nog drie opties: een *abonnementsticket* (geeft geen toegang bij de
-checkpoints), *Geeft abonnement* (een geldig ticket maakt de deelnemer lid) en *Alleen voor leden van* (alleen te koop
-voor deelnemers met een abonnement). Zie [Webshop → Abonnementen]({{ '/webshop/#abonnementen' | relative_url }}).
+De rest staat in blokken eronder. Een blok is ingeklapt en laat in één regel zien wat er is ingesteld, bijvoorbeeld
+*Hele event · elk checkpoint* of *Webshopklanten · 4–12 jaar (harde eis)*. Klik erop om het open te klappen. Klopt er
+bij het opslaan iets niet in een ingeklapt blok, dan klapt dat blok vanzelf open. Op een telefoon vult het formulier
+het hele scherm, met **Opslaan** altijd onderin.
+
+| Blok | Wat erin staat |
+|:-----|:---------------|
+| **Geldigheid en toegang** | **Geldig op**: wanneer het ticket toegang geeft, bijvoorbeeld elke avond van 17:30 tot 22:00 (geen periodes = het hele event). **Alleen geldig bij checkpoints**: vink checkpoints aan als het ticket alleen daar mag worden gescand, bijvoorbeeld een parkeerkaart alleen bij "Parkeren" (niets aangevinkt = overal geldig). |
+| **Wie mag kopen** | **Rollen**: alleen accounts met deze rol kunnen het type kopen, bijvoorbeeld "Leden" (geen rollen = iedereen). **Leeftijd**: minimale en/of maximale leeftijd van de deelnemer op de eerste geldige dag van het ticket (zonder geldigheid: de start van het event), met wat er gebeurt als die niet klopt: een **harde eis** (niet te bestellen; de deelnemer moet dan ook een geboortedatum hebben), **alleen een waarschuwing**, of **zoals ingesteld bij de webshop**. **Vereist een ticket van**: alleen voor deelnemers die ook een ticket van een ander type hebben. Met de module Abonnementen ook **Alleen voor leden van**. |
+| **Webshop** | **Groepsticket**: het type wordt per groep verkocht (bijv. een tafel voor 8); elk groepslid krijgt een eigen ticket. **Volgorde** in de webshop. **Foto** (JPEG, PNG of WebP): klein bij het tickettype in de webshop, met een klik groot. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
+| **Op het ticket** | Een eigen **kleur** voor het e-ticket, zodat de scanners het type snel herkennen. |
+| **Abonnement** | Alleen met de module Abonnementen: een *abonnementsticket* (geeft geen toegang bij de checkpoints) en *Geeft abonnement* (een geldig ticket maakt de deelnemer lid). Zie [Webshop → Abonnementen]({{ '/webshop/#abonnementen' | relative_url }}). |
 
 {: .let_op }
-Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Actief** uitvinken).
+Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
 
 ## Tickets uitgeven
 
