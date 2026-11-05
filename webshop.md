@@ -28,13 +28,14 @@ ticket niet gescand of verlopen is.
 
 Bij het kopen:
 
-- Heeft een tickettype of product een **foto**, dan staat die er klein bij; met een klik wordt hij groot.
+- Heeft een tickettype of product een **foto**, dan staat die er klein bij; met een klik wordt hij groot. Zonder foto
+  staat er een grijs vlak met een icoon, zodat de lijst netjes in lijn blijft.
 - Heeft een tickettype een **leeftijdsgrens**, dan staat die erbij ("12–17 jaar"). Bij het kiezen van de deelnemers
   rekent de webshop de leeftijd uit. Is de leeftijd een harde eis, dan kan een deelnemer die te jong of te oud is (of
   geen geboortedatum heeft) niet gekozen worden; met **Geboortedatum invullen** vult de koper die meteen in. Is het
   alleen een waarschuwing, dan kan het wel, met een melding erbij.
-- Onder elk ticket staan losse labels met wat er geldt: de dagen, groepsticket, leeftijd, hooguit … per account, te
-  koop tot. Bij de prijs staat **Nog …** als er weinig over zijn, of waarom iets niet te koop is (bijv. *Uitverkocht*). Is iets inmiddels uitverkocht als de koper op
+- Onder elk ticket staan losse labels met wat er geldt: de dagen, groepsticket, leeftijd en hooguit … per
+  account. Bij de prijs staat **Nog …** als er weinig over zijn, of waarom iets niet te koop is (bijv. *Uitverkocht*). Is iets inmiddels uitverkocht als de koper op
   **Bestellen** klikt, dan haalt de webshop het uit het mandje (bij een product: het aantal gaat omlaag naar wat er nog
   is), zegt welk ticket of product het was en laat de rest staan.
 - Een **abonnementsticket** is geen toegangsbewijs: het staat niet bij **Mijn tickets** en heeft geen QR-code of PDF.
