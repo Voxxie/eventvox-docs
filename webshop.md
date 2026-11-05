@@ -53,7 +53,7 @@ bovenaan de webshopinstellingen. Die opent in een nieuw tabblad.
 ## De webshop instellen
 
 {: .rechten }
-**Rechten:** `webshop:read`{: .recht } om de instellingen te zien; `webshop:update`{: .recht } om ze te wijzigen; `payment_settings:update`{: .recht } voor de betaalmethodes en koppelingen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** `webshop:read`{: .recht } om de instellingen te zien (`payment_settings:read`{: .recht } voor alleen de betaalmethodes); `webshop:update`{: .recht } om ze te wijzigen; `payment_settings:update`{: .recht } voor de betaalmethodes en koppelingen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Ga naar **Verkoop → Webshop**. De instellingen staan in tabbladen:
 

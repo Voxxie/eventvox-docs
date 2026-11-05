@@ -18,7 +18,7 @@ Mailboxen, mailings, nieuwsberichten en automatische notificaties.
 ## Mailboxen
 
 {: .rechten }
-**Rechten:** geen apart recht om ze te gebruiken: je ziet de mailboxen van je rollen; `mailboxes:create`{: .recht } `mailboxes:delete`{: .recht } om ze toe te voegen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** geen apart recht om ze te gebruiken: je ziet de mailboxen van je rollen; `mailboxes:read`{: .recht } om van alle mailboxen de laatste mail te zien; `mailboxes:update`{: .recht } om ze te wijzigen en ze allemaal te gebruiken; `mailboxes:create`{: .recht } `mailboxes:delete`{: .recht } om ze toe te voegen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Een **mailbox** is een e-mailadres van je organisatie, bijvoorbeeld info@ of vrijwilligers@. In EventVOX zie je de
 nieuwste berichten, krijg je desgewenst een melding bij nieuwe mail, en open je de mailbox met één klik in de webmail,

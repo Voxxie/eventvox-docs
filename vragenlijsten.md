@@ -18,7 +18,7 @@ Gegevens vragen aan deelnemers of vrijwilligers: noodnummers, allergieën, maten
 ## Een vragenlijst maken
 
 {: .rechten }
-**Rechten:** `surveys:read`{: .recht } om ze te zien; `surveys:create`{: .recht } `surveys:update`{: .recht } om ze te maken en te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** `surveys:read`{: .recht } om ze te zien; `surveys:create`{: .recht } `surveys:update`{: .recht } `surveys:delete`{: .recht } om ze te maken, te wijzigen en te verwijderen; `survey_sensitive:update`{: .recht } om een vraag gevoelig te maken of een gevoelige vraag te wijzigen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Ga naar **Evenementen → Vragenlijsten** en klik op **Nieuwe vragenlijst**. Een nieuwe vragenlijst begint als
 **concept**: nog niemand ziet hem.
@@ -75,7 +75,7 @@ Klik op **Publiceren** als alles klaar is.
 ## Resultaten
 
 {: .rechten }
-**Rechten:** `survey_answers:read`{: .recht } voor de antwoorden; `survey_sensitive:read`{: .recht } ook voor antwoorden op gevoelige vragen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** `survey_answers:read`{: .recht } voor de antwoorden; `survey_answers:update`{: .recht } om ze voor iemand in te vullen; `survey_sensitive:read`{: .recht } en `survey_sensitive:update`{: .recht } hetzelfde voor gevoelige vragen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Klik op **Resultaten** voor:
 

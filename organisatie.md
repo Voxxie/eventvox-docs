@@ -82,7 +82,7 @@ Een paar rechten om te kennen:
 
 ## Rechten per menu-item
 
-Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten kunt. Een recht staat hier als
+Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten kunt (zoals de backend het controleert). Een recht staat hier als
 `onderdeel:actie`{: .recht }; in het rollenscherm is dat de rij van het onderdeel en de kolom van de actie, bijvoorbeeld
 `events:create`{: .recht } is *Evenementen* × *aanmaken*. Een menu-item staat er bovendien alleen als de module aan staat.
 
@@ -96,22 +96,22 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Events → Deelnemers | `tickets:read`{: .recht } | `users:update`{: .recht } `tickets:update`{: .recht } `tags:create`{: .recht } |
 | Events → Abonnementen | `subscriptions:read`{: .recht } | `subscriptions:create`{: .recht } `subscriptions:update`{: .recht } `subscriptions:delete`{: .recht } |
 | Events → Tickets | `tickets:read`{: .recht } | `tickets:update`{: .recht } |
-| Events → Vragenlijsten | `surveys:read`{: .recht } | `surveys:create`{: .recht } `surveys:update`{: .recht }; antwoorden: `survey_answers:read`{: .recht }, gevoelige: `survey_sensitive:read`{: .recht } |
+| Events → Vragenlijsten | `surveys:read`{: .recht } | `surveys:create`{: .recht } `surveys:update`{: .recht } `surveys:delete`{: .recht }; antwoorden: `survey_answers:read`{: .recht } `survey_answers:update`{: .recht }; gevoelige vragen: `survey_sensitive:read`{: .recht } `survey_sensitive:update`{: .recht } |
 | Toegang → Checkpoints | `checkpoints:read`{: .recht } | `checkpoints:create`{: .recht } `checkpoints:update`{: .recht } `checkpoints:delete`{: .recht } |
 | Toegang → Tags | `tags:read`{: .recht } | `tags:create`{: .recht } `tags:update`{: .recht } `tags:delete`{: .recht } |
 | Toegang → Terminals | `terminals:read`{: .recht } | `terminals:create`{: .recht } `terminals:update`{: .recht } `terminals:delete`{: .recht }; EHBO: `info_terminals:update`{: .recht } |
 | Verkoop → Bestellingen | `orders:read`{: .recht } | `orders:update`{: .recht } |
 | Verkoop → Producten | `products:read`{: .recht } | `products:create`{: .recht } `products:update`{: .recht } `products:delete`{: .recht } |
 | Verkoop → Productuitgifte | `products:read`{: .recht } | `products:update`{: .recht } uitgeven |
-| Verkoop → Webshop | `webshop:read`{: .recht } | `webshop:update`{: .recht }; betaalmethodes: `payment_settings:update`{: .recht } |
+| Verkoop → Webshop | `webshop:read`{: .recht } of `payment_settings:read`{: .recht } | `webshop:update`{: .recht }; betaalmethodes: `payment_settings:update`{: .recht } |
 | Verkoop → Bezoekersgedeelte | – | Iedereen |
 | Vrijwilligers → Vrijwilligers | `employees:read`{: .recht } | `employees:create`{: .recht } `employees:update`{: .recht } `employees:delete`{: .recht }; VOG: `vogs:read`{: .recht } `vogs:create`{: .recht } `vogs:update`{: .recht } `vogs:delete`{: .recht }; `roles:assign`{: .recht } |
 | Vrijwilligers → Aanmeldingen | `employees:read`{: .recht } | `employees:create`{: .recht } `roles:assign`{: .recht } aannemen |
 | Vrijwilligers → Roosters | `schedules:read`{: .recht } | `schedules:create`{: .recht } `schedules:update`{: .recht } `schedules:delete`{: .recht }; inplannen: `schedule_planning:read`{: .recht } `schedule_planning:update`{: .recht } |
-| Vrijwilligers → Checklists | – | Iedereen met de module (de checklists van je rollen); `checklists:create`{: .recht } |
+| Vrijwilligers → Checklists | – | Iedereen met de module (de checklists van je rollen); alle checklists: `checklists:read`{: .recht }; `checklists:create`{: .recht } `checklists:update`{: .recht } `checklists:delete`{: .recht } |
 | Pick-Up | `pickups:read`{: .recht } | `pickups:create`{: .recht } `pickups:update`{: .recht } `pickups:delete`{: .recht } |
 | Communicatie → Mailings | `mailings:read`{: .recht } of `mailing_sends:read`{: .recht } | `mailings:create`{: .recht } `mailings:update`{: .recht } `mailings:delete`{: .recht }; versturen: `mailing_sends:create`{: .recht } |
-| Communicatie → Mailboxen | – | Iedereen met de module (de mailboxen van je rollen); `mailboxes:create`{: .recht } `mailboxes:delete`{: .recht } |
+| Communicatie → Mailboxen | – | Iedereen met de module (de mailboxen van je rollen); alle mailboxen: `mailboxes:read`{: .recht }; `mailboxes:create`{: .recht } `mailboxes:update`{: .recht } `mailboxes:delete`{: .recht } |
 | Communicatie → Nieuws | `news:read`{: .recht } | `news:create`{: .recht } `news:update`{: .recht } `news:delete`{: .recht } |
 | Communicatie → Notificaties | `notification_templates:read`{: .recht } | `notification_templates:update`{: .recht } |
 | Sponsoring → Sponsoren | `sponsors:read`{: .recht } | `sponsors:create`{: .recht } `sponsors:update`{: .recht } `sponsors:delete`{: .recht } |
@@ -124,9 +124,10 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Organisatie → Gebruikers | `users:read`{: .recht } | `users:create`{: .recht } `users:update`{: .recht } `users:delete`{: .recht }; rollen: `roles:assign`{: .recht } `roles:revoke`{: .recht } |
 | Organisatie → Rollen | `roles:read`{: .recht } | `roles:create`{: .recht } `roles:update`{: .recht } `roles:delete`{: .recht } |
 | Organisatie → Tijdelijke rechten | – | Wie een rol tijdelijk mag activeren |
-| Organisatie → API-tokens | `api_tokens:create`{: .recht } of `api_tokens:manage`{: .recht } | `api_tokens:manage`{: .recht } applicatie-accounts |
+| Organisatie → API-tokens | `api_tokens:create`{: .recht } of `api_tokens:manage`{: .recht } | `api_tokens:manage`{: .recht }: applicatie-accounts en alle tokens van de organisatie |
 | Organisatie → Telefoonboek | `users:read`{: .recht } | `users:update`{: .recht } |
 | Organisatie → Logboek | `logs:read`{: .recht } | – |
+| Platform → Tenants | – | Iedereen (je eigen organisaties); logo: `tenants:update`{: .recht } |
 
 ## Tijdelijke rechten
 
@@ -141,7 +142,7 @@ actief is, staat er bovenaan een balk met **Nu beëindigen**.
 ## API-tokens
 
 {: .rechten }
-**Rechten:** `api_tokens:create`{: .recht } voor je eigen tokens; `api_tokens:manage`{: .recht } ook voor applicatie-accounts. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** `api_tokens:create`{: .recht } voor je eigen tokens; `api_tokens:manage`{: .recht } ook voor applicatie-accounts en alle tokens van de organisatie. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Met **Organisatie → API-tokens** koppel je andere software aan EventVOX, zoals een eigen app, een script of een
 AI-assistent.
@@ -203,12 +204,15 @@ token voor de andere telefoons.
 
 ## Logo
 
+{: .rechten }
+**Rechten:** `tenants:update`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
 Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, rechtsboven op de tickets
 (PDF), en in de beheeromgeving bij de tenantkeuze.
 
 Ga naar **Tenants**, klik bij je organisatie op **Bewerken** en kies bij **Logo** een bestand: PNG (het liefst met
 een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Een nieuw logo vervangt het oude; met
-**Logo verwijderen** haal je het weg. Hiervoor heb je het recht **Tenants: wijzigen** nodig.
+**Logo verwijderen** haal je het weg.
 
 ![Logo]({{ '/assets/images/tenant-logo.png' | relative_url }})
 
