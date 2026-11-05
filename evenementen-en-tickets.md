@@ -67,6 +67,8 @@ ze op de eventpagina, in de kaart **Tickets**. Klik op **Nieuw tickettype**.
 | **Rollen** | Alleen accounts met deze rol kunnen het type kopen (bijvoorbeeld "Leden"). Geen rollen = iedereen. |
 | **Alleen geldig bij checkpoints** | Vink checkpoints aan als het ticket alleen daar mag worden gescand, bijvoorbeeld een parkeerkaart alleen bij "Parkeren". Niets aangevinkt = overal geldig. |
 | **Groepsticket** | Het type wordt per groep verkocht (bijv. een tafel voor 8). Elk groepslid krijgt een eigen ticket. |
+| **Leeftijd** | Minimale en/of maximale leeftijd van de deelnemer, op de eerste geldige dag van het ticket (zonder geldigheid: de start van het event). Kies wat er gebeurt als de leeftijd niet klopt: een **harde eis** (niet te bestellen; de deelnemer moet dan ook een geboortedatum hebben), **alleen een waarschuwing**, of **zoals ingesteld bij de webshop**. Leeg = geen grens. |
+| **Foto in de webshop** | Een foto (JPEG, PNG of WebP) die klein bij het tickettype in de webshop staat en met een klik groot wordt. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
 
 Met de module **Abonnementen** zijn er nog drie opties: een *abonnementsticket* (geeft geen toegang bij de
 checkpoints), *Geeft abonnement* (een geldig ticket maakt de deelnemer lid) en *Alleen voor leden van* (alleen te koop
@@ -88,7 +90,7 @@ de eventpagina op **Uitgeven**.
 4. Bevestig. Er komt één bestelling met alle tickets.
 
 {: .info }
-Bij uitgeven gelden de verkoopperiode, de rollen en het maximum per gebruiker niet. De capaciteit wel.
+Bij uitgeven gelden de verkoopperiode, de rollen, de leeftijd en het maximum per gebruiker niet. De capaciteit wel.
 
 ## Tickets bekijken
 

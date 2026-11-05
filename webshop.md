@@ -26,6 +26,21 @@ ticket niet gescand of verlopen is.
 
 ![De webshop voor bezoekers]({{ '/assets/images/shop-buy.png' | relative_url }})
 
+Bij het kopen:
+
+- Heeft een tickettype een **foto**, dan staat die klein bij het ticket; met een klik wordt hij groot.
+- Heeft een tickettype een **leeftijdsgrens**, dan staat die erbij ("12–17 jaar"). Bij het kiezen van de deelnemers
+  rekent de webshop de leeftijd uit. Is de leeftijd een harde eis, dan kan een deelnemer die te jong of te oud is (of
+  geen geboortedatum heeft) niet gekozen worden; met **Geboortedatum invullen** vult de koper die meteen in. Is het
+  alleen een waarschuwing, dan kan het wel, met een melding erbij.
+- Bij weinig tickets of producten staat er **Nog … beschikbaar**. Is iets inmiddels uitverkocht als de koper op
+  **Bestellen** klikt, dan haalt de webshop het uit het mandje (bij een product: het aantal gaat omlaag naar wat er nog
+  is), zegt welk ticket of product het was en laat de rest staan.
+- Een **abonnementsticket** is geen toegangsbewijs: het staat niet bij **Mijn tickets** en heeft geen QR-code of PDF.
+  Het abonnement zelf staat bij de abonnementen van de koper, en op de bestelling als *Abonnement*.
+- Moet de koper iets **afhalen** (of betalen bij afhalen), dan staat er op de bestelling een **QR-code**. Die laat de
+  koper zien bij de [productuitgifte](#productuitgifte).
+
 Je opent de webshop zoals bezoekers hem zien via **Verkoop → Bezoekersgedeelte**. Die opent in een nieuw tabblad.
 
 ## De webshop instellen
@@ -40,7 +55,9 @@ Ga naar **Verkoop → Webshop**.
 | **Titel** en **Welkomsttekst** | Bovenaan de webshop. |
 | **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVOX, met de naam van je organisatie als afzender. |
 | **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
-| **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets vasthoudt, en apart bij *betalen bij afhalen*. |
+| **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets (en producten) vasthoudt, en apart bij *betalen bij afhalen*. Daarna vervalt de bestelling en komen ze weer vrij. |
+| **Bij online betalen** | Hoe lang (in minuten, standaard 30) een bestelling vastgehouden wordt vanaf het moment dat de koper online gaat betalen; nooit langer dan *Tickets vasthouden*. Wie bij de betaalpagina afhaakt, geeft de tickets zo snel weer vrij voor anderen. Alleen als online betalen kan. |
+| **Leeftijd** | Wat er gebeurt als de leeftijd van een deelnemer niet past bij een tickettype met een leeftijdsgrens: een **harde eis** (niet te bestellen, ook niet zonder geboortedatum) of **alleen een waarschuwing**. Per tickettype kun je hiervan afwijken. |
 | **Administratiekosten** | Een vast bedrag per bestelling (maximaal € 25), alleen als er een ticket in zit dat geld kost. Niet bij gratis bestellingen, bestellingen met alleen producten of verkoop aan de [kassa]({{ '/deelnemers-en-bestellingen/#kassa' | relative_url }}). 0: geen kosten. |
 | **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
 | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
@@ -68,6 +85,10 @@ je het **websiteprofiel**. Een nieuwe koppeling begint in **testmodus**: dan zie
 webshop. Zet de testmodus uit als je echt geld wilt ontvangen.
 
 {: .let_op }
+Zet bij Mollie geen trage betaalmethodes aan, zoals **bankoverschrijving**. Zo'n betaling komt pas na dagen binnen,
+terwijl de bestelling na de tijd bij *Bij online betalen* al vervallen is. Dat geld moet je dan terugbetalen.
+
+{: .let_op }
 Betaalmethodes wijzigen vraagt naast het recht op de webshop ook het recht **Betaalinstellingen**. Iedereen met dat
 recht krijgt een mail bij elke wijziging.
 
@@ -81,12 +102,24 @@ Producten**.
 Per product stel je de naam, omschrijving, prijs, **voorraad**, **max. per bestelling** en de verkoopperiode in, en of
 het **te koop in de webshop** is. Vink **Af te halen** aan als de koper het product ergens ophaalt.
 
-### Afhalen
+### Productuitgifte
 
-**Verkoop → Afhalen** toont de betaalde bestellingen met producten die nog opgehaald moeten worden. Zoek de koper op
-naam of e-mailadres en klik **Afgeven**. Op de bestelpagina kun je ook per stuk afgeven of dat terugdraaien.
+**Verkoop → Productuitgifte** toont de betaalde bestellingen met producten die nog opgehaald moeten worden, met het
+bestelnummer. Zoek de koper op naam of e-mailadres en klik **Afgeven**. Je kiest dan per product hoeveel je nu afgeeft
+(standaard alles); de rest blijft openstaan voor later.
 
-![Afhalen]({{ '/assets/images/product-pickups.png' | relative_url }})
+![Productuitgifte]({{ '/assets/images/product-pickups.png' | relative_url }})
+
+**Scannen:** de koper laat de **QR-code** van de bestelling zien (in de webshop, bij de bestelling). Scan die met een
+handscanner in de **zoekbalk bovenin**: je komt meteen op de bestelpagina.
+
+Op de **bestelpagina** zie je per product hoeveel er is afgegeven ("2 van 3 afgegeven"), met de knoppen **1 afgeven** en
+**Alle … afgeven** (bij meer producten ook **Alles afgeven**). Onder elk product staat wanneer en door wie het is
+afgegeven, met **Terugdraaien** als het per ongeluk was.
+
+{: .info }
+Een bestelling met *betalen bij afhalen* zet je eerst op betaald (**Markeer als betaald**); daarna kun je de producten
+afgeven.
 
 ## Abonnementen
 
@@ -104,7 +137,7 @@ Abonnementen** en maak een abonnement aan (bijvoorbeeld "Vrienden van de stichti
 
 Een abonnement verkopen in de webshop doe je met een tickettype: maak bij een event een tickettype en zet bij
 **Abonnement** *Abonnementsticket* aan, met bij *Geeft abonnement* het plan. Een betaald ticket maakt de deelnemer dan
-lid.
+lid. In de webshop is zo'n ticket geen toegangsbewijs: de koper ziet het abonnement, geen ticket met QR-code of PDF.
 
 {: .tip }
 Korting voor leden? Maak twee tickettypes: een normale en een met *Alleen voor leden van*. Leden zien dan het

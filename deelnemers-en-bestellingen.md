@@ -62,7 +62,8 @@ tickets en scans tonen** zie je alles.
 
 **Verkoop → Bestellingen** toont alle bestellingen: uit de webshop, van de [kassa](#kassa) en uitgegeven door de
 organisatie. Filter op
-**status** (wacht op betaling, betaald, geannuleerd, verlopen) en **betaalmethode**.
+**status** (wacht op betaling, betaald, geannuleerd, verlopen), **betaalmethode** en **inhoud** (met tickets of met
+producten). De lijst toont per bestelling het aantal tickets en producten.
 
 ![Bestellingen]({{ '/assets/images/orders.png' | relative_url }})
 
@@ -72,7 +73,8 @@ Open een bestelling voor de details:
 
 - de **koper**, het totaal en de bron (webshop, kassa of uitgegeven);
 - de **betalingen** (handmatig of online, met de status);
-- de **tickets** en producten, met de PDF van de hele bestelling;
+- de **tickets** en producten, met de PDF van de hele bestelling; af te halen producten geef je hier ook af (zie
+  [Productuitgifte]({{ '/webshop/#productuitgifte' | relative_url }}));
 - **Markeer als betaald** (bij een bestelling die wacht, bijvoorbeeld een overboeking die binnen is) en
   **Annuleren**.
 

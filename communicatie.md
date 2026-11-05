@@ -26,6 +26,9 @@ Ga naar **Communicatie → Mailboxen**.
 ![Mailboxen]({{ '/assets/images/mailboxes.png' | relative_url }})
 
 - **Openen** opent de mailbox in de webmail.
+- Het **sterretje** naast Openen zet de webmail van die mailbox bij je
+  [favorieten]({{ '/aan-de-slag/#favorieten' | relative_url }}). Klik je daar in het menu op, dan opent de webmail
+  meteen in een nieuw tabblad.
 - **Melding bij nieuwe mail**: een pushmelding als er mail binnenkomt (voor jezelf, per mailbox).
 - Op de pagina van een mailbox: de laatste 10 berichten, **Vernieuwen**, en met het juiste recht **Instellen**:
   servers, inlog, wachtwoord, **wie de mailbox gebruiken** (rollen) en **Verbinding testen**.
