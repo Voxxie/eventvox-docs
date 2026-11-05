@@ -69,7 +69,8 @@ bolletje en springt de pagina ernaartoe. De koppelingen met betaalproviders word
 | Tabblad | Instelling | Uitleg |
 |:--------|:-----------|:-------|
 | Algemeen | **Webshop staat aan** | Uit = bezoekers zien een melding dat de webshop gesloten is. |
-| Algemeen | **Titel** en **Welkomsttekst** | Bovenaan de webshop. |
+| Algemeen | **Titel** | Bovenaan de webshop. |
+| Algemeen | **Welkomsttekst voor bezoekers** en **Welkomsttekst na het inloggen** | Op de startpagina: de eerste voor wie nog niet is ingelogd, de tweede voor ingelogde kopers. Met de editor maak je opmaak, koppen, lijsten, links en afbeeldingen (zoals bij Nieuws). Is de tekst voor bezoekers leeg, dan zien zij de andere. De teksten uit EventVOX 1 zijn overgenomen. |
 | Algemeen | **Mails versturen vanaf** | De mailbox waarvandaan bevestigingen en tickets verstuurd worden. Geen eigen mailbox: de mails komen van EventVOX, met de naam van je organisatie als afzender. |
 | Algemeen | **Nieuwe kopers kunnen zelf een account aanmaken** | Uit = alleen bestaande accounts kunnen kopen. |
 | Bestellen | **Tickets vasthouden** | Hoe lang een onbetaalde bestelling de tickets (en producten) vasthoudt, en apart bij *betalen bij afhalen*. Daarna vervalt de bestelling en komen ze weer vrij. |
