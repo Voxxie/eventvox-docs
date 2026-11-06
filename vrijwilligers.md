@@ -86,6 +86,10 @@ De link naar de aanmeldpagina vind je bij **Webshop → Delen**, onder *Vrijwill
 Kopiëren en Openen) en de **code om de pagina in te sluiten** op je eigen website (een iframe). Zet de link op je
 website, in een nieuwsbrief of op social media.
 
+{: .info }
+Plak de hele insluitcode, ook het stukje `<script>`: dan groeit de pagina mee met de inhoud. Staat je website geen
+scripts toe (sommige websitebouwers), dan werkt het ook, maar heeft de pagina een vaste hoogte met een eigen scrollbalk.
+
 Wie de pagina opent zonder in te loggen, ziet je **tekst bij het aanmelden** (in te stellen bij **Webshop → Extra**) met
 de knoppen **Inloggen** en **Account aanmaken**. Na het inloggen, of na het bevestigen van een nieuw account, komt de
 bezoeker vanzelf terug op de aanmeldpagina en kan zich daar aanmelden.

@@ -84,7 +84,13 @@ bolletje en springt de pagina ernaartoe. De koppelingen met betaalproviders word
 | Extra | **Aanmelden als vrijwilliger via de webshop** | Bezoekers kunnen zich aanmelden als vrijwilliger, met een eigen tekst. Je keurt ze goed bij [Aanmeldingen]({{ '/vrijwilligers/#aanmeldingen' | relative_url }}). |
 | Extra | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
 
-Op het tabblad **Delen** staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe).
+Op het tabblad **Delen** staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe
+met een klein script). Plak de hele code op je site: dan wordt de webshop precies zo hoog als nodig, zonder eigen
+scrollbalk, en scrolt je pagina naar het begin van de webshop als een bezoeker naar een andere pagina gaat.
+
+{: .let_op }
+Heb je de webshop al eerder ingesloten? Plak dan de nieuwe code, anders blijft hij een vaste hoogte houden. Staat je
+website geen scripts toe, dan werkt de webshop ook, maar met een vaste hoogte en een eigen scrollbalk.
 Met de module Vrijwilligers staan daar ook het adres en de insluitcode van de **aanmeldpagina voor vrijwilligers**; zie
 [De aanmeldpagina delen]({{ '/vrijwilligers/#de-aanmeldpagina-delen' | relative_url }}).
 
