@@ -117,7 +117,7 @@ kraam. De bestelling is meteen betaald, contant of met pin.
 De verkoop staat daarna als gewone, betaalde bestelling bij **Bestellingen**, met als bron *Kassa*.
 
 {: .info }
-De kassa is een [module]({{ '/#modules' | relative_url }}): neem contact op met EventVOX om de module *Kassa* aan te
+De kassa is een [module]({{ '/#modules' | relative_url }}): [neem contact met ons op]({{ '/contact/' | relative_url }}) om de module *Kassa* aan te
 zetten. Geef de
 mensen achter de kassa een rol met het recht **Kassa: aanmaken**.
 

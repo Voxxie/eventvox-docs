@@ -192,7 +192,7 @@ ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de 
 
 ![AI-koppeling]({{ '/assets/images/mcp.png' | relative_url }})
 
-- De koppeling is een **module**: neem contact op met EventVOX om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
+- De koppeling is een **module**: [neem contact met ons op]({{ '/contact/' | relative_url }}) om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
   **Organisatie → API-tokens** een kaart met het adres en hoe je de assistent koppelt.
 - Maak een token met **alleen lezen**: kies bij de rechten **Alles lezen**, of alleen de onderdelen die nodig zijn. Een
   token met andere rechten werkt niet voor de koppeling. Zulke tokens krijgen het label **MCP**. Gebruik het liefst een

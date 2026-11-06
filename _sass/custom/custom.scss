@@ -263,3 +263,10 @@ p.rechten {
     }
   }
 }
+
+// The help line at the bottom of every page (_includes/footer_custom.html)
+.evx-help-footer {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  color: $evx-muted;
+}

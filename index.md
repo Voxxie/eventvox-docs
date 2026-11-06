@@ -41,12 +41,13 @@ tenant.
 | cijfers bekijken en exporteren                  | [Rapportages]({{ '/rapportages/' | relative_url }})        |
 | gebruikers en rechten beheren                   | [Organisatie]({{ '/organisatie/' | relative_url }})        |
 | andere software koppelen via de API             | [API-tokens en API-documentatie]({{ '/organisatie/#api-tokens' | relative_url }}) |
+| een vraag stellen of hulp krijgen               | [Contact]({{ '/contact/' | relative_url }})                |
 
 ## Modules
 
 Niet elke organisatie gebruikt alles. EventVOX werkt met **modules** (Tickets, Webshop, Vrijwilligers, Roosters,
 Pick-Up, Mailings, Sponsoren, Kassa, enz.). Staat een module niet aan, dan zie je die onderdelen niet in het menu. Wil je een
-module erbij? Neem contact op met EventVOX.
+module erbij? [Neem contact met ons op]({{ '/contact/' | relative_url }}).
 
 ## Rechten
 
@@ -55,6 +56,12 @@ waarschijnlijk het recht niet. Een beheerder van jouw organisatie kan dat aanpas
 [Rollen]({{ '/organisatie/#rollen' | relative_url }}).
 Onder elk onderdeel van deze handleiding staat welke rechten je ervoor nodig hebt, zoals `events:create`{: .recht };
 het hele overzicht staat bij [Rechten per menu-item]({{ '/organisatie/#rechten-per-menu-item' | relative_url }}).
+
+## Nog geen EventVOX voor je organisatie?
+
+Meld je vereniging of stichting aan via het aanmeldformulier op
+[eventvox.nl](https://eventvox.nl/welkom/#aanmelden){:target="_blank"}. Hoe dat gaat, staat bij
+[Contact]({{ '/contact/#nog-geen-eventvox-voor-je-organisatie' | relative_url }}).
 
 {: .info }
 De schermafbeeldingen in deze handleiding komen uit een verzonnen demo-organisatie, "Stichting Vlietdorp

@@ -32,8 +32,9 @@ Ga naar **Evenementen → Events**. Je ziet alle events van je organisatie, met 
    - **Gepubliceerd**: zichtbaar en in gebruik;
    - **Geannuleerd**: het event gaat niet door.
 3. Vul de **beschrijving**, **start**, **einde** en **locatie** in.
-4. Optioneel: een **afbeelding** (een internetadres van een JPEG- of PNG-afbeelding). Die komt bovenaan het event en
-   op de tickets.
+4. Optioneel: een **afbeelding**. Klik op **Bestand kiezen** en kies een JPEG-, PNG- of WebP-bestand van je computer of
+   telefoon; het wordt automatisch verkleind. De afbeelding komt bovenaan het event, in de webshop en op de tickets.
+   Bij **Bewerken** kies je een nieuwe (die vervangt de oude) of vink je **Afbeelding verwijderen** aan.
 5. Klik op **Event aanmaken**.
 
 ![Nieuw event]({{ '/assets/images/event-new.png' | relative_url }})
