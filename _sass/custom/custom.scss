@@ -48,9 +48,9 @@ $evx-dark: $color-scheme == dark;
 $evx-brand: if($evx-dark, #c7b6bf, #57002e);
 $evx-surface: if($evx-dark, #182035, #fff);
 $evx-muted: if($evx-dark, #9aa4ba, #5a6478);
-$evx-pill-color: if($evx-dark, #ec9be3, #8a1180);
-$evx-pill-bg: if($evx-dark, rgba(167, 21, 155, 0.18), #f8e8f6);
-$evx-pill-border: if($evx-dark, rgba(224, 112, 212, 0.35), #ecc5e8);
+$evx-pill-color: if($evx-dark, #f5e6f3, #8a1180);
+$evx-pill-bg: if($evx-dark, rgba(167, 21, 155, 0.45), #f8e8f6);
+$evx-pill-border: if($evx-dark, rgba(167, 21, 155, 0.9), #ecc5e8);
 
 // Headings, the site title and buttons in Lexend, as on the landing page
 h1, h2, h3, h4, h5, h6,
@@ -251,4 +251,15 @@ p.rechten {
   font-size: 0.875em;
   color: $evx-muted;
   margin-top: -0.25em;
+}
+
+// Dark mode: links are light text (see eventvox-dark.scss) with an underline in EventVOX purple, so they stand out
+@if $evx-dark {
+  a:not([class]) {
+    text-decoration-color: #a7159b;
+    text-decoration-thickness: 2px;
+    &:hover {
+      text-decoration-color: #d64fca;
+    }
+  }
 }
