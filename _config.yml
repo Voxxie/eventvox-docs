@@ -40,6 +40,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  # Scripts to rebuild the screenshots (not part of the site)
+  - tools
 
 defaults:
   - scope:

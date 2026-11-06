@@ -1,0 +1,12 @@
+{
+  "name": "eventvox-docs-screenshots",
+  "private": true,
+  "description": "Demo organisation and screenshots for the EventVOX manual (see README.md)",
+  "scripts": {
+    "seed": "node seed.js",
+    "capture": "node capture.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}
