@@ -61,7 +61,7 @@ Ga naar **Verkoop → Webshop**. De instellingen staan in tabbladen:
 - **Betalen**: de betaalmethodes en de koppelingen met online betaalproviders;
 - **Bestellen**: hoe lang bestellingen tickets vasthouden, administratiekosten, gegevens van de koper en leeftijd;
 - **Extra**: vrijwilligers en abonnementen (alleen met die modules);
-- **Delen**: het adres van de webshop en de code om hem in te sluiten.
+- **Delen**: het adres van de webshop en de code om hem in te sluiten; met de module Vrijwilligers ook die van de aanmeldpagina voor vrijwilligers.
 
 Met **Opslaan** onderin bewaar je alle tabbladen in één keer; je kunt dus rustig tussen de tabbladen wisselen. Staat
 er nog iets niet opgeslagen, dan zie je dat naast de knop. Klopt er iets niet, dan krijgt het tabblad een rood
@@ -85,6 +85,8 @@ bolletje en springt de pagina ernaartoe. De koppelingen met betaalproviders word
 | Extra | **Naam (enkelvoud / meervoud)** | Hoe abonnementen in de webshop heten, bijvoorbeeld "Donateurschap" / "Donateurschappen". |
 
 Op het tabblad **Delen** staan het **adres van de webshop** en de code om hem **in te sluiten op je eigen site** (een iframe).
+Met de module Vrijwilligers staan daar ook het adres en de insluitcode van de **aanmeldpagina voor vrijwilligers**; zie
+[De aanmeldpagina delen]({{ '/vrijwilligers/#de-aanmeldpagina-delen' | relative_url }}).
 
 {: .info }
 De koper ziet de administratiekosten in het winkelmandje ("incl. € … administratiekosten"), bij de bestelling en in de

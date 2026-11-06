@@ -22,7 +22,8 @@ organisatie het heeft ingesteld, kun je ook inloggen met:
 
 - **een passkey**: inloggen met je vingerafdruk, gezicht of pincode van je apparaat, zonder wachtwoord;
 - **Google** of **Apple**: met je Google-account of je Apple ID;
-- **een inloglink per mail**: vul je e-mailadres in en klik op de link in de mail.
+- **een link per e-mail**: vul je e-mailadres in en klik op de knop **Inloggen met een link per e-mail**. Je krijgt een
+  mail met een knop waarmee je meteen bent ingelogd, zonder wachtwoord. De link werkt een kwartier en één keer.
 
 Heb je je telefoon gekoppeld voor meldingen (zie [Meldingen en de app](#meldingen-en-de-app)), dan vraagt EventVOX bij
 inloggen met een wachtwoord om goedkeuring op je telefoon. Het inlogscherm toont een getal; tik op je telefoon

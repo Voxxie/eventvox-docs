@@ -80,6 +80,20 @@ hun VOG binnenkort verloopt of als ze een VOG nodig hebben.
 Staat *Aanmelden als vrijwilliger* aan in de [webshop]({{ '/webshop/' | relative_url }}), dan kunnen bezoekers zich
 daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen bij **Vrijwilligers → Aanmeldingen**.
 
+### De aanmeldpagina delen
+
+De link naar de aanmeldpagina vind je bij **Webshop → Delen**, onder *Vrijwilliger worden*: het **adres** (met
+Kopiëren en Openen) en de **code om de pagina in te sluiten** op je eigen website (een iframe). Zet de link op je
+website, in een nieuwsbrief of op social media.
+
+Wie de pagina opent zonder in te loggen, ziet je **tekst bij het aanmelden** (in te stellen bij **Webshop → Extra**) met
+de knoppen **Inloggen** en **Account aanmaken**. Na het inloggen, of na het bevestigen van een nieuw account, komt de
+bezoeker vanzelf terug op de aanmeldpagina en kan zich daar aanmelden.
+
+{: .tip }
+Zet in de tekst bij het aanmelden wat je zoekt en wat je biedt, bijvoorbeeld "We zoeken nog mensen voor de bar en
+de opbouw. Je krijgt een vrijwilligersshirt en eten tijdens je dienst."
+
 ![Aanmeldingen]({{ '/assets/images/employee-applications.png' | relative_url }})
 
 - **Aannemen** maakt het account vrijwilliger (voor dit jaar), met de rol voor vrijwilligers en eventueel een extra rol.
