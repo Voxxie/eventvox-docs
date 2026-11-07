@@ -15,6 +15,11 @@ Vrijwilligers bijhouden: hun jaren, VOG's en aanmeldingen.
 
 ---
 
+{: .info }
+De VOG is een eigen module: een organisatie zonder VOG's kan de vrijwilligers gebruiken zonder VOG-velden, -filters
+en -herinneringen. Staat de module VOG uit, dan zie je de VOG-onderdelen op deze pagina niet.
+[Neem contact met ons op]({{ '/contact/' | relative_url }}) om hem aan of uit te zetten.
+
 ## De lijst met vrijwilligers
 
 {: .rechten }
