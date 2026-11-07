@@ -32,6 +32,9 @@ tickets heeft.
 - Kies een **event** om alleen de deelnemers van dat event te zien, met hun **aanwezigheid** en tellers per
   aanwezigheid. Een klik op een teller filtert erop.
 - Kies daarnaast een **tickettype** om alleen dat type mee te tellen.
+- Met **Sinds** en **Tot** filter je op wanneer de aanwezigheid het laatst veranderde (een scan, of met de hand).
+  Bijvoorbeeld *Afwezig* sinds 22:00, of *Aanwezig* tot 12:00: wie er al sinds de ochtend is. *Aanwezigheid wijzigen*
+  voor de hele lijst gebruikt dezelfde filters.
 
 ### Aanwezigheid in één keer wijzigen
 
