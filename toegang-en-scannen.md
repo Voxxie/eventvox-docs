@@ -34,6 +34,7 @@ Klik op **Nieuw checkpoint** en stel in:
 | **Max per dag / Waarschuwing per dag** | Dezelfde grenzen, maar per kalenderdag. |
 | **Minuten vóór het begin / na het einde** | Hoeveel eerder dan de geldigheid (en hoeveel later) een ticket al of nog wordt toegelaten. Leeg = de standaardmarges van je organisatie, die je bovenaan de lijst wijzigt. |
 | **Aanwezigheid** | Of een geslaagde scan de deelnemer op *Aanwezig* of *Afwezig* zet (een ingang en een uitgang), of niets doet. |
+| **Pas weer binnen na afwezig** | Alleen bij *Aanwezig*. Wie al aanwezig is, wordt geweigerd met "Al binnen", tot hij bij een uitgang of met de hand op *Afwezig* is gezet. Zo is niemand twee keer binnen. Een dubbele scan vlak na elkaar blijft gewoon "Al gescand". |
 | **Aantal dagen** | Voor evenementen over meerdere dagen, zoals een wandelvierdaagse: zie hieronder. |
 | **Actief (er kan gescand worden)** | Een checkpoint dat uit staat, kun je niet kiezen bij het scannen. |
 
@@ -83,7 +84,8 @@ Onder de camera staat een balk met de verbinding en drie knoppen:
 
 - **Camera** aan/uit (met een zaklamp op telefoons die dat kunnen);
 - **Vergrootglas**: zoeken op ticketcode, naam of e-mailadres. Bij een naam kies je daarna het ticket dat je wilt
-  scannen;
+  scannen. Elk resultaat zegt of het ticket hier nu geldig is (groen *Geldig*), of waarom niet (*Verlopen*,
+  *Nog niet geldig vanaf …*, *Niet voor dit checkpoint*, *Al binnen*); de geldige staan bovenaan;
 - **Tandwiel**: instellingen, zoals een ander checkpoint, een andere camera en geluid aan/uit.
 
 {: .tip }
@@ -104,7 +106,8 @@ ingangen tegelijk naar binnen. Achteraf zie je dat terug in de scans van het che
 ### Vragen bij het ticket
 
 Heeft een [vragenlijst]({{ '/vragenlijsten/' | relative_url }}) een vraag met *Tonen op het scherm bij het scannen*,
-dan staat het antwoord onder het resultaat, bijvoorbeeld een allergie of "mag alleen met begeleiding naar huis".
+dan staat het antwoord onder het resultaat, bijvoorbeeld een allergie of "mag alleen met begeleiding naar huis". Dat
+geldt ook voor een terminal (gevoelige antwoorden niet).
 
 ## Tags
 
@@ -128,7 +131,12 @@ deelnemer.
 ### Tags beheren
 
 **Toegang → Tags** toont alle tags, met filters op status, "niet gebruikt sinds" en "gekoppeld vóór". Per tag kun je
-hem **intrekken** (werkt niet meer, blijft in de geschiedenis) of **verwijderen**. Met **Opruimen** trek je in één keer
+hem **verplaatsen**, **intrekken** (werkt niet meer, blijft in de geschiedenis) of **verwijderen**.
+
+**Verplaatsen** is voor een tag die aan de verkeerde deelnemer is gekoppeld: zoek de juiste deelnemer en kies
+*Verplaatsen*. De oude koppeling wordt ingetrokken (de scans blijven daarbij in de geschiedenis) en dezelfde tag werkt
+daarna voor de nieuwe deelnemer. Dat kan ook op de pagina van een deelnemer, en bij de uitgifte: scan je een tag die
+al aan iemand anders hangt, dan verschijnt de knop *Verplaatsen naar …* (de deelnemer van het gescande ticket). Met **Opruimen** trek je in één keer
 alle oude tags in of verwijder je ze, bijvoorbeeld na afloop van het seizoen.
 
 ![Tags]({{ '/assets/images/tags.png' | relative_url }})
@@ -159,7 +167,8 @@ ingang, of een gedeelde Zebra-handscanner. Ga naar **Toegang → Terminals**.
 | **EHBO (informatie)** | Scant geen toegang, maar toont de deelnemerskaart: naam, leeftijd, medische antwoorden en de telefoonnummers van ouders. Alleen te kiezen met het recht *EHBO-terminals*. |
 
 De lijst toont per terminal of hij online is, waar hij scant, wanneer hij gezien is, de scans van vandaag en de
-wachtrij. Op de pagina van een terminal wijzig je hem, of trek je hem in (het apparaat stopt meteen en wist zijn
+wachtrij, en bij een apparaat met een batterij (zoals een Zebra) het **batterijniveau** en of hij **oplaadt** (rood als
+hij bijna leeg is). Steek je de lader erin of eruit, dan zie je dat binnen een paar seconden. Op de pagina van een terminal wijzig je hem, of trek je hem in (het apparaat stopt meteen en wist zijn
 gegevens).
 
 Bij **Bericht op het scherm** zet je een tekst op het scherm van de terminal. Zonder eigen bericht toont hij het bericht voor de
