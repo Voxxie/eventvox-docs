@@ -79,6 +79,9 @@ ga je terug.
    - **rood**: geweigerd, met de reden (al gescand, niet geldig op dit moment, niet betaald, …).
 
    Je hoort ook een toon: een hoge piep (goed), twee piepjes (let op) of een lage zoem (fout).
+   De telefoon of terminal trilt ook, zodat je de uitslag voelt zonder te kijken: één korte tik (goed), twee korte
+   tikken (let op) of drie lange trillingen (fout). Een iPhone trilt niet vanuit de browser; daar heb je alleen de
+   kleur en de toon.
 
 ![Scannen]({{ '/assets/images/scan.png' | relative_url }})
 
