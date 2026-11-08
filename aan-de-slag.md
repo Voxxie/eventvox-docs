@@ -74,7 +74,6 @@ de lijst met precies die gevallen.
 | Producten af te geven | Betaalde bestellingen met producten die nog niet zijn afgegeven. |
 | Verplichte vragenlijsten | Deelnemers die een verplichte vragenlijst nog niet hebben ingevuld. |
 | Mislukte mailings | Mailings van de afgelopen 30 dagen met berichten die niet verstuurd konden worden. |
-| Terminals offline | Scanterminals die niet bereikbaar zijn terwijl er een event bezig is. |
 | Scans in de wachtrij | Scans die een terminal nog niet aan EventVOX heeft kunnen doorgeven. |
 
 ### Favorieten
