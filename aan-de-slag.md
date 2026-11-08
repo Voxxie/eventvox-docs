@@ -53,6 +53,8 @@ Het dashboard is je startpagina. Je ziet er:
   zijn. De kaart ververst zichzelf elke 30 seconden. Een klik op *Aanwezig*, *Afwezig* of *Nog niet gescand* opent de
   deelnemerslijst met dat filter;
 - **tegels met wat aandacht nodig heeft** (zie hieronder);
+- **Scans per uur vandaag**: per checkpoint een staafje per uur, met het drukste uur (zodra er vandaag gescand is, of
+  als er een event bezig is);
 - de **verkoop** van de komende events per dag, de **volgende Pick-Up ronde**, de **jubilarissen** van dit jaar en het
   aantal **nieuwe kopers** van de afgelopen week;
 - de **komende events**, met het aantal verkochte tickets;
@@ -110,6 +112,10 @@ Hier wijzig je:
 - je **passkeys**: toevoegen of verwijderen (vraagt je huidige wachtwoord);
 - **gekoppelde accounts**, zoals Google;
 - je **meldingen**: welke pushmeldingen je wilt krijgen.
+
+Onder **Waar je bent ingelogd** zie je je actieve sessies, en log je er een uit. Sessies die langer dan een dag niet zijn
+gebruikt (zonder *Ingelogd blijven*), bijvoorbeeld van een browser die je hebt gesloten, staan achter de schakelaar
+*Ook niet-actieve tonen*.
 
 ## Meldingen en de app
 
