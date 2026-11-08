@@ -59,6 +59,16 @@ plannen. Filter op **event**, **checkpoint** en **periode**; zonder event of per
 
 ![Scans]({{ '/assets/images/report-scans.png' | relative_url }})
 
+## Jaren vergelijken
+
+{: .rechten }
+**Rechten:** `scans:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
+Organiseer je een evenement ieder jaar, dan zet je hier de edities naast elkaar. Kies 2 tot 6 events (standaard het
+laatst gestarte event en de andere edities met dezelfde naam zonder jaartal) en eventueel één checkpoint. Je ziet de
+doorgangen per **dag van het evenement** (dag 1 is de startdatum, dus ook edities op andere data liggen gelijk) en per
+**uur van de dag**, met het aantal verschillende tickets erbij.
+
 ## Rol en abonnement
 
 {: .rechten }

@@ -25,7 +25,9 @@ Een **checkpoint** is een plek waar tickets gescand worden: de ingang, een uitga
 
 ![Checkpoints]({{ '/assets/images/checkpoints.png' | relative_url }})
 
-Klik op **Nieuw checkpoint** en stel in:
+Klik op **Nieuw checkpoint**. Naam, beschrijving en *Actief* staan bovenaan; de rest staat in blokken die je openklikt
+(Aantal doorgangen, Aanwezigheid, Marges, Scannen en scherm, Voortgang). Elk blok laat dichtgeklapt zien wat er is
+ingesteld. De instellingen:
 
 | Instelling | Uitleg |
 |:-----------|:-------|
@@ -90,7 +92,13 @@ Onder de camera staat een balk met de verbinding en drie knoppen:
 
 {: .tip }
 Een **handscanner** (een scanner die als toetsenbord werkt) werkt meteen: scan gewoon, ook zonder dat je ergens in
-klikt. Op Android met Chrome verschijnt er ook een **NFC**-knop om polsbandjes met een chip te lezen.
+klikt. Op Android met Chrome verschijnt er ook een **NFC**-knop om polsbandjes met een chip te lezen. Dezelfde chip
+telt binnen 2 seconden maar één keer, ook als hij tegelijk via NFC en via de scanner binnenkomt.
+
+- **Uitslag vasthouden**: tik op de uitslag en hij blijft staan ("Vastgezet"), zodat je alles rustig kunt lezen. Tik
+  nog een keer, of scan het volgende ticket, om door te gaan.
+- **Terugkijken**: tik op een regel bij *Laatste scans* en je ziet die uitslag opnieuw, compleet ("Eerdere scan, 14:32").
+  Er wordt niets opnieuw geteld.
 
 ### Zonder internet
 
@@ -117,6 +125,11 @@ geldt ook voor een terminal (gevoelige antwoorden niet).
 Een **tag** is iets dat een deelnemer krijgt en dat je scant in plaats van het ticket: een polsbandje met een chip
 (NFC), een keykoord met een QR-code. Een deelnemer kan meer tags hebben, en een tag geldt voor alle events van je
 organisatie. De QR-code op het ticket zelf blijft ook werken.
+
+{: .info }
+Sommige lezers geven maar een deel van het nummer van een chip (bijvoorbeeld de eerste 4 bytes). Dat werkt beide kanten
+op: een korte lezing vindt een tag die met een gewone lezer is gekoppeld, en een volledige lezing vindt een tag die met
+zo'n korte lezer is gekoppeld. Minstens 3 bytes, en alleen als er precies één tag past; anders is de tag onbekend.
 
 ### Tags uitgeven
 

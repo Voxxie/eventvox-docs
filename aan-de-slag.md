@@ -53,6 +53,8 @@ Het dashboard is je startpagina. Je ziet er:
   zijn. De kaart ververst zichzelf elke 30 seconden. Een klik op *Aanwezig*, *Afwezig* of *Nog niet gescand* opent de
   deelnemerslijst met dat filter;
 - **tegels met wat aandacht nodig heeft** (zie hieronder);
+- **Scans per uur vandaag**: per checkpoint een staafje per uur, met het drukste uur (zodra er vandaag gescand is, of
+  als er een event bezig is);
 - de **verkoop** van de komende events per dag, de **volgende Pick-Up ronde**, de **jubilarissen** van dit jaar en het
   aantal **nieuwe kopers** van de afgelopen week;
 - de **komende events**, met het aantal verkochte tickets;
@@ -72,7 +74,6 @@ de lijst met precies die gevallen.
 | Producten af te geven | Betaalde bestellingen met producten die nog niet zijn afgegeven. |
 | Verplichte vragenlijsten | Deelnemers die een verplichte vragenlijst nog niet hebben ingevuld. |
 | Mislukte mailings | Mailings van de afgelopen 30 dagen met berichten die niet verstuurd konden worden. |
-| Terminals offline | Scanterminals die niet bereikbaar zijn terwijl er een event bezig is. |
 | Scans in de wachtrij | Scans die een terminal nog niet aan EventVOX heeft kunnen doorgeven. |
 
 ### Favorieten
@@ -110,6 +111,10 @@ Hier wijzig je:
 - je **passkeys**: toevoegen of verwijderen (vraagt je huidige wachtwoord);
 - **gekoppelde accounts**, zoals Google;
 - je **meldingen**: welke pushmeldingen je wilt krijgen.
+
+Onder **Waar je bent ingelogd** zie je je actieve sessies, en log je er een uit. Sessies die langer dan een dag niet zijn
+gebruikt (zonder *Ingelogd blijven*), bijvoorbeeld van een browser die je hebt gesloten, staan achter de schakelaar
+*Ook niet-actieve tonen*.
 
 ## Meldingen en de app
 
