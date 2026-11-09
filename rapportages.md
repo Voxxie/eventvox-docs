@@ -59,7 +59,22 @@ plannen. Filter op **event**, **checkpoint** en **periode**; zonder event of per
 
 ![Scans]({{ '/assets/images/report-scans.png' | relative_url }})
 
-## Jaren vergelijken
+## Verkoop vergelijken
+
+{: .rechten }
+**Rechten:** `orders:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
+Hoe loopt de kaartverkoop ten opzichte van vorig jaar? Kies 1 tot 6 events (standaard het eerstvolgende event en de
+andere edities met dezelfde naam zonder jaartal) en kies **Week** of **Dag**. Je ziet per week of dag **voor de
+startdatum** hoeveel tickets er verkocht (betaald) zijn, dus ook edities op andere data liggen gelijk.
+
+- Bovenaan, als een van de events nog moet beginnen: hoeveel er nu verkocht is, en hoeveel de andere edities
+  hadden op hetzelfde aantal dagen voor hun start, met hoeveel procent meer of minder het nu is.
+- Een staafgrafiek met per editie een eigen kleur, en een tabel met per week of dag het aantal en het opgetelde
+  totaal. Verkoop op de dag zelf of later staat apart onder **Tijdens**, verkoop van langer geleden onder **Eerder**.
+- De tabel kun je downloaden als Excel.
+
+## Scans vergelijken
 
 {: .rechten }
 **Rechten:** `scans:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})

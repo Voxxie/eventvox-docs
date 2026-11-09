@@ -119,6 +119,8 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Rapportages → Verkoop | `orders:read`{: .recht } | – |
 | Rapportages → Activiteit | `logs:read`{: .recht } | – |
 | Rapportages → Scans | `scans:read`{: .recht } | – |
+| Rapportages → Verkoop vergelijken | `orders:read`{: .recht } | – |
+| Rapportages → Scans vergelijken | `scans:read`{: .recht } | – |
 | Rapportages → Rol en abonnement | `roles:read`{: .recht } en `subscriptions:read`{: .recht } | – |
 | Rapportages → Vrijwilligers | `employees:read`{: .recht } | – |
 | Organisatie → Gebruikers | `users:read`{: .recht } | `users:create`{: .recht } `users:update`{: .recht } `users:delete`{: .recht }; rollen: `roles:assign`{: .recht } `roles:revoke`{: .recht } |
