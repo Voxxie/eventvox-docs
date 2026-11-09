@@ -39,3 +39,14 @@ MSYS_NO_PATHCONV=1 wsl -e sh /mnt/c/Git/eventvox-v2/eventvox-docs/tools/screensh
   aan en is daarna geen lid meer.
 - Alles is fictief: namen, adressen en e-mailadressen op `@vlietdorp.example`. Er gaat geen mail de deur uit (de
   mailboxen wijzen naar een niet-bestaande server; er draait geen cron).
+
+## Op Linux (zonder WSL) en bekende valkuilen
+
+- `env.sh` werkt ook op gewoon Linux. Draai `capture.js` dan met Chromium in plaats van Edge, via
+  `EVX_BROWSER=<pad naar een scriptje>`. Dat scriptje zet `LANGUAGE=nl` (anders staan datumvelden en
+  bestandsknoppen in het Engels) en, als je als root draait, `--no-sandbox` voor Chromium.
+- Staat de database in een andere tijdzone dan PHP (`Europe/Amsterdam`), dan staan de terminals op "Offline". Zet
+  dan tijdens het maken `SET GLOBAL time_zone = '+01:00'` (winter) en daarna weer `'SYSTEM'`.
+- Loopt `schema.sql` van de backend achter op de migraties (een seed-fout "Unknown column"), maak de lege database
+  dan met `php src/migrate.php` in plaats van `env.sh reset-db`.
+
