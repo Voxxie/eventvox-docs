@@ -73,7 +73,8 @@ Klik op **Versturen** en kies wie hem krijgen:
 - de **sponsoren** van een jaar (eventueel per status en pakket), met het vinkje *dit is de sponsorbrief*.
 
 EventVOX telt de ontvangers vooraf en waarschuwt als een placeholder voor deze ontvangers leeg blijft (bijvoorbeeld
-`{event}` in een mailing aan een rol). Met **Versturen vanaf** plan je de verzending voor later.
+`{event}` in een mailing aan een rol). Met **Bekijk wie** zie je precies wie de mailing krijgt (naam en
+e-mailadres, met een zoekveld), en wie hem niet krijgt omdat er geen e-mailadres bekend is. Met **Versturen vanaf** plan je de verzending voor later.
 
 ### Wat er verstuurd is
 
