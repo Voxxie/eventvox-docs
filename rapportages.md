@@ -74,6 +74,9 @@ startdatum** hoeveel tickets er verkocht (betaald) zijn, dus ook edities op ande
   totaal. Verkoop op de dag zelf of later staat apart onder **Tijdens**, verkoop van langer geleden onder **Eerder**.
 - De tabel kun je downloaden als Excel.
 
+Bestellingen uit EventVOX 1 tellen mee op hun besteldatum (EventVOX 1 bewaarde niet wanneer er betaald is). Had een
+bestelling daar geen datum, dan telt hij alleen mee in het totaal, met de melding **zonder betaaldatum**.
+
 ## Scans vergelijken
 
 {: .rechten }
