@@ -88,8 +88,8 @@ ga je terug.
 Onder de camera staat een balk met de verbinding en drie knoppen:
 
 - **Camera** aan/uit (met een zaklamp op telefoons die dat kunnen);
-- **Vergrootglas**: zoeken op ticketcode, naam of e-mailadres. Bij een naam kies je daarna het ticket dat je wilt
-  scannen. Elk resultaat zegt of het ticket hier nu geldig is (groen *Geldig*), of waarom niet (*Verlopen*,
+- **Vergrootglas**: zoeken op ticketcode, naam of e-mailadres. Vanaf 3 tekens verschijnen de tickets vanzelf, je
+  hoeft niet op zoeken te drukken; kies het ticket dat je wilt scannen. Een ticketcode scan je met Enter. Elk resultaat zegt of het ticket hier nu geldig is (groen *Geldig*), of waarom niet (*Verlopen*,
   *Nog niet geldig vanaf …*, *Niet voor dit checkpoint*, *Al binnen*); de geldige staan bovenaan;
 - **Tandwiel**: instellingen, zoals een ander checkpoint, een andere camera en geluid aan/uit.
 
