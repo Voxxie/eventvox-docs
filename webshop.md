@@ -43,6 +43,9 @@ Bij het kopen:
   Het abonnement zelf staat bij de abonnementen van de koper, en op de bestelling als *Abonnement*.
 - Moet de koper iets **afhalen** (of betalen bij afhalen), dan staat er op de bestelling een **QR-code**. Die laat de
   koper zien bij de [productuitgifte](#productuitgifte).
+- Heeft de koper een bestelling die **nog niet betaald** is, dan staat die bovenaan het overzicht van de webshop: met
+  het bedrag, tot wanneer hij kan betalen en een knop **Betalen**. Een bestelling met *betalen bij afhalen* staat er
+  ook, zonder betaalknop.
 - Na **Bestellen** controleert de koper zijn **adres en telefoonnummers**. Wat hij wijzigt, komt ook op zijn account.
   De bestelling bewaart de gegevens zoals ze op dat moment zijn; wijzigt de koper ze later, dan blijft de bestelling
   ze houden. Wat verplicht is, stel je in bij **Gegevens van de koper** (zie hieronder).

@@ -68,8 +68,8 @@ Een checkpoint waar al gescand is, kun je niet verwijderen. Zet het uit.
 {: .rechten }
 **Rechten:** `scans:create`{: .recht }; `tags:create`{: .recht } om tags uit te geven. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
-Kies in het menu **Scannen** (direct onder Dashboard). Het scherm gebruikt de hele pagina; met het kruisje rechtsboven
-ga je terug.
+Kies in het menu **Scannen** (direct onder Dashboard). Op een telefoon of tablet gebruikt het scherm de hele pagina;
+met het kruisje rechtsboven ga je terug. Op een computer blijven de bovenbalk en het menu gewoon staan.
 
 1. Kies bij welk **checkpoint** je scant. Het checkpoint van de vorige keer staat bovenaan.
 2. Tik op de **camera**-knop en richt de camera op de QR-code van het ticket.
