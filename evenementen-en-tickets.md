@@ -35,7 +35,11 @@ Ga naar **Evenementen → Events**. Je ziet alle events van je organisatie, met 
 4. Optioneel: een **afbeelding**. Klik op **Bestand kiezen** en kies een JPEG-, PNG- of WebP-bestand van je computer of
    telefoon; het wordt automatisch verkleind. De afbeelding komt bovenaan het event, in de webshop en op de tickets.
    Bij **Bewerken** kies je een nieuwe (die vervangt de oude) of vink je **Afbeelding verwijderen** aan.
-5. Klik op **Event aanmaken**.
+5. **Op het dashboard tonen** staat standaard aan. Zet het uit voor een event dat het hele jaar doorloopt, bijvoorbeeld
+   één event voor alle abonnementen: dan staat het niet bij de events die nu bezig zijn, de komende events en de
+   verkoop op het dashboard. Het blijft gewoon in de webshop, bij het scannen en in de rapportages. Op de eventpagina
+   zie je dan **Niet op het dashboard** naast de naam.
+6. Klik op **Event aanmaken**.
 
 ![Nieuw event]({{ '/assets/images/event-new.png' | relative_url }})
 
