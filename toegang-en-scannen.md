@@ -190,7 +190,11 @@ gegevens).
 Bij **Bericht op het scherm** zet je een tekst op het scherm van de terminal. Zonder eigen bericht toont hij het bericht voor de
 scanschermen uit [Schermen]({{ '/sponsoring-en-schermen/#schermen' | relative_url }}).
 
-Meerdere terminals tegelijk aanpassen: vink in de lijst de terminals aan (of **Alles selecteren**) en kies
+Met de filters boven de lijst zoek je terminals op naam, op het checkpoint waar ze nu scannen, op soort of op status
+(online, offline, ingetrokken).
+
+Meerdere terminals tegelijk aanpassen: vink in de lijst de terminals aan (of **Alles selecteren**: alle terminals die het
+filter toont, bijvoorbeeld alle terminals bij één checkpoint) en kies
 **Checkpoint wijzigen** of **Bericht**. Bij een nieuw checkpoint staat **Ook toevoegen aan de checkpoints waar hij mag
 scannen** aan, zodat ook terminals die maar bij een paar checkpoints mogen scannen meegaan. EHBO-terminals worden
 overgeslagen. Laat je het bericht leeg, dan gaat het weg. De terminals nemen het binnen een minuut over.
