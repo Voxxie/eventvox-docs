@@ -62,6 +62,10 @@ Het dashboard is je startpagina. Je ziet er:
   doorgeven;
 - nieuwsberichten die voor het dashboard bedoeld zijn.
 
+Een event waarbij **Op het dashboard tonen** uit staat (zie [Events]({{ '/evenementen-en-tickets/' | relative_url }})),
+bijvoorbeeld een doorlopend event voor abonnementen, staat niet bij de events die bezig zijn, de verkoop en de komende
+events.
+
 Een tegel staat er alleen als er iets te doen is en je de rechten voor dat onderdeel hebt. Een klik op de tegel opent
 de lijst met precies die gevallen.
 
