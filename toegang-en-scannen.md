@@ -190,6 +190,11 @@ gegevens).
 Bij **Bericht op het scherm** zet je een tekst op het scherm van de terminal. Zonder eigen bericht toont hij het bericht voor de
 scanschermen uit [Schermen]({{ '/sponsoring-en-schermen/#schermen' | relative_url }}).
 
+Meerdere terminals tegelijk aanpassen: vink in de lijst de terminals aan (of **Alles selecteren**) en kies
+**Checkpoint wijzigen** of **Bericht**. Bij een nieuw checkpoint staat **Ook toevoegen aan de checkpoints waar hij mag
+scannen** aan, zodat ook terminals die maar bij een paar checkpoints mogen scannen meegaan. EHBO-terminals worden
+overgeslagen. Laat je het bericht leeg, dan gaat het weg. De terminals nemen het binnen een minuut over.
+
 ### Wisselen van checkpoint met een tag
 
 Op de pagina van een checkpoint maak je een **checkpoint-tag**: een QR-code om te printen, of een NFC-chip. Scan je die
