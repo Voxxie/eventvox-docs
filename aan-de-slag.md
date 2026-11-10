@@ -128,7 +128,9 @@ EventVOX kun je installeren als app:
 - **iPhone/iPad**: deelknop → *Zet op beginscherm*;
 - **Computer** (Chrome, Edge): het installatie-icoon in de adresbalk.
 
-Meldingen zet je per apparaat aan onder **Mijn profiel → Meldingen**. Je krijgt dan bijvoorbeeld een melding als je
+Meldingen zet je per apparaat aan: zolang een apparaat nog geen meldingen krijgt, staat er bovenaan het dashboard
+een kaart met **Meldingen aanzetten** (met **Niet nu** zie je hem twee weken niet). Het kan ook via het accountmenu
+rechtsboven (**Meldingen aanzetten**) of onder **Mijn profiel → Meldingen**. Je krijgt dan bijvoorbeeld een melding als je
 bent ingepland voor een dienst, als herinnering vlak voor je dienst, of als er nieuwe mail is. Per soort melding kun je
 kiezen of je hem wilt.
 
