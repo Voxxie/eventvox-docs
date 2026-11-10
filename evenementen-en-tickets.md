@@ -89,6 +89,9 @@ het hele scherm, met **Opslaan** altijd onderin.
 | **Abonnement** | Alleen met de module Abonnementen: een *abonnementsticket* (geeft geen toegang bij de checkpoints) en *Geeft abonnement* (een geldig ticket maakt de deelnemer lid). Zie [Webshop → Abonnementen]({{ '/webshop/#abonnementen' | relative_url }}). |
 | **Rol van de koper** | Alleen als je rollen mag toekennen of intrekken: **Geeft rol** (na betaling krijgt de koper deze rol) en **Neemt rol af** (na betaling gaat de koper uit deze rol). De beheerdersrol kan niet. Zie het voorbeeld hieronder. |
 
+{: .let_op }
+Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
+
 ### Voorbeeld: van aanmelding naar donateur
 
 Iemand die zich aanmeldt als vrijwilliger komt in de rol "Donateur to be". Alleen die rol mag het tickettype "Donatie
@@ -103,9 +106,6 @@ De rol gaat naar de **koper**: het account dat bestelt, niet de deelnemer op het
 Wordt het ticket of de bestelling geannuleerd, dan draait EventVOX alleen terug wat dit ticket deed: een rol die het ticket
 gaf, gaat er weer af; een rol die het afnam, komt terug. Had de koper de rol al (bijvoorbeeld omdat je hem zelf gaf), dan
 blijft die staan. Heeft de koper nog een ander geldig ticket dat hetzelfde doet, dan verandert er ook niets.
-
-{: .let_op }
-Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
 
 ## Tickets uitgeven
 
