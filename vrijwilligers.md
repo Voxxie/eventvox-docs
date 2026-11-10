@@ -84,6 +84,8 @@ hun VOG binnenkort verloopt of als ze een VOG nodig hebben.
 
 Staat *Aanmelden als vrijwilliger* aan in de [webshop]({{ '/webshop/' | relative_url }}), dan kunnen bezoekers zich
 daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen bij **Vrijwilligers → Aanmeldingen**.
+Wie aanmeldingen mag beoordelen, krijgt bij een nieuwe aanmelding een pushmelding (als meldingen aanstaan); een tik
+op de melding opent de aanmeldingen. Uitzetten kan bij **Mijn profiel → Meldingen**.
 
 {: .info }
 Aanmeldingen uit EventVOX 1 zijn overgenomen, met het bericht en de datum. Wie in EventVOX 1 nog op beoordeling
