@@ -46,9 +46,9 @@ start)
     FE=/tmp/evxdocs-fe-$STAMP
     mkdir "$FE"
     cp -r "$ROOT/eventvox-frontend/public/." "$FE/"
-    sed -i "s|apiBaseUrl: .https://backend.ingestel.nl.|apiBaseUrl: 'http://localhost:8090'|" "$FE/config.js"
+    sed -i "s|apiBaseUrl: .https://api.eventvox.nl.|apiBaseUrl: 'http://localhost:8090'|" "$FE/config.js"
     for f in "$FE/.htaccess" "$FE/shop/.htaccess"; do
-        sed -i "s|connect-src 'self' https://backend.ingestel.nl|connect-src 'self' http://localhost:8090|; s|img-src 'self' data: https:;|img-src 'self' data: https: http://127.0.0.1:8091;|" "$f"
+        sed -i "s|connect-src 'self' https://api.eventvox.nl|connect-src 'self' http://localhost:8090|; s|img-src 'self' data: https:;|img-src 'self' data: https: http://127.0.0.1:8091;|" "$f"
     done
     AP=/tmp/evxdocs-apache-$STAMP
     mkdir -p "$AP/logs"
