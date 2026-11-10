@@ -87,7 +87,7 @@ het hele scherm, met **Opslaan** altijd onderin.
 | **Webshop** | **Groepsticket**: het type wordt per groep verkocht (bijv. een tafel voor 8); elk groepslid krijgt een eigen ticket. **Volgorde** in de webshop. **Foto** (JPEG, PNG of WebP): klein bij het tickettype in de webshop, met een klik groot. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
 | **Op het ticket** | Een eigen **kleur** voor het e-ticket, zodat de scanners het type snel herkennen. |
 | **Abonnement** | Alleen met de module Abonnementen: een *abonnementsticket* (geeft geen toegang bij de checkpoints) en *Geeft abonnement* (een geldig ticket maakt de deelnemer lid). Zie [Webshop → Abonnementen]({{ '/webshop/#abonnementen' | relative_url }}). |
-| **Rol van de koper** | Alleen als je rollen mag toekennen of intrekken: **Geeft rol** (na betaling krijgt de koper deze rol) en **Neemt rol af** (na betaling gaat de koper uit deze rol). De beheerdersrol kan niet. Zie het voorbeeld hieronder. |
+| **Rol van de koper** | Alleen als je rollen mag toekennen of intrekken: **Geeft rol** (na betaling krijgt de koper deze rol) en **Neemt rol af** (na betaling gaat de koper uit deze rol). Bij **Hoe lang** kies je of de gegeven rol *permanent* is of blijft *zolang het abonnement loopt* (alleen als het type ook een abonnement geeft). De beheerdersrol kan niet. Zie het voorbeeld hieronder. |
 
 {: .let_op }
 Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
@@ -99,6 +99,10 @@ nieuwe donateur" kopen (**Wie mag kopen → Rollen**). Dat type krijgt bij **Rol
 *Neemt rol af* "Donateur to be", en eventueel bij **Abonnement** *Geeft abonnement*. Zodra de donatie betaald is, is de
 koper donateur en kan hij dit type niet nog eens kopen. Bestaande donateurs vernieuwen met een ander type, dat alleen
 voor de rol "Donateur" is.
+
+Kies bij **Hoe lang** *Zolang het abonnement loopt*, dan is iemand donateur zolang zijn donateurabonnement loopt. Verlengt
+hij niet, dan gaat de rol Donateur er vanzelf af zodra het lidmaatschap is afgelopen. Een verlenging met een ander type of
+plan van hetzelfde abonnement telt gewoon mee. "Donateur to be" komt dan niet terug.
 
 De rol gaat naar de **koper**: het account dat bestelt, niet de deelnemer op het ticket.
 
