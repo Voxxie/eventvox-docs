@@ -57,6 +57,10 @@ tellen bij elkaar op. Ga naar **Organisatie → Rollen**.
 
 ![Rollen]({{ '/assets/images/roles.png' | relative_url }})
 
+Op de pagina van een rol zie je bij **Gebruikers met deze rol** per gebruiker de **herkomst**: *via ticket …* (met
+*verloopt met het abonnement* als dat zo is ingesteld), *tijdelijk tot …*, of *gegeven door …*. Met de keuze rechtsboven
+toon je alleen wie de rol via een ticket, met de hand of tijdelijk heeft. De herkomst gaat ook mee in de export.
+
 Er zijn twee soorten rollen:
 
 - **Beheer**: rollen met rechten in de beheeromgeving. Je kiest per onderdeel (events, tickets, scans, vrijwilligers,
