@@ -237,6 +237,11 @@ voor het laatst zijn gebruikt. Met **Intrekken** kan de assistent meteen niets m
 (`api_tokens:manage`{: .recht }) ziet en beheert de koppelingen van iedereen in de organisatie. Wijzig je je wachtwoord
 via een resetlink, dan vervallen je koppelingen ook.
 
+**Limieten:** een gekoppelde assistent kan hooguit **60 verzoeken per minuut** en **2.000 per dag** doen. Dat is ruim
+voor gewoon gebruik en houdt een assistent tegen die in een lus raakt. Is de daglimiet bereikt, dan kan de assistent
+de volgende dag weer verder. In de lijst zie je per assistent het aantal verzoeken van vandaag en van de laatste 30
+dagen. Je kunt per organisatie hooguit 10 assistenten koppelen.
+
 {: .let_op }
 Sta alleen een app toe die je zelf hebt toegevoegd. Krijg je het toestemmingsscherm te zien zonder dat je daar zelf om
 vroeg, kies dan **Weigeren**.
