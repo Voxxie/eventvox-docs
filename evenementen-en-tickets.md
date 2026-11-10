@@ -87,6 +87,22 @@ het hele scherm, met **Opslaan** altijd onderin.
 | **Webshop** | **Groepsticket**: het type wordt per groep verkocht (bijv. een tafel voor 8); elk groepslid krijgt een eigen ticket. **Volgorde** in de webshop. **Foto** (JPEG, PNG of WebP): klein bij het tickettype in de webshop, met een klik groot. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
 | **Op het ticket** | Een eigen **kleur** voor het e-ticket, zodat de scanners het type snel herkennen. |
 | **Abonnement** | Alleen met de module Abonnementen: een *abonnementsticket* (geeft geen toegang bij de checkpoints) en *Geeft abonnement* (een geldig ticket maakt de deelnemer lid). Zie [Webshop → Abonnementen]({{ '/webshop/#abonnementen' | relative_url }}). |
+| **Rol van de koper** | Alleen als je rollen mag toekennen of intrekken: **Geeft rol** (na betaling krijgt de koper deze rol) en **Neemt rol af** (na betaling gaat de koper uit deze rol). De beheerdersrol kan niet. Zie het voorbeeld hieronder. |
+
+### Voorbeeld: van aanmelding naar donateur
+
+Iemand die zich aanmeldt als vrijwilliger komt in de rol "Donateur to be". Alleen die rol mag het tickettype "Donatie
+nieuwe donateur" kopen (**Wie mag kopen → Rollen**). Dat type krijgt bij **Rol van de koper**: *Geeft rol* "Donateur" en
+*Neemt rol af* "Donateur to be", en eventueel bij **Abonnement** *Geeft abonnement*. Zodra de donatie betaald is, is de
+koper donateur en kan hij dit type niet nog eens kopen. Bestaande donateurs vernieuwen met een ander type, dat alleen
+voor de rol "Donateur" is.
+
+De rol gaat naar de **koper**: het account dat bestelt, niet de deelnemer op het ticket.
+
+{: .let_op }
+Wordt het ticket of de bestelling geannuleerd, dan draait EventVOX alleen terug wat dit ticket deed: een rol die het ticket
+gaf, gaat er weer af; een rol die het afnam, komt terug. Had de koper de rol al (bijvoorbeeld omdat je hem zelf gaf), dan
+blijft die staan. Heeft de koper nog een ander geldig ticket dat hetzelfde doet, dan verandert er ook niets.
 
 {: .let_op }
 Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
