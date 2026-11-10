@@ -202,22 +202,51 @@ ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de 
 
 - De koppeling is een **module**: [neem contact met ons op]({{ '/contact/' | relative_url }}) om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
   **Organisatie → API-tokens** een kaart met het adres en hoe je de assistent koppelt.
-- Maak een token met **alleen lezen**: kies bij de rechten **Alles lezen**, of alleen de onderdelen die nodig zijn. Een
-  token met andere rechten werkt niet voor de koppeling. Zulke tokens krijgen het label **MCP**. Gebruik het liefst een
-  applicatie-account, zodat de koppeling niet aan een persoon hangt.
-- De assistent ziet events, verkoop, aanwezigheid, rapportages, roosters en de totalen van vragenlijsten, binnen de
-  rechten van het token. **Nooit**: antwoorden op gevoelige vragen, VOG's, mails, contactgegevens of geboortedata.
-- Elke vraag van de assistent staat in het [logboek](#logboek), met het token.
+- Koppelen kan op twee manieren: **door in te loggen** (het makkelijkst, zie hieronder), of met een **eigen token**.
+- De assistent ziet events, verkoop, aanwezigheid, rapportages, roosters en de totalen van vragenlijsten, binnen jouw
+  leesrechten (of die van het token). **Nooit**: antwoorden op gevoelige vragen, VOG's, mails, contactgegevens of
+  geboortedata.
+- Elke vraag van de assistent staat in het [logboek](#logboek).
 
 {: .let_op }
 Wat de assistent leest, gaat naar de dienst achter die assistent. Spreek binnen je organisatie af of dat mag, en geef
 het token alleen de onderdelen die nodig zijn.
 
-### Koppelen met Claude
+### Koppelen door in te loggen
 
-Het adres van de koppeling staat op de kaart bij **Organisatie → API-tokens**, bijvoorbeeld
-`https://api.eventvox.nl/mcp`. De assistent stuurt bij elke vraag je token mee. Hoe je dat instelt, hangt af van
-de app.
+{: .rechten }
+**Rechten:** `api_tokens:create`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
+Zo koppel je Claude (Claude Desktop, claude.ai of de Claude-app) of een andere assistent die connectors ondersteunt,
+zonder een token te kopiëren:
+
+1. Open in de assistent de instellingen voor **connectors** en voeg een eigen connector toe (in Claude:
+   **Instellingen → Connectors → Custom connector**; de naam kan per versie verschillen).
+2. Vul het adres van de koppeling in: `https://api.eventvox.nl/mcp`. Het staat ook op de kaart bij
+   **Organisatie → API-tokens**.
+3. De assistent stuurt je naar EventVOX. Log in zoals je gewend bent.
+4. Je ziet welke app toegang vraagt en wat hij mag: **alleen lezen**. Kies de **organisatie** en klik op **Toestaan**.
+   De koppeling geldt voor die ene organisatie.
+5. Je gaat terug naar de assistent; de koppeling werkt nu. Vraag bijvoorbeeld: *"Hoeveel tickets zijn er verkocht
+   voor de Kerstmarkt?"*
+
+Zie je bij stap 4 dat je nergens kunt koppelen, dan staat de module AI-koppeling uit, of mag je geen API-tokens maken.
+
+**Intrekken:** bij **Organisatie → API-tokens** staan onder *Gekoppelde AI-assistenten* je koppelingen, met wanneer ze
+voor het laatst zijn gebruikt. Met **Intrekken** kan de assistent meteen niets meer lezen. Een beheerder
+(`api_tokens:manage`{: .recht }) ziet en beheert de koppelingen van iedereen in de organisatie. Wijzig je je wachtwoord
+via een resetlink, dan vervallen je koppelingen ook.
+
+{: .let_op }
+Sta alleen een app toe die je zelf hebt toegevoegd. Krijg je het toestemmingsscherm te zien zonder dat je daar zelf om
+vroeg, kies dan **Weigeren**.
+
+### Koppelen met een eigen token
+
+Voor Claude Code, eigen scripts, of als een assistent geen connectors ondersteunt. Maak een token met **alleen lezen**:
+kies bij de rechten **Alles lezen**, of alleen de onderdelen die nodig zijn. Een token met andere rechten werkt niet voor
+de koppeling. Zulke tokens krijgen het label **MCP**. Gebruik het liefst een applicatie-account, zodat de koppeling niet
+aan een persoon hangt. De assistent stuurt bij elke vraag je token mee.
 
 **Claude Code** (in de terminal): één opdracht. De kaart bij API-tokens geeft hem kant-en-klaar, met je token erin.
 
@@ -225,8 +254,8 @@ de app.
 claude mcp add --transport http eventvox https://api.eventvox.nl/mcp --header "Authorization: Bearer evx_..."
 ```
 
-**Claude Desktop** (Windows en Mac): via het configuratiebestand, met het hulpprogramma *mcp-remote* dat het token
-meestuurt.
+**Claude Desktop** (Windows en Mac) met een token: via het configuratiebestand, met het hulpprogramma *mcp-remote* dat
+het token meestuurt. Koppelen door in te loggen (hierboven) is eenvoudiger.
 
 1. Installeer [Node.js](https://nodejs.org/){:target="_blank"} (de LTS-versie), als dat nog niet op de computer staat.
 2. Open in Claude Desktop **Instellingen → Developer → Edit Config**. Dat opent het bestand
@@ -258,11 +287,6 @@ meestuurt.
    tools in een nieuw gesprek staat dan **eventvox**.
 
 Vraag daarna bijvoorbeeld: *"Hoeveel tickets zijn er verkocht voor de Kerstmarkt?"*
-
-{: .info }
-Koppelen via **Instellingen → Connectors → Custom connector** in Claude Desktop, op claude.ai of in de Claude-app op
-je telefoon werkt nog niet. Daar logt Claude zelf in via OAuth, en die manier van inloggen heeft EventVOX nog niet.
-Gebruik tot die tijd Claude Code of het configuratiebestand hierboven.
 
 {: .let_op }
 Het token staat leesbaar in het configuratiebestand. Gebruik daarom een token met alleen leesrechten, het liefst van
