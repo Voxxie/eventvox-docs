@@ -38,7 +38,9 @@ webshopkopers. Filter op soort (*Beheer* of *Publiek*) en op rol.
 Op de pagina van een gebruiker:
 
 - zie en wijzig je de gegevens;
-- **wijs je rollen toe** (vast, of tijdelijk tot een datum) en haal je ze weg;
+- **wijs je rollen toe** (vast, of tijdelijk tot een datum) en haal je ze weg. Onder elke rol staat waar hij vandaan
+  komt: *Via ticket …* (een tickettype dat de rol geeft, met een link naar het ticket en eventueel *verloopt met het
+  abonnement*), *Gegeven door …* of *Sinds …*;
 - stel je **tijdelijk te activeren rollen** in (zie [Tijdelijke rechten](#tijdelijke-rechten));
 - maak je een **resetlink** als iemand zijn wachtwoord kwijt is;
 - verwijder je **apparaten** (telefoon kwijt) of **passkeys**;
