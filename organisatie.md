@@ -166,7 +166,7 @@ Behandel een token als een wachtwoord. Trek een token in zodra het niet meer nod
 
 ### De API-documentatie
 
-Alles wat je via de API kunt, staat in de **[API-documentatie](https://backend.ingestel.nl/){:target="_blank"}**. Daar
+Alles wat je via de API kunt, staat in de **[API-documentatie](https://api.eventvox.nl/){:target="_blank"}**. Daar
 zie je per onderdeel (events, tickets, deelnemers, roosters, vrijwilligers, …) welke aanvragen er zijn, wat je
 meestuurt en wat je terugkrijgt.
 
@@ -174,13 +174,13 @@ meestuurt en wat je terugkrijgt.
   **Try it out**. Let op: wat je daar uitvoert, gebeurt echt in je organisatie. Gebruik voor proberen een token met
   alleen leesrechten.
 - **Voor ontwikkelaars:** de technische beschrijving staat als OpenAPI-bestand op
-  [backend.ingestel.nl/openapi.json](https://backend.ingestel.nl/openapi.json){:target="_blank"}. Dat kun je inladen in
+  [api.eventvox.nl/openapi.json](https://api.eventvox.nl/openapi.json){:target="_blank"}. Dat kun je inladen in
   bijvoorbeeld Postman of een codegenerator.
 
 Zo gebruik je een token in je eigen software:
 
 ```bash
-curl -H "Authorization: Bearer evx_..." https://backend.ingestel.nl/events
+curl -H "Authorization: Bearer evx_..." https://api.eventvox.nl/events
 ```
 
 - Het token werkt alleen in je eigen organisatie; die hoef je niet mee te sturen.
@@ -216,13 +216,13 @@ het token alleen de onderdelen die nodig zijn.
 ### Koppelen met Claude
 
 Het adres van de koppeling staat op de kaart bij **Organisatie → API-tokens**, bijvoorbeeld
-`https://backend.ingestel.nl/mcp`. De assistent stuurt bij elke vraag je token mee. Hoe je dat instelt, hangt af van
+`https://api.eventvox.nl/mcp`. De assistent stuurt bij elke vraag je token mee. Hoe je dat instelt, hangt af van
 de app.
 
 **Claude Code** (in de terminal): één opdracht. De kaart bij API-tokens geeft hem kant-en-klaar, met je token erin.
 
 ```bash
-claude mcp add --transport http eventvox https://backend.ingestel.nl/mcp --header "Authorization: Bearer evx_..."
+claude mcp add --transport http eventvox https://api.eventvox.nl/mcp --header "Authorization: Bearer evx_..."
 ```
 
 **Claude Desktop** (Windows en Mac): via het configuratiebestand, met het hulpprogramma *mcp-remote* dat het token
@@ -243,7 +243,7 @@ meestuurt.
        "eventvox": {
          "command": "npx",
          "args": [
-           "-y", "mcp-remote", "https://backend.ingestel.nl/mcp",
+           "-y", "mcp-remote", "https://api.eventvox.nl/mcp",
            "--header", "Authorization:${AUTH_HEADER}"
          ],
          "env": {
