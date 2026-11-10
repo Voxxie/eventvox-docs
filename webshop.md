@@ -46,6 +46,8 @@ Bij het kopen:
 - Heeft de koper een bestelling die **nog niet betaald** is, dan staat die bovenaan het overzicht van de webshop: met
   het bedrag, tot wanneer hij kan betalen en een knop **Betalen**. Een bestelling met *betalen bij afhalen* staat er
   ook, zonder betaalknop.
+- Bij het kiezen van de deelnemers voor een tickettype ziet de koper wie dat ticket al heeft (**Heeft dit ticket al**)
+  of het al besteld maar nog niet betaald heeft. Een tweede ticket kiezen kan nog steeds.
 - Na **Bestellen** controleert de koper zijn **adres en telefoonnummers**. Wat hij wijzigt, komt ook op zijn account.
   De bestelling bewaart de gegevens zoals ze op dat moment zijn; wijzigt de koper ze later, dan blijft de bestelling
   ze houden. Wat verplicht is, stel je in bij **Gegevens van de koper** (zie hieronder).
