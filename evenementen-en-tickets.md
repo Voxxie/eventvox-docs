@@ -73,7 +73,7 @@ Bovenaan staat wat je bij bijna elk tickettype invult:
 | **Capaciteit** | Hoeveel tickets er maximaal zijn. Leeg = onbeperkt. |
 | **Max. per koper** | Hoeveel tickets één account mag kopen. |
 | **Te koop** | Uit = niet meer te koop, bestaande tickets blijven geldig. |
-| **Verkoop vanaf / tot en met** | De periode waarin het type in de webshop te koop is. Leeg = vanaf nu, tot het einde. |
+| **Verkoop vanaf / tot en met** | De periode waarin het type in de webshop te koop is. Leeg = vanaf nu, tot het einde. Buiten die periode staat het type niet in de webshop; is er bij een event geen enkel type te koop, dan staat het event er ook niet (ook niet in de WordPress-widget). Zodra de verkoop begint, verschijnt het vanzelf. |
 
 De rest staat in blokken eronder. Een blok is ingeklapt en laat in één regel zien wat er is ingesteld, bijvoorbeeld
 *Hele event · elk checkpoint* of *Webshopklanten · 4–12 jaar (harde eis)*. Klik erop om het open te klappen. Klopt er
