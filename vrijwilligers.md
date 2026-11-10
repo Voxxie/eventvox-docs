@@ -85,6 +85,10 @@ hun VOG binnenkort verloopt of als ze een VOG nodig hebben.
 Staat *Aanmelden als vrijwilliger* aan in de [webshop]({{ '/webshop/' | relative_url }}), dan kunnen bezoekers zich
 daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen bij **Vrijwilligers → Aanmeldingen**.
 
+{: .info }
+Aanmeldingen uit EventVOX 1 zijn overgenomen, met het bericht en de datum. Wie in EventVOX 1 nog op beoordeling
+wachtte, staat hier als nieuwe aanmelding: keur die goed of wijs hem af zoals elke andere.
+
 ### De aanmeldpagina delen
 
 De link naar de aanmeldpagina vind je bij **Webshop → Delen**, onder *Vrijwilliger worden*: het **adres** (met
