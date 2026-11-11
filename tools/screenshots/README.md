@@ -12,6 +12,12 @@ Hiermee maak je alle PNG's in `assets/images/` opnieuw, uit een lokale, fictieve
 | `capture.js` | Maakt de screenshots met headless Edge (`puppeteer-core`): één lijst `SHOTS` met per afbeelding adres, voorbereiding, viewport en uitsnede |
 | `make-assets.js` | Tekent eenmalig de plaatjes in `assets/` (logo, eventafbeeldingen, sponsorlogo's, productfoto's) |
 
+## Met Docker
+
+De backend heeft een `docker-compose.yml` die deze demo zelf opbouwt, zonder WSL of Apache:
+`EVENTVOX_DEMO=1 docker compose up` in `eventvox-backend` (op een lege database; zie `docs/operations.md` daar). `seed.js`
+leest dan de database uit `DB_HOST`, `DB_NAME`, `DB_USER` en `DB_PASS` (zonder: die van `env.sh`).
+
 ## Draaien
 
 Nodig: WSL Ubuntu met MariaDB, PHP 8 (gd, curl, mysql) en Apache 2; op Windows Node 18+ en Microsoft Edge.
