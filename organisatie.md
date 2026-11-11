@@ -7,7 +7,7 @@ permalink: /organisatie/
 # Organisatie
 {: .no_toc }
 
-Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, de AI-koppeling, het telefoonboek, het logo en het logboek.
+Gebruikers, rollen en rechten, tijdelijke rechten, API-tokens, de AI-koppeling, het telefoonboek, het logo en de accentkleur, en het logboek.
 {: .fs-6 .fw-300 }
 
 1. TOC
@@ -135,7 +135,7 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Organisatie → API-tokens | `api_tokens:create`{: .recht } of `api_tokens:manage`{: .recht } | `api_tokens:manage`{: .recht }: applicatie-accounts en alle tokens van de organisatie |
 | Organisatie → Telefoonboek | `users:read`{: .recht } | `users:update`{: .recht } |
 | Organisatie → Logboek | `logs:read`{: .recht } | – |
-| Platform → Tenants | – | Iedereen (je eigen organisaties); logo: `tenants:update`{: .recht } |
+| Platform → Tenants | – | Iedereen (je eigen organisaties); logo en accentkleur: `tenants:update`{: .recht } |
 
 ## Tijdelijke rechten
 
@@ -328,14 +328,28 @@ token voor de andere telefoons.
 {: .rechten }
 **Rechten:** `tenants:update`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
-Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin naast de naam, rechtsboven op de tickets
-(PDF), en in de beheeromgeving bij de tenantkeuze.
+Je organisatie kan een eigen logo hebben. Het staat in de webshop bovenin (in plaats van de naam), rechtsboven op de
+tickets (PDF), en in de beheeromgeving bij de tenantkeuze.
 
 Ga naar **Tenants**, klik bij je organisatie op **Bewerken** en kies bij **Logo** een bestand: PNG (het liefst met
 een transparante achtergrond), JPEG of WebP, maximaal 2 MB. Klik **Opslaan**. Een nieuw logo vervangt het oude; met
 **Logo verwijderen** haal je het weg.
 
 ![Logo]({{ '/assets/images/tenant-logo.png' | relative_url }})
+
+### Accentkleur
+
+Met een accentkleur passen de webshop en het Pick-Up-formulier beter bij je huisstijl: knoppen, links, vinkjes en het
+gemarkeerde menu-item krijgen die kleur. Op de tickets (PDF) krijgt de kop die kleur als het tickettype geen eigen kleur
+heeft.
+
+Ga naar **Tenants**, klik bij je organisatie op **Bewerken**, zet **Eigen kleur in de huisstijl** aan en kies een kleur.
+Je ziet meteen een voorbeeldknop en -link. Klik **Opslaan**. Zet je het weer uit, dan krijgen de pagina's de
+standaardkleuren van EventVOX.
+
+{: .tip }
+Een lichte kleur, zoals geel of lichtoranje, kan ook: de knoppen krijgen dan vanzelf donkere tekst en links een
+donkerder tint, zodat alles leesbaar blijft. De beheeromgeving zelf houdt de kleur die je in je profiel kiest.
 
 ## Logboek
 
