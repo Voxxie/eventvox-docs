@@ -98,6 +98,13 @@ Een **handscanner** (een scanner die als toetsenbord werkt) werkt meteen: scan g
 klikt. Op Android met Chrome verschijnt er ook een **NFC**-knop om polsbandjes met een chip te lezen. Dezelfde chip
 telt binnen 2 seconden maar één keer, ook als hij tegelijk via NFC en via de scanner binnenkomt.
 
+{: .note }
+**"Geen toestemming voor NFC"?** De toestemming voor NFC geldt per website. Na een nieuw adres (zoals de overstap naar
+eventvox.nl) moet je NFC daarvoor opnieuw toestaan. In Chrome: het slotje links van het adres → Site-instellingen → NFC
+→ Toestaan. Gebruik je een **kiosk-app** (bijvoorbeeld op een PDA), dan vraagt die vaak niets en staat hij NFC alleen
+toe voor de sites in zijn instellingen: zet `https://eventvox.nl` bij de toegestane sites of URL's, en zet daar
+toestemming voor NFC (en de camera) aan. De melding in EventVOX noemt het adres dat je moet toestaan.
+
 - **Uitslag vasthouden**: tik op de uitslag en hij blijft staan ("Vastgezet"), zodat je alles rustig kunt lezen. Tik
   nog een keer, of scan het volgende ticket, om door te gaan.
 - **Terugkijken**: tik op een regel bij *Laatste scans* en je ziet die uitslag opnieuw, compleet ("Eerdere scan, 14:32").
