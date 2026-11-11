@@ -144,10 +144,24 @@ zo'n korte lezer is gekoppeld. Minstens 3 bytes, en alleen als er precies één 
 Kies bovenaan de **soort** (Armband, Keykoord, …); die wordt onthouden. Tags koppelen kan ook op de pagina van een
 deelnemer.
 
+**Al een tag?** Heeft de deelnemer al een tag die in de afgelopen 30 dagen is gekoppeld, of die voor hetzelfde
+evenement is uitgegeven, dan wordt het scherm oranje met de tag die er al is. Kies dan:
+- **Vervangen**: de oude tag stopt met werken (bijvoorbeeld een kwijtgeraakt polsbandje);
+- **Toch erbij**: allebei blijven werken;
+- **Annuleren**: er gebeurt niets.
+
+Bij het scannen werkt elke tag van een deelnemer gewoon, bij elk evenement waarvoor hij een ticket heeft.
+
+**Ander ticket gescand?** Scan je een nieuw ticket terwijl de vorige deelnemer nog op zijn tag wacht, dan ga je verder met
+de nieuwe deelnemer. Het scherm meldt in oranje dat de vorige nog geen tag heeft, en zijn naam blijft in beeld tot hij
+er een heeft. Een ticketcode kan nooit als tag worden gekoppeld.
+
 ### Tags beheren
 
 **Toegang → Tags** toont alle tags, met filters op status, "niet gebruikt sinds" en "gekoppeld vóór". Per tag kun je
-hem **verplaatsen**, **intrekken** (werkt niet meer, blijft in de geschiedenis) of **verwijderen**.
+hem **verplaatsen**, **intrekken** (werkt niet meer, blijft in de geschiedenis) of **verwijderen**. Verwijderen kan
+alleen bij een tag die nog nooit is gebruikt; een gebruikte tag kun je alleen intrekken. Op de pagina van een deelnemer
+zie je bij elke tag voor welk evenement hij is uitgegeven.
 
 **Verplaatsen** is voor een tag die aan de verkeerde deelnemer is gekoppeld: zoek de juiste deelnemer en kies
 *Verplaatsen*. De oude koppeling wordt ingetrokken (de scans blijven daarbij in de geschiedenis) en dezelfde tag werkt
