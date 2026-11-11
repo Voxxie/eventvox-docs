@@ -67,7 +67,9 @@ function toWsl(p) {
 function seedDb(step, values) {
     const file = path.join(os.tmpdir(), `evx-seed-${step}.json`);
     fs.writeFileSync(file, JSON.stringify(values));
-    const env = ['DB_HOST=127.0.0.1', `DB_NAME=${process.env.DB_NAME || 'evx_demo'}`, 'DB_USER=evx', 'DB_PASS=evx'];
+    // The database of env.sh, or the one in DB_HOST / DB_NAME / DB_USER / DB_PASS (the backend's docker-compose.yml)
+    const e = process.env;
+    const env = [`DB_HOST=${e.DB_HOST || '127.0.0.1'}`, `DB_NAME=${e.DB_NAME || 'evx_demo'}`, `DB_USER=${e.DB_USER || 'evx'}`, `DB_PASS=${e.DB_PASS || 'evx'}`];
     const args = ['php', '-d', 'date.timezone=Europe/Amsterdam', path.join(__dirname, 'seed-db.php'), BACKEND_SRC, step, file];
     const out = process.platform === 'win32'
         ? execFileSync('wsl', ['-e', 'env', ...env, ...args.map(toWsl)], { encoding: 'utf8', env: { ...process.env, MSYS_NO_PATHCONV: '1' } })

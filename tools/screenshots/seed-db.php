@@ -7,9 +7,14 @@
 $src = $argv[1] ?? '';
 $step = $argv[2] ?? '';
 $input = isset($argv[3]) ? json_decode((string) file_get_contents($argv[3]), true) : [];
-require $src . '/helpers/Database.php';
-require $src . '/helpers/PublicIds.php';
-require $src . '/helpers/RBAC.php';
+// The backend loads its classes by namespace (helpers/autoload.php); older checkouts required them one by one
+if (is_file($src . '/helpers/autoload.php')) {
+    require $src . '/helpers/autoload.php';
+} else {
+    require $src . '/helpers/Database.php';
+    require $src . '/helpers/PublicIds.php';
+    require $src . '/helpers/RBAC.php';
+}
 $config = require $src . '/config/config.php';
 $db = \Helpers\Database::getInstance($config['db'])->getConnection();
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
