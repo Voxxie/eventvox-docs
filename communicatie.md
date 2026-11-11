@@ -137,4 +137,4 @@ Een leeg veld is weer de standaardtekst. Met **Voorbeeld** zie je hoe het eruitz
 hem zelf, en **Standaard terugzetten** vergeet je wijzigingen.
 
 {: .tip }
-Iedereen kan zelf in **Mijn profiel → Meldingen** pushmeldingen per soort uitzetten.
+Iedereen kan zelf in **Mijn profiel → Meldingen** pushmeldingen per soort uitzetten, per organisatie.

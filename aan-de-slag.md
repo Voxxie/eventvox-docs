@@ -132,7 +132,8 @@ Meldingen zet je per apparaat aan: zolang een apparaat nog geen meldingen krijgt
 een kaart met **Meldingen aanzetten** (met **Niet nu** zie je hem twee weken niet). Het kan ook via het accountmenu
 rechtsboven (**Meldingen aanzetten**) of onder **Mijn profiel → Meldingen**. Je krijgt dan bijvoorbeeld een melding als je
 bent ingepland voor een dienst, als herinnering vlak voor je dienst, of als er nieuwe mail is. Per soort melding kun je
-kiezen of je hem wilt.
+kiezen of je hem wilt. Die keuze geldt voor de organisatie waarin je op dat moment werkt: werk je voor meer
+organisaties, dan kies je per organisatie (wissel bovenin van organisatie en kijk dan weer bij **Mijn profiel → Meldingen**).
 
 {: .let_op }
 Op een iPhone of iPad werken meldingen alleen in de app op het beginscherm (iOS 16.4 of nieuwer).
