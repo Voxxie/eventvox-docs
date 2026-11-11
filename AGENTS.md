@@ -15,6 +15,9 @@
 - Images in `assets/images/`, linked as `{{ '/assets/images/name.png' | relative_url }}`. They are made from a
   fictional demo organisation ("Stichting Vlietdorp Evenementen") by `tools/screenshots/` (see its README); do
   not add screenshots with real names or data. Jekyll skips `tools/`.
+- The demo organisation is easiest made with the backend's `EVENTVOX_DEMO=1 docker compose up` (it runs
+  `tools/screenshots/seed.js` on an empty database); `env.sh` (WSL) still works. `seed.js` and `seed-db.php` use the
+  backend's API and its autoloader: when the backend changes a route they use, they change with it.
 - Colours and fonts: `_sass/color_schemes/eventvox.scss`, `_sass/custom/`; fonts are self-hosted in `assets/fonts/`.
 
 ## Writing
