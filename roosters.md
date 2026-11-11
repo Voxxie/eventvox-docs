@@ -80,7 +80,9 @@ Handige hulpmiddelen:
 
 ## Meldingen
 
-- Planners krijgen een pushmelding als een vrijwilliger zijn beschikbaarheid wijzigt.
+- Planners kunnen een pushmelding krijgen als een vrijwilliger **"kan niet"** invult voor een dienst waarvoor hij al
+  is ingepland (of "kan niet" voor een heel event waarin hij nog diensten heeft). Andere wijzigingen geven geen melding.
+  Deze melding staat standaard uit: zet hem aan bij **Mijn profiel → Meldingen**.
 - Vrijwilligers krijgen een melding als ze zijn ingepland, en een herinnering vlak voor hun dienst. Die stel je in bij
   [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}).
 
