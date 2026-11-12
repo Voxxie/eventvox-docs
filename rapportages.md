@@ -54,7 +54,9 @@ gebruikers en acties in het logboek. Kies een periode van hooguit twee jaar; zon
 **Rechten:** `scans:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 De doorgangen bij de checkpoints: hoeveel er zijn toegelaten, met een waarschuwing toegelaten of geweigerd, per
-checkpoint per dag. De grafiek laat zien op welk **uur van de dag** het druk is, handig om de bezetting bij de ingang te
+checkpoint per dag, en hoeveel **deelnemers** dat waren: mensen in plaats van scans. Een tweede tabel geeft per checkpoint
+het aantal verschillende deelnemers over de hele periode; wie op twee dagen kwam, telt daar één keer. De grafiek laat
+zien op welk **uur van de dag** het druk is, handig om de bezetting bij de ingang te
 plannen. Filter op **event**, **checkpoint** en **periode**; zonder event of periode zie je de laatste 30 dagen.
 
 ![Scans]({{ '/assets/images/report-scans.png' | relative_url }})
