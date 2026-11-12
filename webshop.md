@@ -26,6 +26,18 @@ ticket niet gescand of verlopen is.
 
 ![De webshop voor bezoekers]({{ '/assets/images/shop-buy.png' | relative_url }})
 
+Zo ziet de webshop eruit:
+
+- Bovenin staat het **logo** van je organisatie, of de naam als je geen logo hebt (zie
+  [Logo]({{ '/organisatie/#logo' | relative_url }})). Daarnaast het menu: **Overzicht**, **Tickets kopen**, **Mijn tickets**
+  en wat er verder aanstaat, met rechts **Mijn account** (gegevens, bestellingen, uitloggen). De pagina waar je bent, is gemarkeerd.
+- Op een telefoon zit het menu achter de knop **Menu**. Wie ingelogd is, heeft onderin ook een vaste balk met
+  **Overzicht**, **Kopen**, **Tickets** en **Account**.
+- Onderaan staat klein *Mogelijk gemaakt door EventVOX*.
+- Knoppen en links krijgen de [accentkleur]({{ '/organisatie/#accentkleur' | relative_url }}) van je organisatie, als je die instelt.
+- Staat de webshop op je eigen site (de [WordPress-plugin]({{ '/wordpress/' | relative_url }}) of de insluitcode), dan
+  laat hij logo en naam weg: je site heeft die al. Er staat dan alleen een smalle balk met het menu, zonder de balk onderin.
+
 Bij het kopen:
 
 - Heeft een tickettype of product een **foto**, dan staat die er klein bij; met een klik wordt hij groot. Zonder foto
