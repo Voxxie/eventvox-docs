@@ -28,7 +28,7 @@ Beschikbaarheid ophalen en vrijwilligers inplannen.
 
 ## Diensten
 
-Ga naar **Vrijwilligers → Roosters** en klik op **Diensten**. Maak hier de taken aan, met een korte omschrijving van
+Ga naar **Vrijwilligers → Diensten**. Maak hier de taken aan, met een korte omschrijving van
 wat er van de vrijwilliger verwacht wordt. Die omschrijving zien ze bij hun dienst.
 
 Is een dienst alleen voor mensen met een bepaalde rol, bijvoorbeeld de **EHBO-post**? Vink die rol dan aan bij
@@ -37,6 +37,12 @@ dienstenplanner krijgt wie de rol mist het label *Geen EHBO*, en wie je toch inp
 aangevinkt: de dienst is voor iedereen.
 
 ![Diensten]({{ '/assets/images/schedule-tasks.png' | relative_url }})
+
+### Dienstengroepen
+
+Gebruiken je roosters vaak dezelfde diensten? Maak onderaan de pagina Diensten een **dienstengroep**, bijvoorbeeld
+*Standaard festival* met Bar, Kassa en Opbouw. Bij een rooster vink je dan de hele groep in één keer aan. Daarna kun je
+nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert roosters die al gekoppeld zijn niet.
 
 ## Een rooster maken
 
@@ -51,7 +57,13 @@ aangevinkt: de dienst is voor iedereen.
      planning klaar is.
 3. Open het rooster en kies **Tijdvakken**. Voeg de tijdvakken toe. Een nieuw tijdvak begint waar het vorige eindigde
    en duurt even lang, dus een reeks maken gaat snel.
-4. Kies bij **Bewerken** welke **diensten** in dit rooster gebruikt worden.
+4. Kies welke **diensten** in dit rooster gebruikt worden. Dat kan meteen bij het aanmaken, of later bij **Bewerken**:
+   - vink losse diensten aan;
+   - kies een **Dienstengroep** om al haar diensten aan te vinken;
+   - of kies bij **Overnemen van rooster** een ander rooster, ook van een eerder event: dezelfde diensten worden
+     aangevinkt, met hun aantallen.
+5. Vul rechts bij een dienst in hoeveel mensen er **per tijdvak nodig** zijn (bijvoorbeeld Bar 4). Leeg laten mag;
+   de planner telt dan alleen.
 
 ![Roosters]({{ '/assets/images/schedules.png' | relative_url }})
 
@@ -79,6 +91,9 @@ die alleen voor een andere rol is (bijvoorbeeld EHBO) mag, met een waarschuwing.
 
 Handige hulpmiddelen:
 
+- **Bezetting**: onder de tijden staat per tijdvak hoeveel mensen er ingepland zijn van het aantal dat nodig is
+  (alleen de diensten met een aantal), groen als het genoeg is en rood als er nog mensen te weinig zijn. Wijs een vak
+  aan om het per dienst te zien. In de **Dienstenplanner** staat het per tijdvak als label, bijvoorbeeld *Bar 2/4*.
 - Het kaartje naast een naam toont leeftijd, VOG-status en of iemand dit jaar meehelpt. Geel = er is een VOG nodig.
 - Vrijwilligers jonger dan de VOG-leeftijd staan in een eigen blok, onder een gele regel *Jonger dan …*.
 - Filters: *Alleen met beschikbaarheid of dienst* (standaard aan), *Helpt dit jaar* en zoeken op naam.
