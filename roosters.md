@@ -31,6 +31,11 @@ Beschikbaarheid ophalen en vrijwilligers inplannen.
 Ga naar **Vrijwilligers → Roosters** en klik op **Diensten**. Maak hier de taken aan, met een korte omschrijving van
 wat er van de vrijwilliger verwacht wordt. Die omschrijving zien ze bij hun dienst.
 
+Is een dienst alleen voor mensen met een bepaalde rol, bijvoorbeeld de **EHBO-post**? Vink die rol dan aan bij
+**Alleen voor**. Bij het plannen staat de rol op de knop van de dienst ("EHBO-post · alleen EHBO"), in de
+dienstenplanner krijgt wie de rol mist het label *Geen EHBO*, en wie je toch inplant geeft een waarschuwing. Niets
+aangevinkt: de dienst is voor iedereen.
+
 ![Diensten]({{ '/assets/images/schedule-tasks.png' | relative_url }})
 
 ## Een rooster maken
@@ -69,16 +74,19 @@ een vak is de beschikbaarheid; staat iemand ingepland, dan staat de dienst erin.
 4. Klik op **Klaar** als je klaar bent.
 
 {: .let_op }
-Inplannen bij *Kan niet* mag, maar dan kleurt het vak felrood als waarschuwing.
+Inplannen bij *Kan niet* mag, maar dan kleurt het vak felrood als waarschuwing. Ook iemand inplannen voor een dienst
+die alleen voor een andere rol is (bijvoorbeeld EHBO) mag, met een waarschuwing.
 
 Handige hulpmiddelen:
 
 - Het kaartje naast een naam toont leeftijd, VOG-status en of iemand dit jaar meehelpt. Geel = er is een VOG nodig.
-- Vrijwilligers jonger dan de VOG-leeftijd staan in een eigen blok.
+- Vrijwilligers jonger dan de VOG-leeftijd staan in een eigen blok, onder een gele regel *Jonger dan …*.
 - Filters: *Alleen met beschikbaarheid of dienst* (standaard aan), *Helpt dit jaar* en zoeken op naam.
-- **Dienstenplanner**: een andere weergave, per tijdvak wie met welke dienst is ingepland. Klik een tijdvak, kies de
-  dienst en klik een vrijwilliger. Wie *Kan* of *Misschien* zei, staat bovenaan.
-- **Excel**: download het overzicht zoals het gefilterd is.
+- **Dienstenplanner**: een andere weergave, per tijdvak wie met welke dienst is ingepland. Klik een tijdvak, kies links
+  de dienst en klik daaronder een vrijwilliger. Wie *Kan* of *Misschien* zei, staat bovenaan. Een dag en tijd zonder
+  tijdvak is gearceerd met *Geen tijdvak*.
+- **Excel** en **PDF**: download het overzicht zoals het gefilterd is, met dezelfde kleuren en de gele regel
+  *Jonger dan …*. De PDF is liggend A4; passen niet alle tijdvakken, dan staan de volgende op de volgende pagina.
 
 ## Meldingen
 

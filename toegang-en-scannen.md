@@ -48,7 +48,9 @@ welke types aan een checkpoint vastzitten.
 ### Voortgang over meerdere dagen
 
 Vul bij **Aantal dagen** in hoeveel dagen het event duurt (bijvoorbeeld 4 bij een avondvierdaagse). Na elke scan toont
-het scanscherm dan een bolletje per dag en "Dag 3 van 4"; op de laatste dag "Laatste dag!".
+het scanscherm dan een bolletje per dag en "Dag 3 van 4"; op de laatste dag "Laatste dag!". Liever een ander woord dan
+*Dag*? Vul bij **Woord** bijvoorbeeld *Avond* of *Etappe* in: dan staat er "Avond 3 van 4" en "Laatste avond!", ook op
+de scanterminal.
 
 Op de pagina van het checkpoint zie je per dag hoeveel tickets die dag langs zijn geweest. Een klik toont de namen,
 bijvoorbeeld wie alle dagen heeft gelopen, voor de uitreiking van de medailles.

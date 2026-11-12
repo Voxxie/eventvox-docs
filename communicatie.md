@@ -69,6 +69,9 @@ Klik op **Versturen** en kies wie hem krijgen:
 - iedereen met een **rol**;
 - de **ticketkopers van een event**;
 - **alle vrijwilligers**;
+- de **vrijwilligers van een event**: wie voor dat event *Kan* of *Misschien* zei, of al in een van de roosters ervan is
+  ingepland. Handig voor een bericht vlak voor het event aan iedereen die komt helpen; `{event}`, `{event_datum}` en
+  `{event_locatie}` worden dan ook ingevuld;
 - **één persoon**;
 - wie een **vragenlijst nog niet heeft ingevuld**;
 - de **sponsoren** van een jaar (eventueel per status en pakket), met het vinkje *dit is de sponsorbrief*.
