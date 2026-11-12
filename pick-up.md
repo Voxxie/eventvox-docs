@@ -76,13 +76,17 @@ Open een ronde vanuit de lijst.
 
 ## Tijdens de ronde
 
-Ingeplande vrijwilligers openen de ronde bij **Voor mij → Mijn rooster**. Ze zien een kaart met alle adressen en per
-adres een routelink (Google Maps), een belknop, de foto's en de knoppen:
+Ingeplande vrijwilligers openen de ronde bij **Voor mij → Mijn rooster**. Ze zien een kaart met alle adressen en
+daaronder per adres een kaartje, gemaakt voor de telefoon:
 
-- **Ingepland**: nog te doen;
-- **Afgerond**: opgehaald;
-- **Niemand thuis**;
-- **Overgeslagen**.
+- het adres in grote letters; een tik erop opent de route in Google Maps;
+- de knoppen **Route** en **Bellen** (alleen als er een telefoonnummer is);
+- de opmerking en de foto's van wat er opgehaald wordt;
+- drie grote knoppen voor hoe het ging: **Afgerond**, **Niemand thuis** en **Overgeslagen**.
+
+Een gekleurde streep links laat de status zien. Boven de lijst staat hoeveel adressen al zijn afgehandeld en hoeveel er
+nog te gaan zijn. Per ongeluk op de verkeerde knop getikt? Tik op een andere uitkomst, of op **Ongedaan maken** om het
+adres weer op ingepland te zetten.
 
 Een afgehandeld adres verdwijnt uit de lijst, zodat alleen overblijft wat nog moet. Met **Ook afgehandelde tonen** zie
 je alles. De status is meteen zichtbaar voor de rest van de groep en voor de organisatie.
