@@ -60,10 +60,12 @@ een vak is de beschikbaarheid; staat iemand ingepland, dan staat de dienst erin.
 
 ![Rooster]({{ '/assets/images/schedule.png' | relative_url }})
 
-1. Klik op **Plannen**. Bovenaan verschijnt een balk met de diensten van dit rooster.
+1. Klik op **Plannen**. Links verschijnt de kolom *Te plannen diensten* met de diensten van dit rooster; de eerste
+   staat al gekozen.
 2. Kies een dienst en klik in het vak van een vrijwilliger: die is nu ingepland. Nogmaals klikken met dezelfde dienst
-   haalt de vrijwilliger weer weg.
-3. In dezelfde balk kun je ook beschikbaarheid invullen namens iemand, bijvoorbeeld als die het telefonisch doorgaf.
+   haalt de vrijwilliger weer weg, net als klikken met **Verwijderen**.
+3. Onder de diensten kun je ook beschikbaarheid invullen namens iemand (*Kan*, *Misschien*, *Kan niet* of *Wissen*),
+   bijvoorbeeld als die het telefonisch doorgaf.
 4. Klik op **Klaar** als je klaar bent.
 
 {: .let_op }
