@@ -55,6 +55,22 @@ Klik op een dienst voor de details:
 
 Je ziet alleen diensten in roosters die de organisatie al heeft gepubliceerd.
 
+### Diensten in je eigen agenda
+
+Wil je je diensten in Google Agenda, Outlook of de agenda op je telefoon? Klik op **In je agenda** bovenaan Mijn rooster
+en daarna op **Agenda-link maken**.
+
+- Op je telefoon of Mac: tik op **Openen in mijn agenda-app** en kies *Abonneer*.
+- In Google Agenda (op de computer): kopieer de link en kies **Andere agenda's → + → Via URL**.
+- In Outlook: kopieer de link en kies **Agenda toevoegen → Abonneren via internet**.
+
+Daarna komen nieuwe en gewijzigde diensten er vanzelf in, ook van andere organisaties waar je vrijwilliger bent. Google
+Agenda haalt de link maar een paar keer per dag op, dus een wijziging kan even duren.
+
+{: .let_op }
+Deel de link met niemand: wie hem heeft, ziet je diensten. Je ziet de link maar één keer. Kwijt of per ongeluk gedeeld?
+Maak een nieuwe; de oude werkt dan niet meer.
+
 ## Mijn vragenlijsten
 
 Vraagt de organisatie iets van vrijwilligers, zoals je maat T-shirt of je dieetwensen, dan staat dat onder **Voor mij →
