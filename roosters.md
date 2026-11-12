@@ -36,6 +36,10 @@ Is een dienst alleen voor mensen met een bepaalde rol, bijvoorbeeld de **EHBO-po
 dienstenplanner krijgt wie de rol mist het label *Geen EHBO*, en wie je toch inplant geeft een waarschuwing. Niets
 aangevinkt: de dienst is voor iedereen.
 
+Vul bij **Standaard nodig per tijdvak** in hoeveel mensen de dienst meestal per tijdvak nodig heeft, bijvoorbeeld Bar 4.
+Koppel je de dienst aan een rooster, dan staat dit aantal daar al ingevuld; per rooster kun je het nog aanpassen. Een
+nieuw standaardaantal verandert roosters waar de dienst al in zit niet.
+
 ![Diensten]({{ '/assets/images/schedule-tasks.png' | relative_url }})
 
 ### Dienstengroepen
@@ -62,8 +66,9 @@ nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert rooster
    - kies een **Dienstengroep** om al haar diensten aan te vinken;
    - of kies bij **Overnemen van rooster** een ander rooster, ook van een eerder event: dezelfde diensten worden
      aangevinkt, met hun aantallen.
-5. Vul rechts bij een dienst in hoeveel mensen er **per tijdvak nodig** zijn (bijvoorbeeld Bar 4). Leeg laten mag;
-   de planner telt dan alleen.
+5. Rechts bij een dienst staat hoeveel mensen er **per tijdvak nodig** zijn. Bij het aanvinken staat het
+   standaardaantal van de dienst er al in (of het aantal uit het rooster dat je overneemt); pas het zo nodig aan. Leeg
+   laten mag; de planner telt dan alleen.
 
 ![Roosters]({{ '/assets/images/schedules.png' | relative_url }})
 
