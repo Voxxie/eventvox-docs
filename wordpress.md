@@ -21,9 +21,9 @@ komende events, Pick-Up rondes en vrijwilligers.
 1. Download `eventvox.zip` bij de nieuwste versie op
    [github.com/Voxxie/eventvox-wordpress/releases](https://github.com/Voxxie/eventvox-wordpress/releases) (onder
    **Assets**).
-2. In WordPress: **Plugins > Nieuwe plugin > Plugin uploaden**, kies het zip-bestand en klik op **Nu installeren** en
+2. In WordPress: **Plugins → Nieuwe plugin → Plugin uploaden**, kies het zip-bestand en klik op **Nu installeren** en
    daarna **Activeren**.
-3. Ga naar **Instellingen > EventVOX** en vul het **organisatie-ID** in. Dat vind je in EventVOX bij **Webshop >
+3. Ga naar **Instellingen → EventVOX** en vul het **organisatie-ID** in. Dat vind je in EventVOX bij **Webshop →
    Delen**, onder WordPress-plugin (met een knop om het te kopiëren).
 4. Na het opslaan staat bovenaan met welke organisatie de plugin verbonden is, en welke onderdelen aan staan
    (webshop, vrijwilligers, Pick-Up).
@@ -42,12 +42,12 @@ Maak voor elk een pagina en zet er een blok (zoek op **EventVOX**) of een shortc
 | Vrijwilliger worden | EventVOX vrijwilligers | `[eventvox_vrijwilligers]` |
 | Pick-Up formulier | EventVOX Pick-Up formulier | `[eventvox_pickup]` |
 
-Kies die pagina's daarna bij **Instellingen > EventVOX**. De widgets hieronder linken dan naar je eigen pagina's in
+Kies die pagina's daarna bij **Instellingen → EventVOX**. De widgets hieronder linken dan naar je eigen pagina's in
 plaats van naar EventVOX zelf. Een event in de widget opent de webshop-pagina meteen bij dat event.
 
 ## Widgets
 
-Kleine blokken voor een pagina of de zijbalk, als blok, als shortcode of als widget (**Weergave > Widgets**):
+Kleine blokken voor een pagina of de zijbalk, als blok, als shortcode of als widget (**Weergave → Widgets**):
 
 | Wat | Shortcode | Toont |
 |-----|-----------|-------|
@@ -65,9 +65,9 @@ De gegevens worden een paar minuten bewaard; een nieuwe ronde of een nieuw event
 
 Nieuwe versies verschijnen in WordPress zoals bij andere plugins: bij **Plugins** staat dan *Er is een nieuwe versie
 beschikbaar*, met **Details bekijken** (wat er nieuw is) en **Nu bijwerken**. Daar kun je ook **Automatische updates
-inschakelen**. WordPress kijkt een paar keer per dag; via **Dashboard > Updates > Opnieuw controleren** meteen.
+inschakelen**. WordPress kijkt een paar keer per dag; via **Dashboard → Updates → Opnieuw controleren** meteen.
 
 ## Zonder WordPress
 
-Op een andere site kan het ook: de insluitcode van de webshop en de vrijwilligerspagina staat bij **Webshop > Delen**,
-het adres van het Pick-Up formulier om in te sluiten bij **Pick-Up > Aanmeldformulier**.
+Op een andere site kan het ook: de insluitcode van de webshop en de vrijwilligerspagina staat bij **Webshop → Delen**,
+het adres van het Pick-Up formulier om in te sluiten bij **Pick-Up → Aanmeldformulier**.
