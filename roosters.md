@@ -28,7 +28,8 @@ Beschikbaarheid ophalen en vrijwilligers inplannen.
 
 ## Diensten
 
-Ga naar **Vrijwilligers → Diensten**. Maak hier de taken aan, met een korte omschrijving van
+Ga naar **Vrijwilligers → Diensten**. Met het zoekveld boven de tabel vind je snel een dienst op naam, omschrijving of
+rol. Maak hier de taken aan, met een korte omschrijving van
 wat er van de vrijwilliger verwacht wordt. Die omschrijving zien ze bij hun dienst.
 
 Is een dienst alleen voor mensen met een bepaalde rol, bijvoorbeeld de **EHBO-post**? Vink die rol dan aan bij
@@ -62,7 +63,8 @@ nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert rooster
 3. Open het rooster en kies **Tijdvakken**. Voeg de tijdvakken toe. Een nieuw tijdvak begint waar het vorige eindigde
    en duurt even lang, dus een reeks maken gaat snel.
 4. Kies welke **diensten** in dit rooster gebruikt worden. Dat kan meteen bij het aanmaken, of later bij **Bewerken**:
-   - vink losse diensten aan;
+   - vink losse diensten aan; heb je er veel, zoek dan op naam of rol, of zet **Alleen gekozen** aan om alleen de
+     aangevinkte te zien;
    - kies een **Dienstengroep** om al haar diensten aan te vinken;
    - of kies bij **Overnemen van rooster** een ander rooster, ook van een eerder event: dezelfde diensten worden
      aangevinkt, met hun aantallen.
