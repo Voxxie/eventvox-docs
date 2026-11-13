@@ -37,6 +37,10 @@ Is een dienst alleen voor mensen met een bepaalde rol, bijvoorbeeld de **EHBO-po
 dienstenplanner krijgt wie de rol mist het label *Geen EHBO*, en wie je toch inplant geeft een waarschuwing. Niets
 aangevinkt: de dienst is voor iedereen.
 
+Mag een dienst pas vanaf een bepaalde leeftijd, bijvoorbeeld de **Bar** vanaf 18? Vul dan **Vanaf leeftijd** in. Op de
+knop van de dienst staat dan "Bar · vanaf 18", in de dienstenplanner krijgt wie op de dag van het tijdvak jonger is het
+label *Te jong*, en wie je toch inplant geeft een waarschuwing. Leeg: geen leeftijdsgrens.
+
 Vul bij **Standaard nodig per tijdvak** in hoeveel mensen de dienst meestal per tijdvak nodig heeft, bijvoorbeeld Bar 4.
 Koppel je de dienst aan een rooster, dan staat dit aantal daar al ingevuld; per rooster kun je het nog aanpassen. Een
 nieuw standaardaantal verandert roosters waar de dienst al in zit niet.
@@ -60,6 +64,8 @@ nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert rooster
    - **Beschikbaarheid doorgeven open**: vrijwilligers kunnen hun beschikbaarheid doorgeven;
    - **Zichtbaar voor vrijwilligers (gepubliceerd)**: vrijwilligers zien waarvoor ze zijn ingepland. Laat dit uit tot de
      planning klaar is.
+   - **Vrijwilligers mogen diensten ruilen**: een vrijwilliger kan een dienst aanbieden en een collega kan hem overnemen
+     (zie [Diensten ruilen](#diensten-ruilen)). Standaard uit.
 3. Open het rooster en kies **Tijdvakken**. Voeg de tijdvakken toe. Een nieuw tijdvak begint waar het vorige eindigde
    en duurt even lang, dus een reeks maken gaat snel.
 4. Kies welke **diensten** in dit rooster gebruikt worden. Dat kan meteen bij het aanmaken, of later bij **Bewerken**:
@@ -134,6 +140,19 @@ Handige hulpmiddelen:
 - **Excel** en **PDF**: download het overzicht zoals het gefilterd is, met dezelfde kleuren en de gele regel
   *Jonger dan …*. Onderaan staat de **Bezetting**: per tijdvak hoeveel er zijn ingepland van het aantal dat nodig is,
   in totaal en per dienst (in de PDF groen of rood). De PDF is liggend A4; passen niet alle tijdvakken, dan staan de volgende op de volgende pagina.
+
+## Diensten ruilen
+
+Staat bij een rooster **Vrijwilligers mogen diensten ruilen** aan, dan kan een vrijwilliger die niet kan een dienst
+**aanbieden** in Mijn rooster. Collega's zien het aanbod bovenaan hun Mijn rooster en krijgen een pushmelding
+(eerst wie voor dat event *Kan* of *Misschien* zei). Wie de dienst **overneemt**, staat meteen ingepland in plaats van de
+ander; de planner hoeft niets te doen en krijgt een pushmelding.
+
+- Een collega kan een dienst niet overnemen als die op die tijd al is ingepland, de rol mist (**Alleen voor**) of te jong
+  is (**Vanaf leeftijd**). De reden staat bij het aanbod.
+- In de dienstenplanner staat een ruil-icoon bij een dienst die wordt aangeboden. Plan je zelf iemand anders in, of
+  haal je de vrijwilliger weg, dan vervalt het aanbod.
+- Een begonnen dienst kan niet meer worden aangeboden of overgenomen.
 
 ## Meldingen
 

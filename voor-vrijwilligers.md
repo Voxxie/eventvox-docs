@@ -55,6 +55,17 @@ Klik op een dienst voor de details:
 
 Je ziet alleen diensten in roosters die de organisatie al heeft gepubliceerd.
 
+### Een dienst ruilen
+
+Kun je toch niet? Als de organisatie ruilen voor het rooster heeft aangezet, staat bij je dienst de knop **Dienst
+aanbieden**. Je collega's zien hem dan en krijgen een melding. Tot iemand hem overneemt, blijf je zelf ingepland; met
+**Aanbod intrekken** trek je hem terug. Neemt een collega hem over, dan krijg je een melding en staat de dienst niet
+meer in je rooster.
+
+Bieden collega's een dienst aan, dan staat bovenaan Mijn rooster **Diensten om over te nemen**. Klik op
+**Overnemen** en de dienst is van jou. Staat er een reden bij (je bent dan al ingepland, de dienst is voor een rol of
+vanaf een leeftijd), dan kun je hem niet overnemen.
+
 ### Diensten in je eigen agenda
 
 Wil je je diensten in Google Agenda, Outlook of de agenda op je telefoon? Klik op **In je agenda** bovenaan Mijn rooster
