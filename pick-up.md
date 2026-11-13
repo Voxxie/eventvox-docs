@@ -52,6 +52,19 @@ nieuwsbrief. Mensen hebben geen account nodig. Ze kiezen een ronde die nog niet 
 vullen hun adres in, met maximaal 3 foto's. Op een telefoon kunnen ze met **Foto maken** meteen een foto maken met
 de camera, of met **Foto kiezen** een bestaande foto kiezen.
 
+### Het formulier instellen
+
+Met **Formulier instellen** op de pagina Pick-Up (recht `pickups:update`{: .recht }) bepaal je voor jouw organisatie:
+
+- de **tekst bovenaan het formulier**, met opmaak, bijvoorbeeld wat je wel en niet ophaalt. Laat je hem leeg, dan
+  staat er "*Jouw organisatie* komt bij je langs. Kies een ronde en vul je adres in.";
+- **foto's**:
+  - *Optioneel*: wie wil, stuurt foto's mee (standaard);
+  - *Verplicht*: aanmelden kan pas met minstens één foto;
+  - *Uit*: het formulier vraagt niet om foto's.
+
+Elke organisatie stelt dit zelf in; het geldt ook voor het formulier op je eigen website (de WordPress-plugin).
+
 {: .tip }
 Nieuwsberichten met de plek *Pick-Up aanmeldformulier* staan boven het formulier. Handig voor uitleg zoals "zet de
 spullen vóór 9 uur aan de straat". Zie [Nieuws]({{ '/communicatie/#nieuws' | relative_url }}).
