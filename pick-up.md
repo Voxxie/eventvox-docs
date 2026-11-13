@@ -75,6 +75,8 @@ Open een ronde vanuit de lijst.
 - **Adressen**: per adres de gegevens en foto's. Je kunt een adres bewerken, de status wijzigen, foto's toevoegen of
   het adres verplaatsen naar een **andere datum** (een andere ronde). Op een telefoon is elk adres een kaartje, zoals
   vrijwilligers het zien: met **Route**, **Bellen** en grote knoppen voor de status.
+
+  ![Een Pick-Up ronde op de telefoon]({{ '/assets/images/pickup-phone.png' | relative_url }})
 - **Adres toevoegen**: zelf een adres invoeren, bijvoorbeeld na een telefoontje. Het maximum geldt dan niet.
 - **Routelijst printen**: een compacte lijst om mee te nemen.
 
@@ -91,6 +93,8 @@ daaronder per adres een kaartje, gemaakt voor de telefoon:
 Een gekleurde streep links laat de status zien. Boven de lijst staat hoeveel adressen al zijn afgehandeld en hoeveel er
 nog te gaan zijn. Per ongeluk op de verkeerde knop getikt? Tik op een andere uitkomst, of op **Ongedaan maken** om het
 adres weer op ingepland te zetten.
+
+![De adressen op de telefoon van een vrijwilliger]({{ '/assets/images/vrijw-pickup.png' | relative_url }})
 
 Een afgehandeld adres verdwijnt uit de lijst, zodat alleen overblijft wat nog moet. Met **Ook afgehandelde tonen** zie
 je alles. De status is meteen zichtbaar voor de rest van de groep en voor de organisatie.

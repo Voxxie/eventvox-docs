@@ -55,8 +55,12 @@ Het dashboard is je startpagina. Je ziet er:
 - **tegels met wat aandacht nodig heeft** (zie hieronder);
 - **Scans per uur vandaag**: per checkpoint een staafje per uur, met het drukste uur (zodra er vandaag gescand is, of
   als er een event bezig is);
-- de **verkoop** van de komende events per dag, de **volgende Pick-Up ronde**, de **jubilarissen** van dit jaar en het
-  aantal **nieuwe kopers** van de afgelopen week;
+- de **verkoop** van de komende events per dag, de **jubilarissen** van dit jaar en het aantal **nieuwe kopers** van de
+  afgelopen week;
+- **Pick-Up deze week**: de rondes van maandag tot en met zondag, per ronde hoeveel adressen al zijn afgehandeld en
+  hoeveel vrijwilligers er meegaan, met bovenaan het totaal. Is er deze week geen ronde, dan zie je de volgende.
+
+  ![Pick-Up deze week]({{ '/assets/images/dashboard-pickup.png' | relative_url }})
 - de **komende events**, met het aantal verkochte tickets;
 - als je vrijwilliger bent: je eerstvolgende **diensten** en de events waarvoor je je beschikbaarheid nog kunt
   doorgeven;

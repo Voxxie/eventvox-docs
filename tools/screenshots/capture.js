@@ -41,9 +41,15 @@ const cardWith = (text) => async (page) => page.evaluate((t) => {
     const card = [...document.querySelectorAll('.card')].find((c) => c.querySelector('.card-header, .card-title, h2, h3')?.textContent.includes(t));
     if (card) card.setAttribute('data-shot', '1');
 }, text);
+// A card cropped to its first n list items (a phone screenshot longer than the screen would show the sticky top bar)
+const firstItems = (title, n) => async (page) => {
+    await cardWith(title)(page);
+    await page.evaluate((k) => document.querySelectorAll('[data-shot] .list-group > li').forEach((li, i) => { if (i >= k) li.remove(); }), n);
+};
 const SHOTS = [
     // Aan de slag
     { name: 'dashboard', url: '', viewport: { width: 1280, height: 1460 } },
+    { name: 'dashboard-pickup', url: '', element: '[data-shot]', before: cardWith('Pick-Up deze week') },
     // A favourite page: the star is yellow and the group Favorieten opens by itself
     { name: 'favorites', url: 'checkpoints' },
     { name: 'profile', url: 'profile' },
@@ -102,12 +108,34 @@ const SHOTS = [
     { name: 'schedule-tasks', url: 'schedule-tasks' },
     { name: 'schedules', url: 'schedules' },
     { name: 'schedule', url: () => `schedule?uuid=${D.schedules.walk}` },
+    // The roster form: services as a table with search, groups, take over from another roster, needed per time slot
+    { name: 'schedule-form', url: () => `schedule?uuid=${D.schedules.walk}`, element: '.modal.show .modal-content', before: async (p) => {
+        await click(p, '[data-edit]');
+        await p.waitForSelector('.modal.show [data-task-fieldset]');
+        await wait(600);
+    } },
+    // A whole roster copied to next year's event: the shift in days and where the first time slot lands
+    { name: 'schedule-copy', url: () => `schedule?uuid=${D.schedules.walk}`, element: '.modal.show .modal-content', before: async (p) => {
+        await click(p, '[data-copy]');
+        await p.waitForSelector('.modal.show #cp-event');
+        await p.select('.modal.show #cp-event', D.events.summer);
+        await wait(600);
+    } },
+    // The dienstenplanner with a time slot chosen: who can still come first
+    { name: 'schedule-planner', url: () => `schedule?uuid=${D.schedules.walk}&mode=plan&view=tasks`, viewport: { width: 1280, height: 900 }, before: async (p) => {
+        await click(p, '.schedule-planner .sp-cell');
+        await p.waitForSelector('[data-planner-list] [data-assign]');
+        await wait(400);
+    } },
     { name: 'checklists', url: 'checklists' },
     { name: 'checklist', url: () => `checklist?uuid=${D.checklist}` },
     { name: 'survey', url: () => `survey?uuid=${D.survey}` },
     // Pick-Up
     { name: 'pickups', url: 'pickups' },
     { name: 'pickup', url: () => `pickup?uuid=${D.slots.pickup[0]}`, before: async () => wait(2500) },
+    // The same round on a phone: the addresses as cards with big status buttons
+    { name: 'pickup-phone', url: () => `pickup?uuid=${D.slots.pickup[0]}`, viewport: { width: 390, height: 844 }, element: '[data-shot]', before: firstItems('Adressen', 3) },
+    { name: 'report-pickups', url: 'reports-pickups', viewport: { width: 1280, height: 1100 } },
     // Verkoop en webshop
     { name: 'webshop', url: 'webshop' },
     { name: 'products', url: 'products' },
@@ -143,6 +171,8 @@ const SHOTS = [
     } },
     // Voor vrijwilligers (Julia)
     { name: 'vrijw-my-schedule', who: 'julia', url: 'my-schedule' },
+    // Julia's Pick-Up round on her phone: the address cards
+    { name: 'vrijw-pickup', who: 'julia', url: () => `my-schedule?shift=${D.slots.pickup[0]}`, viewport: { width: 390, height: 844 }, element: '[data-shot]', before: firstItems('Adressen', 3) },
     { name: 'vrijw-availability', who: 'julia', url: 'availability' },
     // De webshop (Lucas, een koper)
     { name: 'shop-overview', who: 'lucas', url: '' },
