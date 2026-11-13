@@ -64,8 +64,8 @@ nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert rooster
    - **Beschikbaarheid doorgeven open**: vrijwilligers kunnen hun beschikbaarheid doorgeven;
    - **Zichtbaar voor vrijwilligers (gepubliceerd)**: vrijwilligers zien waarvoor ze zijn ingepland. Laat dit uit tot de
      planning klaar is.
-   - **Vrijwilligers mogen diensten ruilen**: een vrijwilliger kan een dienst aanbieden en een collega kan hem overnemen
-     (zie [Diensten ruilen](#diensten-ruilen)). Standaard uit.
+   - **Diensten ruilen**: of een dienst ter overname kan worden aangeboden, en door wie (zie
+     [Diensten ruilen](#diensten-ruilen)). Standaard uit.
 3. Open het rooster en kies **Tijdvakken**. Voeg de tijdvakken toe. Een nieuw tijdvak begint waar het vorige eindigde
    en duurt even lang, dus een reeks maken gaat snel.
 4. Kies welke **diensten** in dit rooster gebruikt worden. Dat kan meteen bij het aanmaken, of later bij **Bewerken**:
@@ -143,10 +143,27 @@ Handige hulpmiddelen:
 
 ## Diensten ruilen
 
-Staat bij een rooster **Vrijwilligers mogen diensten ruilen** aan, dan kan een vrijwilliger die niet kan een dienst
-**aanbieden** in Mijn rooster. Collega's zien het aanbod bovenaan hun Mijn rooster en krijgen een pushmelding
-(eerst wie voor dat event *Kan* of *Misschien* zei). Wie de dienst **overneemt**, staat meteen ingepland in plaats van de
-ander; de planner hoeft niets te doen en krijgt een pushmelding.
+Bij **Bewerken** van een rooster kies je bij **Diensten ruilen**:
+
+- **Uit**: niemand biedt diensten aan (standaard).
+- **Alleen door roostermakers**: jij biedt een dienst aan, bijvoorbeeld als iemand zich ziek meldt. Vrijwilligers
+  kunnen zelf niets aanbieden; bij hun dienst staat dat ze contact opnemen met de roostermaker.
+- **Ook door vrijwilligers**: een vrijwilliger die niet kan, biedt de eigen dienst zelf **aan** in Mijn rooster. Jij kunt
+  ook aanbieden.
+
+Een dienst aanbieden doe je in de **dienstenplanner** (Plannen → Dienstenplanner). Naast elke ingeplande vrijwilliger
+staat een ruilknop: klik erop en de dienst is aangeboden (de knop wordt geel). Nog een keer klikken trekt het aanbod in.
+De vrijwilliger krijgt een melding dat de dienst is aangeboden en blijft ingepland tot iemand hem overneemt.
+
+Collega's zien het aanbod bovenaan hun Mijn rooster en krijgen een pushmelding (eerst wie voor dat tijdvak *Kan* of
+*Misschien* zei). Wie de dienst **overneemt**, staat meteen ingepland in plaats van de ander; de planner hoeft niets te
+doen en krijgt een pushmelding.
+
+Boven het rooster staat de kaart **Aangeboden diensten**: alle open aanbiedingen, met wie het is, wie de dienst aanbood
+en sinds wanneer. **In de planner** opent de dienstenplanner bij dat tijdvak, **Intrekken** trekt het aanbod in (ook als
+de vrijwilliger het zelf deed).
+
+![Aangeboden diensten]({{ '/assets/images/schedule-swaps.png' | relative_url }})
 
 - Een collega kan een dienst niet overnemen als die op die tijd al is ingepland, de rol mist (**Alleen voor**) of te jong
   is (**Vanaf leeftijd**). De reden staat bij het aanbod.
