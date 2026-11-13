@@ -124,6 +124,7 @@ Per bericht kies je:
 | Betaalherinnering | Als een bestelling nog niet betaald is. |
 | VOG verloopt binnenkort | Een instelbare tijd vóór het verlopen van een VOG. |
 | VOG nodig | Een vrijwilliger heeft een VOG nodig. |
+| Aanmelding als vrijwilliger goedgekeurd | Je keurt een aanmelding goed bij **Vrijwilligers → Aanmeldingen**: de nieuwe vrijwilliger krijgt een welkomstbericht met een link om de beschikbaarheid door te geven. Staat standaard aan. |
 | Uitnodiging | Iemand wordt uitgenodigd voor je organisatie. |
 
 Bovenaan kies je de **standaard mailbox**. Zonder eigen mailbox verstuurt EventVOX de mails, met de naam van je
@@ -138,7 +139,18 @@ Met de schakelaar zet je een notificatie aan of uit. Klik op een notificatie om 
   van de push**.
 
 Een leeg veld is weer de standaardtekst. Met **Voorbeeld** zie je hoe het eruitziet, met **Test naar mij** ontvang je
-hem zelf, en **Standaard terugzetten** vergeet je wijzigingen.
+hem zelf, en **Standaard terugzetten** vergeet je wijzigingen en bijlagen.
+
+### Bijlagen
+
+Onder het formulier staat **Bijlagen**. Met **Bijlage toevoegen** kies je een bestand dat elke mail van deze notificatie
+meekrijgt, bijvoorbeeld de huisregels voor nieuwe vrijwilligers of een informatieblad bij een bestelling. Je kunt
+hooguit 5 bestanden toevoegen, van hooguit 10 MB (pdf, Word, Excel, afbeeldingen en dergelijke). Met het kruisje haal
+je een bijlage weer weg.
+
+- Bij een bestelling komen de bijlagen naast de tickets.
+- Bijlagen gaan alleen mee met de **mail**, niet met een pushmelding.
+- Met **Test naar mij** zie je de mail met de bijlagen zelf.
 
 {: .tip }
 Iedereen kan zelf in **Mijn profiel → Meldingen** pushmeldingen per soort uitzetten, per organisatie.

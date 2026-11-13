@@ -87,6 +87,10 @@ daar aanmelden, met een telefoonnummer en een bericht. Je vindt de aanmeldingen 
 Wie aanmeldingen mag beoordelen, krijgt bij een nieuwe aanmelding een pushmelding (als meldingen aanstaan); een tik
 op de melding opent de aanmeldingen. Uitzetten kan bij **Mijn profiel → Meldingen**.
 
+Keur je een aanmelding goed, dan krijgt de nieuwe vrijwilliger meteen een welkomstbericht (mail en push) met een link
+om de beschikbaarheid door te geven. De tekst, en eventuele bijlagen zoals huisregels, pas je aan bij
+**Communicatie → Notificaties → Aanmelding als vrijwilliger goedgekeurd**; daar kun je hem ook uitzetten.
+
 {: .info }
 Aanmeldingen uit EventVOX 1 zijn overgenomen, met het bericht en de datum. Wie in EventVOX 1 nog op beoordeling
 wachtte, staat hier als nieuwe aanmelding: keur die goed of wijs hem af zoals elke andere.
