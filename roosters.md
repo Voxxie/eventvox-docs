@@ -72,7 +72,20 @@ nog losse diensten aan- of uitzetten. Een groep later wijzigen verandert rooster
    standaardaantal van de dienst er al in (of het aantal uit het rooster dat je overneemt); pas het zo nodig aan. Leeg
    laten mag; de planner telt dan alleen.
 
+![Rooster bewerken: de diensten met hun aantal per tijdvak]({{ '/assets/images/schedule-form.png' | relative_url }})
+
 ![Roosters]({{ '/assets/images/schedules.png' | relative_url }})
+
+### Een heel rooster kopiëren
+
+Heb je elk jaar hetzelfde event? Open het rooster van vorig jaar en klik op **Kopiëren**. Kies het event van dit jaar
+en eventueel een andere naam. De tijdvakken schuiven vanzelf op van de ene startdatum naar de andere; het aantal dagen
+staat ingevuld en kun je aanpassen. Daaronder zie je waar het eerste tijdvak komt.
+
+De diensten gaan mee, met hun aantal per tijdvak. De beschikbaarheid en de planning gaan niet mee, en het nieuwe
+rooster is nog niet gepubliceerd: zet **Beschikbaarheid doorgeven open** aan als je zover bent.
+
+![Rooster kopiëren]({{ '/assets/images/schedule-copy.png' | relative_url }})
 
 ## Inplannen
 
@@ -101,14 +114,20 @@ Handige hulpmiddelen:
 - **Bezetting**: onder de tijden staat per tijdvak hoeveel mensen er ingepland zijn van het aantal dat nodig is
   (alleen de diensten met een aantal), groen als het genoeg is en rood als er nog mensen te weinig zijn. Wijs een vak
   aan om het per dienst te zien. In de **Dienstenplanner** staat het per tijdvak als label, bijvoorbeeld *Bar 2/4*.
+- **Wie kan nog?** Klik op een vak van de Bezetting (bijvoorbeeld een rood *1/2*): je ziet dan alleen wie in dat
+  tijdvak *Kan* of *Misschien* zei en daar nog niet is ingepland, en die kolom licht op. Nog een klik, of **Iedereen
+  tonen**, zet het terug. Met de schakelaar **Alleen wie nog kan** zie je iedereen die nog ergens in te zetten is.
 - Het kaartje naast een naam toont leeftijd, VOG-status en of iemand dit jaar meehelpt. Geel = er is een VOG nodig.
 - Vrijwilligers jonger dan de VOG-leeftijd staan in een eigen blok, onder een gele regel *Jonger dan …*.
 - Filters: *Alleen met beschikbaarheid of dienst* (standaard aan), *Helpt dit jaar* en zoeken op naam.
 - **Dienstenplanner**: een andere weergave, per tijdvak wie met welke dienst is ingepland. Klik een tijdvak, kies links
-  de dienst en klik daaronder een vrijwilliger. Wie *Kan* of *Misschien* zei, staat bovenaan. Een dag en tijd zonder
-  tijdvak is gearceerd met *Geen tijdvak*.
+  de dienst en klik daaronder een vrijwilliger. Bovenaan staat wie *Kan* of *Misschien* zei en nog vrij is; wie al in
+  dat tijdvak zit, staat apart. Een dag en tijd zonder tijdvak is gearceerd met *Geen tijdvak*.
+
+  ![Dienstenplanner]({{ '/assets/images/schedule-planner.png' | relative_url }})
 - **Excel** en **PDF**: download het overzicht zoals het gefilterd is, met dezelfde kleuren en de gele regel
-  *Jonger dan …*. De PDF is liggend A4; passen niet alle tijdvakken, dan staan de volgende op de volgende pagina.
+  *Jonger dan …*. Onderaan staat de **Bezetting**: per tijdvak hoeveel er zijn ingepland van het aantal dat nodig is,
+  in totaal en per dienst (in de PDF groen of rood). De PDF is liggend A4; passen niet alle tijdvakken, dan staan de volgende op de volgende pagina.
 
 ## Meldingen
 

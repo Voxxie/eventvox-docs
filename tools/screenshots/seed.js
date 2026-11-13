@@ -218,16 +218,21 @@ async function scanning(t) {
 
 async function volunteersWork(t) {
     // Tasks ("diensten") and the walk's roster with its four evenings
-    const task = async (name, description) => uuidOf(await api('POST', '/schedules/tasks', { token: t, body: { name, description } }));
+    // With the standard number of people per time slot (taken over when linked to a roster)
+    const task = async (name, description, needed = null) => uuidOf(await api('POST', '/schedules/tasks', { token: t, body: { name, description, default_needed: needed } }));
     state.tasks = {
-        ehbo: await task('EHBO', 'EHBO-post bij de start, met de EHBO-terminal.'),
-        desk: await task('Inschrijftafel', 'Polsbandjes scannen en vragen beantwoorden bij de start.'),
-        post: await task('Stempelpost', 'Post Molenweg: stempelen en water uitdelen.'),
-        traffic: await task('Verkeersregelaar', 'Oversteekplaatsen begeleiden (hesje en bordje bij de inschrijftafel).'),
-        build: await task('Opbouw', 'Kramen en verlichting opbouwen op het Kerkplein.'),
-        bar: await task('Glühweinkraam', 'Glühwein en warme chocolademelk schenken.'),
-        pickup: await task('Ophalen', 'Met de bus spullen ophalen bij de aangemelde adressen.'),
+        ehbo: await task('EHBO', 'EHBO-post bij de start, met de EHBO-terminal.', 1),
+        desk: await task('Inschrijftafel', 'Polsbandjes scannen en vragen beantwoorden bij de start.', 2),
+        post: await task('Stempelpost', 'Post Molenweg: stempelen en water uitdelen.', 2),
+        traffic: await task('Verkeersregelaar', 'Oversteekplaatsen begeleiden (hesje en bordje bij de inschrijftafel).', 3),
+        build: await task('Opbouw', 'Kramen en verlichting opbouwen op het Kerkplein.', 4),
+        bar: await task('Glühweinkraam', 'Glühwein en warme chocolademelk schenken.', 2),
+        pickup: await task('Ophalen', 'Met de bus spullen ophalen bij de aangemelde adressen.', 2),
     };
+    // Service groups: the standard sets of the two kinds of events
+    const group = async (name, tasks) => api('POST', '/schedules/task-groups', { token: t, body: { name, task_uuids: tasks } });
+    await group('Wandelvierdaagse', [state.tasks.ehbo, state.tasks.desk, state.tasks.post, state.tasks.traffic]);
+    await group('Kerstmarkt', [state.tasks.build, state.tasks.bar, state.tasks.pickup]);
     const schedule = async (event, name, tasks) => {
         const id = uuidOf(await api('POST', '/schedules', { token: t, body: { event_uuid: event, name, availability_open: true, published: true } }));
         await api('PUT', `/schedules/${id}/tasks`, { token: t, body: { task_uuids: tasks } });

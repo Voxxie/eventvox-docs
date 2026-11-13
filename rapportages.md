@@ -124,3 +124,5 @@ op de pagina Pick-Up. Kies een **jaar** (of *Alle jaren*) en eventueel één **e
 - **Vrijwilligers met de meeste rondes**.
 
 Elke tabel kun je als Excel downloaden.
+
+![Pick-Up statistieken]({{ '/assets/images/report-pickups.png' | relative_url }})
