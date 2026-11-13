@@ -67,6 +67,8 @@ Met **Instellingen** op de pagina Pick-Up (recht `pickups:update`{: .recht }) be
 
 Elke organisatie stelt dit zelf in; het geldt ook voor het formulier op je eigen website (de WordPress-plugin).
 
+![Pick-Up instellen]({{ '/assets/images/pickup-settings.png' | relative_url }})
+
 {: .tip }
 Nieuwsberichten met de plek *Pick-Up aanmeldformulier* staan boven het formulier. Handig voor uitleg zoals "zet de
 spullen vóór 9 uur aan de straat". Zie [Nieuws]({{ '/communicatie/#nieuws' | relative_url }}).

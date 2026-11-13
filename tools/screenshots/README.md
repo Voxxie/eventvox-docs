@@ -8,7 +8,7 @@ Hiermee maak je alle PNG's in `assets/images/` opnieuw, uit een lokale, fictieve
 |---------|-----|
 | `env.sh` | Lokale omgeving in WSL: database `evx_demo` (opnieuw) maken, servers starten en stoppen |
 | `seed.js` | Bouwt de demo op tegen een **lege** database, zoveel mogelijk via de API (Node, geen dependencies) |
-| `seed-db.php` | Wat niet via de API kan: de admin-tenant met de eerste beheerder, en geschiedenis in het verleden (datums van bestellingen, scans, accounts, logboek; mailboxen zonder echte server; coördinaten van de fictieve Pick-Up-adressen) |
+| `seed-db.php` | Wat niet via de API kan: de admin-tenant met de eerste beheerder, de e-mailadressen van de demo-accounts (via de API wacht een adres op een bevestigingslink), de coördinaten van het startpunt van de Pick-Up-route, en geschiedenis in het verleden (datums van bestellingen, scans, accounts, logboek; mailboxen zonder echte server; coördinaten van de fictieve Pick-Up-adressen) |
 | `capture.js` | Maakt de screenshots met headless Edge (`puppeteer-core`): één lijst `SHOTS` met per afbeelding adres, voorbereiding, viewport en uitsnede |
 | `make-assets.js` | Tekent eenmalig de plaatjes in `assets/` (logo, eventafbeeldingen, sponsorlogo's, productfoto's) |
 

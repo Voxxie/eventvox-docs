@@ -31,7 +31,11 @@ webshopkopers. Filter op soort (*Beheer* of *Publiek*) en op rol.
   persoon maakt daarmee zelf een account aan en kiest zijn eigen wachtwoord. Heeft diegene al een EventVOX-account
   (bij een andere organisatie), dan accepteert hij de uitnodiging met dat account. Open uitnodigingen staan onder de
   lijst; je kunt ze intrekken of een nieuwe link maken.
-- **Nieuwe gebruiker**: je maakt het account zelf aan, met een wachtwoord.
+- **Nieuwe gebruiker**: je maakt het account zelf aan, met een wachtwoord. Vul je een e-mailadres in, dan krijgt de
+  persoon eerst een bevestigingslink op dat adres: pas als hij die opent (ingelogd met dit account) gaat het adres in.
+  Tot die tijd staat het bij de gebruiker als *wacht op bevestiging* en krijgt hij nog geen mails van EventVOX, ook
+  geen wachtwoordreset. Hetzelfde geldt als je het e-mailadres van een bestaande gebruiker wijzigt. Zo kan niemand
+  andermans e-mailadres aan een account koppelen. Webshopkopers wijzigen hun adres zelf in de webshop.
 
 ### De pagina van een gebruiker
 
@@ -160,6 +164,10 @@ AI-assistent.
 - Een token werkt alleen in deze organisatie en kan nooit meer dan jij.
 - Met het recht *API-tokens beheren* maak je ook **applicatie-accounts**: accounts voor een koppeling, die niet kunnen
   inloggen en hun rechten via rollen krijgen.
+
+- **Wachtwoord gewijzigd of gereset?** Dan vervallen alle tokens en gekoppelde AI-assistenten van dat account. Gebruik
+  voor een koppeling die moet blijven werken (zoals een telefoonboek of een vaste AI-koppeling) daarom liever een
+  applicatie-account: dat heeft geen wachtwoord, dus zijn tokens vervallen niet.
 
 {: .let_op }
 Behandel een token als een wachtwoord. Trek een token in zodra het niet meer nodig is.

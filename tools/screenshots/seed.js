@@ -313,6 +313,10 @@ async function volunteersWork(t) {
         } });
         state.pickupAddresses.push(uuidOf(r));
     }
+    // The rounds start at the club's storage shed and come back there (Pick-Up -> Instellingen; coordinates: seed-db.php)
+    await api('PUT', '/pickups/settings', { token: t, body: { route: {
+        name: 'Loods', street: 'Industrieweg', house_number: '4', postal_code: '2951 AB', city: 'Vlietdorp', return: true,
+    } } });
     for (const [i, status] of [[0, 'done'], [1, 'done'], [2, 'not_home']]) {
         await api('PUT', `/pickups/${state.slots.pickup[0]}/addresses/${state.pickupAddresses[i]}`, { token: t, body: { status } }).catch((e) => log('  (status ophaaladres)', e.message));
     }
@@ -503,7 +507,7 @@ async function rolesAndUsers(t) {
         const r = await api('POST', '/users', {
             token: t,
             body: {
-                username: p.email, email: p.email, first_name: p.first_name, last_name_prefix: p.last_name_prefix,
+                username: p.email, first_name: p.first_name, last_name_prefix: p.last_name_prefix,
                 last_name: p.last_name, date_of_birth: p.dob || null, password: PASSWORD, role_uuid: state.roles[role], tenant_uuid: tenantUuid,
             },
         });
@@ -513,6 +517,8 @@ async function rolesAndUsers(t) {
     for (const p of STAFF) await newUser(p, p.role);
     for (const p of VOLUNTEERS) await newUser(p, 'Vrijwilliger');
     for (const p of BUYERS) await newUser(p, 'publiek');
+    // Their email addresses straight into the database (seed-db.php emails: no confirmation mails in the demo)
+    seedDb('emails', { emails: [...STAFF, ...VOLUNTEERS, ...BUYERS].map((p) => p.email) });
     log('gebruikers', Object.keys(state.users).length);
 
     // Volunteers: the role every volunteer gets, the VOG rules, their years and VOGs
