@@ -4,6 +4,10 @@ De handleidingen voor organisaties (tenants) die met EventVOX werken, gepublicee
 [faq.eventvox.nl](https://faq.eventvox.nl) via GitHub Pages (Jekyll met het thema
 [Just the Docs](https://just-the-docs.com)).
 
+- **Niet in zoekmachines:** elke pagina heeft `<meta name="robots" content="noindex, nofollow">` (in
+  `_includes/head_custom.html`; GitHub Pages kan geen `X-Robots-Tag`-header sturen). Er is bewust geen `robots.txt` die
+  alles blokkeert: dan kan een zoekmachine die tag niet lezen en blijven eerder geïndexeerde pagina's staan. De zoekfunctie
+  van de site zelf werkt gewoon.
 - Elke pagina is een Markdown-bestand in de hoofdmap; `nav_order` in de kop bepaalt de volgorde in het menu.
 - Screenshots staan in `assets/images/`. Ze zijn gemaakt met een fictieve demo-organisatie
   ("Stichting Vlietdorp Evenementen"); er staan geen echte persoonsgegevens in. Opnieuw maken (lokale demo via de
