@@ -22,7 +22,7 @@
 
 ## Writing
 - Dutch, informal ("je"), short sentences. Explain what someone wants to do, then where: menu paths in bold with
-  `>` (`**Webshop > Delen**`), button names in bold as they appear in the app.
+  `→` (`**Vrijwilligers → Roosters**`), button names in bold as they appear in the app.
 - No technical terms (API, endpoint, UUID, iframe only where unavoidable, and then explained once). Say what
   happens for the visitor or volunteer, and mention limits plainly (e.g. "Een iPhone trilt niet").
 - Tables for overviews (shortcodes, settings, statuses), numbered lists for steps.
