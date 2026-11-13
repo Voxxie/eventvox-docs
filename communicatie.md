@@ -117,6 +117,7 @@ Per bericht kies je:
 |:------------|:--------|
 | Ingepland voor een Pick-Up ronde | Een vrijwilliger is ingepland voor een ronde. |
 | Ingepland voor een dienst | Een vrijwilliger is ingepland in een gepubliceerd rooster. |
+| Beschikbaarheid nog niet doorgegeven | Een instelbaar aantal dagen vóór de eerste dienst van een rooster (standaard 14 dagen, om 18:00), aan vrijwilligers die voor dat rooster nog niets hebben doorgegeven. Eén keer per rooster; staat standaard uit. |
 | Herinnering vlak voor je dienst | Een instelbare tijd vóór de dienst. |
 | Bevestiging van een bestelling | Na het bestellen in de webshop. |
 | Betaling ontvangen | Als een bestelling betaald is. |

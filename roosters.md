@@ -87,6 +87,12 @@ rooster is nog niet gepubliceerd: zet **Beschikbaarheid doorgeven open** aan als
 
 ![Rooster kopiëren]({{ '/assets/images/schedule-copy.png' | relative_url }})
 
+### Herinnering om beschikbaarheid door te geven
+
+Zet bij **Communicatie → Notificaties** de notificatie **Beschikbaarheid nog niet doorgegeven** aan. Vrijwilligers die
+voor een rooster met *Beschikbaarheid doorgeven open* nog niets hebben ingevuld, krijgen dan een mail en/of pushmelding,
+standaard 14 dagen vóór de eerste dienst. Wie al iets doorgaf (ook *Kan niet*), of al is ingepland, krijgt hem niet.
+
 ## Inplannen
 
 {: .rechten }
