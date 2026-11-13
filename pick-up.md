@@ -59,18 +59,22 @@ spullen vóór 9 uur aan de straat". Zie [Nieuws]({{ '/communicatie/#nieuws' | r
 ## Een ronde beheren
 
 {: .rechten }
-**Rechten:** `pickups:read`{: .recht } om rondes te zien; `pickups:update`{: .recht } `pickups:delete`{: .recht } om ze te wijzigen en te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+**Rechten:** `pickups:read`{: .recht } om rondes te zien; `pickups:update`{: .recht } om ze te wijzigen en vrijwilligers in te plannen; `pickups:delete`{: .recht } om adressen te verwijderen. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
 
 Open een ronde vanuit de lijst.
 
 ![Een Pick-Up ronde]({{ '/assets/images/pickup.png' | relative_url }})
 
 - **Ronde**: tijd, rooster en maximum, met de voortgang (hoeveel adressen afgehandeld).
-- **Vrijwilligers**: wie er is ingepland. Met **Inplannen** plan je vrijwilligers in of haal je ze eruit, met een dienst
-  uit het rooster. Wie *kan* staat bovenaan.
+- **Vrijwilligers**: wie er is ingepland, met hun dienst. Met het kruisje haal je iemand uit de ronde. Met **Inplannen**
+  zie je drie groepen: *Ingepland*, *Kan of misschien* en de *overige vrijwilligers*. Een tik op **Inplannen** zet iemand
+  in de ronde. Heeft het rooster meer diensten (bijvoorbeeld Chauffeur en Bijrijder), kies dan eerst bij **Inplannen als**
+  de dienst. Hiervoor heb je alleen rechten op Pick-Up nodig, geen rechten op roosters. Heeft het rooster nog geen
+  diensten, dan koppelt iemand met rechten op roosters die eerst.
 - **Kaart**: alle adressen. De kleur van de markering is de status.
 - **Adressen**: per adres de gegevens en foto's. Je kunt een adres bewerken, de status wijzigen, foto's toevoegen of
-  het adres verplaatsen naar een **andere datum** (een andere ronde).
+  het adres verplaatsen naar een **andere datum** (een andere ronde). Op een telefoon is elk adres een kaartje, zoals
+  vrijwilligers het zien: met **Route**, **Bellen** en grote knoppen voor de status.
 - **Adres toevoegen**: zelf een adres invoeren, bijvoorbeeld na een telefoontje. Het maximum geldt dan niet.
 - **Routelijst printen**: een compacte lijst om mee te nemen.
 

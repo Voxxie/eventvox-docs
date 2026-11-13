@@ -107,3 +107,20 @@ Hoeveel vrijwilligers er per jaar meehielpen, hoeveel daarvan **nieuw** waren en
 jaar. Daaronder staat wie dit jaar meehelpt.
 
 ![Vrijwilligers]({{ '/assets/images/report-volunteers.png' | relative_url }})
+
+## Pick-Up statistieken
+
+{: .rechten }
+**Rechten:** `pickups:read`{: .recht }. [Alle rechten]({{ '/organisatie/#rechten-per-menu-item' | relative_url }})
+
+Hoe de ophaalrondes gingen. Je vindt het bij **Rapportages → Pick-Up statistieken**, of via de knop **Statistieken**
+op de pagina Pick-Up. Kies een **jaar** (of *Alle jaren*) en eventueel één **event**.
+
+- Bovenaan de totalen: het aantal rondes en adressen, hoeveel er **afgerond** zijn, **niemand thuis** of
+  **overgeslagen**, en hoeveel er nog open staan. Ook hoeveel adressen zich via het **formulier** aanmeldden en hoeveel
+  verschillende **vrijwilligers** meereden.
+- **Adressen per jaar**: alle jaren naast elkaar, om te vergelijken.
+- **Per maand**, **per ronde** en **per plaats**: zo zie je welke rondes en welke plaatsen het drukst waren.
+- **Vrijwilligers met de meeste rondes**.
+
+Elke tabel kun je als Excel downloaden.
