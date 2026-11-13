@@ -99,6 +99,15 @@ adres weer op ingepland te zetten.
 
 ![De adressen op de telefoon van een vrijwilliger]({{ '/assets/images/vrijw-pickup.png' | relative_url }})
 
+**Route**: de adressen staan in een logische rijvolgorde; de nummers op de kaart en in de lijst volgen die. Met
+**Route langs … adressen** open je Google Maps met alle adressen die nog moeten als tussenstops, vanaf waar je bent. Zijn
+het er meer dan tien, dan zijn er knoppen per deel (bijvoorbeeld *Route 1–10* en *Route 11–18*); het volgende deel begint
+waar het vorige eindigde. Ook beheerders zien deze knop op de pagina van de ronde.
+
+**Geen bereik?** Een status die je zonder verbinding kiest, blijft op je telefoon bewaard en staat er met *Nog niet
+verstuurd* bij. Zodra er weer verbinding is, gaat hij vanzelf naar EventVOX (of tik op **Nu versturen**). Sluit de pagina
+liever niet zolang er nog iets wacht; opnieuw openen kan pas weer met verbinding.
+
 Een afgehandeld adres verdwijnt uit de lijst, zodat alleen overblijft wat nog moet. Met **Ook afgehandelde tonen** zie
 je alles. De status is meteen zichtbaar voor de rest van de groep en voor de organisatie.
 
