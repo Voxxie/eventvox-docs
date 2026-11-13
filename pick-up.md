@@ -52,16 +52,18 @@ nieuwsbrief. Mensen hebben geen account nodig. Ze kiezen een ronde die nog niet 
 vullen hun adres in, met maximaal 3 foto's. Op een telefoon kunnen ze met **Foto maken** meteen een foto maken met
 de camera, of met **Foto kiezen** een bestaande foto kiezen.
 
-### Het formulier instellen
+### Het formulier en de route instellen
 
-Met **Formulier instellen** op de pagina Pick-Up (recht `pickups:update`{: .recht }) bepaal je voor jouw organisatie:
+Met **Instellingen** op de pagina Pick-Up (recht `pickups:update`{: .recht }) bepaal je voor jouw organisatie:
 
 - de **tekst bovenaan het formulier**, met opmaak, bijvoorbeeld wat je wel en niet ophaalt. Laat je hem leeg, dan
   staat er "*Jouw organisatie* komt bij je langs. Kies een ronde en vul je adres in.";
 - **foto's**:
   - *Optioneel*: wie wil, stuurt foto's mee (standaard);
   - *Verplicht*: aanmelden kan pas met minstens één foto;
-  - *Uit*: het formulier vraagt niet om foto's.
+  - *Uit*: het formulier vraagt niet om foto's;
+- waar de **route** begint, bijvoorbeeld de loods: een naam, het adres (postcode en huisnummer vullen straat en plaats
+  in) en of de route na het laatste adres **terug naar dit punt** gaat. Leeg: de route begint waar je bent.
 
 Elke organisatie stelt dit zelf in; het geldt ook voor het formulier op je eigen website (de WordPress-plugin).
 
@@ -116,6 +118,11 @@ adres weer op ingepland te zetten.
 **Route langs … adressen** open je Google Maps met alle adressen die nog moeten als tussenstops, vanaf waar je bent. Zijn
 het er meer dan tien, dan zijn er knoppen per deel (bijvoorbeeld *Route 1–10* en *Route 11–18*); het volgende deel begint
 waar het vorige eindigde. Ook beheerders zien deze knop op de pagina van de ronde.
+
+Heeft je organisatie een startpunt ingesteld (zie *Het formulier en de route instellen*), dan beginnen de nummers bij
+het adres dat daar het dichtst bij ligt en begint de route in Google Maps daar, met *Vanaf Loods* naast de knop. Gaat de
+route terug, dan heet de knop *Route langs … adressen en terug* en eindigt hij weer bij het startpunt. Op de kaart staat
+het startpunt als huisje.
 
 **Geen bereik?** Een status die je zonder verbinding kiest, blijft op je telefoon bewaard en staat er met *Nog niet
 verstuurd* bij. Zodra er weer verbinding is, gaat hij vanzelf naar EventVOX (of tik op **Nu versturen**). Sluit de pagina
