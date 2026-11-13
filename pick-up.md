@@ -83,7 +83,10 @@ Open een ronde vanuit de lijst.
 ## Tijdens de ronde
 
 Ingeplande vrijwilligers openen de ronde bij **Voor mij → Mijn rooster**. Ze zien een kaart met alle adressen en
-daaronder per adres een kaartje, gemaakt voor de telefoon:
+daaronder per adres een kaartje, gemaakt voor de telefoon. Op de telefoon scroll je met één vinger gewoon door de
+pagina, ook over de kaart heen; de kaart verschuif en zoom je met twee vingers.
+
+Per adres:
 
 - het adres in grote letters; een tik erop opent de route in Google Maps;
 - de knoppen **Route** en **Bellen** (alleen als er een telefoonnummer is);
