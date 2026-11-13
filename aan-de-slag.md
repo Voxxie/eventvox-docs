@@ -120,9 +120,37 @@ Hier wijzig je:
 - **gekoppelde accounts**, zoals Google;
 - je **meldingen**: welke pushmeldingen je wilt krijgen.
 
+**Je e-mailadres wijzigen:** EventVOX stuurt eerst een bevestigingslink naar het nieuwe adres. Open die link terwijl je
+bent ingelogd met je eigen account; pas dan gaat het nieuwe adres in. Tot die tijd blijft je huidige adres in gebruik en
+staat bij je profiel dat er een wijziging wacht (die kun je ook intrekken). De link werkt 24 uur. Je oude adres krijgt
+een berichtje als het gewijzigd is.
+
+**Je wachtwoord wijzigen** logt je overal uit, behalve hier. Ook je eigen API-tokens en gekoppelde AI-assistenten
+werken daarna niet meer: maak ze opnieuw aan als je ze nog nodig hebt.
+
 Onder **Waar je bent ingelogd** zie je je actieve sessies, en log je er een uit. Sessies die langer dan een dag niet zijn
 gebruikt (zonder *Ingelogd blijven*), bijvoorbeeld van een browser die je hebt gesloten, staan achter de schakelaar
 *Ook niet-actieve tonen*.
+
+### Adressen invullen
+
+Overal waar je een Nederlands adres invult (je profiel, de webshop, het Pick-Up-aanmeldformulier, sponsors), vult
+EventVOX de **straat en plaats** zelf in zodra je de **postcode en het huisnummer** hebt getypt. Onder het huisnummer
+staat dan *Gevonden: Straat, Plaats*. Je kunt de velden daarna nog gewoon aanpassen. Bij het opslaan worden de
+postcode (*1234 AB*) en de plaatsnaam op de officiële manier geschreven, zodat bijvoorbeeld "St M Gestel" en
+"sint michielsgestel" allebei *Sint-Michielsgestel* worden.
+
+Had je de straat al getypt en hoort die niet bij de postcode, dan past EventVOX niets aan. Je ziet dan *Bij 1234 AB 12
+hoort Teststraat, Plaats. Klopt de postcode?* Controleer de postcode, of klik **Dit adres gebruiken** als de straat
+fout was. Ook bij het opslaan wint wat je hebt getypt: een tikfout in de postcode maakt van je adres dus nooit een
+ander adres.
+
+## Even onderhoud
+
+Bij groot onderhoud zet de beheerder van EventVOX het systeem soms even op **onderhoud**. Je ziet dan in de app, de
+webshop en de openbare formulieren een melding *Even onderhoud*, soms met de tijd waarop het weer klaar is. Klik op
+**Opnieuw proberen** als het voorbij is. **Scanterminals** blijven tijdens onderhoud gewoon scannen, en de schermen met
+sponsors en berichten blijven aan. Scannen met de app op je telefoon (de pagina *Scannen*) werkt dan niet.
 
 ## Meldingen en de app
 

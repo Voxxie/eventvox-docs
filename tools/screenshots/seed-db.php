@@ -55,6 +55,17 @@ if ($step === 'bootstrap') {
     exit;
 }
 
+if ($step === 'emails') {
+    // The organisation's people get their (fictional) addresses at once: through the API a tenant admin's choice waits
+    // for a confirmation link mailed to it (only a platform admin sets it directly), and nothing is mailed here
+    $set = 0;
+    foreach ($input['emails'] as $email) {
+        $set += run($db, 'UPDATE users SET email = :email WHERE username = :username AND email IS NULL', ['email' => $email, 'username' => $email]);
+    }
+    echo json_encode(['emails' => $set]) . "\n";
+    exit;
+}
+
 if ($step === 'finish') {
     // Everything the seed made happened "now"; spread it over the past weeks, as if the organisation has been at work
     $tenantId = (int) one($db, 'SELECT id FROM tenants WHERE uuid = :u', ['u' => $input['tenant_uuid']]);
@@ -176,6 +187,9 @@ if ($step === 'finish') {
             'la' => 51.8655 + (($i * 37) % 23 - 11) * 0.0006, 'lo' => 4.6620 + (($i * 53) % 29 - 14) * 0.0008, 'g' => $fmt($now - 3600), 'id' => $id,
         ]);
     }
+
+    // The storage shed where the rounds start: at the edge of the village
+    run($db, 'UPDATE pickup_settings SET route_latitude = :la, route_longitude = :lo WHERE tenant_id = :t', ['la' => 51.8600, 'lo' => 4.6480, 't' => $tenantId]);
 
     // The mailings went out last month: sent, a few messages that bounced
     $sends = $db->prepare('SELECT id FROM mailing_sends WHERE tenant_id = :t ORDER BY id');

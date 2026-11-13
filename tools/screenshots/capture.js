@@ -137,6 +137,12 @@ const SHOTS = [
     { name: 'pickup', url: () => `pickup?uuid=${D.slots.pickup[0]}`, before: async () => wait(2500) },
     // The same round on a phone: the addresses as cards with big status buttons
     { name: 'pickup-phone', url: () => `pickup?uuid=${D.slots.pickup[0]}`, viewport: { width: 390, height: 844 }, element: '[data-shot]', before: firstItems('Adressen', 3) },
+    // Pick-Up -> Instellingen: the sign-up form and where the route starts
+    { name: 'pickup-settings', url: 'pickups', viewport: { width: 1280, height: 1500 }, element: '.modal.show .modal-content', before: async (p) => {
+        await clickText(p, 'button', 'Instellingen');
+        await p.waitForSelector('.modal.show #pu-route-street');
+        await wait(1200);
+    } },
     { name: 'report-pickups', url: 'reports-pickups', viewport: { width: 1280, height: 1100 } },
     // Verkoop en webshop
     { name: 'webshop', url: 'webshop' },

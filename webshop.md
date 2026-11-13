@@ -61,6 +61,7 @@ Bij het kopen:
 - Bij het kiezen van de deelnemers voor een tickettype ziet de koper wie dat ticket al heeft (**Heeft dit ticket al**)
   of het al besteld maar nog niet betaald heeft. Een tweede ticket kiezen kan nog steeds.
 - Na **Bestellen** controleert de koper zijn **adres en telefoonnummers**. Wat hij wijzigt, komt ook op zijn account.
+  Straat en plaats vullen zich na postcode en huisnummer vanzelf in (zie [Adressen invullen]({{ '/aan-de-slag/#adressen-invullen' | relative_url }})).
   De bestelling bewaart de gegevens zoals ze op dat moment zijn; wijzigt de koper ze later, dan blijft de bestelling
   ze houden. Wat verplicht is, stel je in bij **Gegevens van de koper** (zie hieronder).
 
