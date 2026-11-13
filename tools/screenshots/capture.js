@@ -127,6 +127,8 @@ const SHOTS = [
         await p.waitForSelector('[data-planner-list] [data-assign]');
         await wait(400);
     } },
+    // Diensten ruilen: the open offers above the roster, one by the volunteer, one by the planner
+    { name: 'schedule-swaps', url: () => `schedule?uuid=${D.schedules.xmas}`, element: '[data-swaps-card]' },
     { name: 'checklists', url: 'checklists' },
     { name: 'checklist', url: () => `checklist?uuid=${D.checklist}` },
     { name: 'survey', url: () => `survey?uuid=${D.survey}` },

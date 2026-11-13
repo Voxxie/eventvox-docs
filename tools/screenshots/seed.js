@@ -246,7 +246,7 @@ async function volunteersWork(t) {
         state.slots.walk.push(await slot(state.schedules.walk, { starts_at: at(d, '17:30'), ends_at: at(d, '21:30'), note: i === 3 ? 'Avond 4 (intocht)' : `Avond ${i + 1}` }));
     }
     // The Kerstmarkt: building up, the stalls, and collection rounds for the jumble stall (Pick-Up)
-    state.schedules.xmas = await schedule(state.events.xmas, 'Kerstmarkt opbouw en kramen', [S.build, S.bar, S.pickup], { allow_swaps: true });
+    state.schedules.xmas = await schedule(state.events.xmas, 'Kerstmarkt opbouw en kramen', [S.build, S.bar, S.pickup], { swap_mode: 'volunteers' });
     state.slots.xmas = [
         await slot(state.schedules.xmas, { starts_at: at(XMAS, '09:00'), ends_at: at(XMAS, '13:00'), note: 'Opbouw' }),
         await slot(state.schedules.xmas, { starts_at: at(XMAS, '14:00'), ends_at: at(XMAS, '17:30'), note: 'Middag' }),
@@ -297,6 +297,8 @@ async function volunteersWork(t) {
     await api('PUT', `/schedules/${state.schedules.xmas}/planning`, { token: t, body: { slot_uuid: state.slots.xmas[1], employee_uuid: E[VOLUNTEERS[1].email], task_uuid: S.bar } });
     const koen = (await api('POST', '/login', { body: { username: VOLUNTEERS[1].email, password: PASSWORD }, tenant: null })).token;
     await api('POST', `/me/schedule/shifts/${state.slots.xmas[1]}/offer`, { token: koen, body: {} });
+    // And the planner offers Teun's collection round (Teun called in sick): Aangeboden diensten on the roster
+    await api('POST', `/schedules/${state.schedules.xmas}/swaps`, { token: t, body: { slot_uuid: state.slots.pickup[0], employee_uuid: E[VOLUNTEERS[2].email] } });
 
     // Addresses for the first collection round, some already done
     const streets = [['Molenweg', 12], ['Beukenlaan', 3], ['Kerkstraat', 27], ['Dijkweg', 8], ['Vlietkade', 41], ['Polderweg', 5], ['Raadhuisstraat', 16], ['Schoolstraat', 9]];

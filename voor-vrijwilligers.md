@@ -57,8 +57,9 @@ Je ziet alleen diensten in roosters die de organisatie al heeft gepubliceerd.
 
 ### Een dienst ruilen
 
-Kun je toch niet? Als de organisatie ruilen voor het rooster heeft aangezet, staat bij je dienst de knop **Dienst
-aanbieden**. Je collega's zien hem dan en krijgen een melding. Tot iemand hem overneemt, blijf je zelf ingepland; met
+Kun je toch niet? Mogen vrijwilligers in dit rooster zelf ruilen, dan staat bij je dienst de knop **Dienst
+aanbieden**. Doet alleen de roostermaker dat, dan staat er dat je contact opneemt met de roostermaker; heeft die je
+dienst aangeboden, dan zie je dat bij de dienst (intrekken doet de roostermaker dan ook). Je collega's zien hem dan en krijgen een melding. Tot iemand hem overneemt, blijf je zelf ingepland; met
 **Aanbod intrekken** trek je hem terug. Neemt een collega hem over, dan krijg je een melding en staat de dienst niet
 meer in je rooster.
 
