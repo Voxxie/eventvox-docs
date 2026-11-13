@@ -1,3 +1,7 @@
+<!-- Not in search engines: every page asks not to be indexed or followed (GitHub Pages cannot send an X-Robots-Tag
+     header). No robots.txt that blocks crawling on purpose: a search engine must be able to read this tag to drop
+     pages it indexed before. -->
+<meta name="robots" content="noindex, nofollow">
 <!-- EventVOX look: the logo as icon and the fonts of the first screen fetched at once (see _sass/custom/custom.scss) -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo.svg' | relative_url }}">
 <link rel="preload" href="{{ '/assets/fonts/lexend-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
