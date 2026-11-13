@@ -128,6 +128,8 @@ Handige hulpmiddelen:
   aan om het per dienst te zien. Kies je bij **Plannen** links een dienst, dan toont de Bezetting alleen die dienst
   per tijdvak (*Bezetting Bar*), zodat je ziet waar die nog mensen tekort komt. In de **Dienstenplanner** staat het per
   tijdvak als label, bijvoorbeeld *Bar 2/4*; de gekozen dienst staat vooraan met een rand, ook als hij geen aantal heeft.
+- **Niets gekozen**: klik nog een keer op de gekozen dienst (of Verwijderen, of een beschikbaarheidsknop) om hem uit
+  te zetten. Een klik in het rooster doet dan niets, zodat je rustig kunt kijken, en de Bezetting toont weer het totaal.
 - **Wie kan nog?** Klik op een vak van de Bezetting (bijvoorbeeld een rood *1/2*): je ziet dan alleen wie in dat
   tijdvak *Kan* of *Misschien* zei en daar nog niet is ingepland, en die kolom licht op. Nog een klik, of **Iedereen
   tonen**, zet het terug. Met de schakelaar **Alleen wie nog kan** zie je iedereen die nog ergens in te zetten is.
