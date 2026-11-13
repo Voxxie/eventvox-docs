@@ -125,7 +125,9 @@ Handige hulpmiddelen:
 
 - **Bezetting**: onder de tijden staat per tijdvak hoeveel mensen er ingepland zijn van het aantal dat nodig is
   (alleen de diensten met een aantal), groen als het genoeg is en rood als er nog mensen te weinig zijn. Wijs een vak
-  aan om het per dienst te zien. In de **Dienstenplanner** staat het per tijdvak als label, bijvoorbeeld *Bar 2/4*.
+  aan om het per dienst te zien. Kies je bij **Plannen** links een dienst, dan toont de Bezetting alleen die dienst
+  per tijdvak (*Bezetting Bar*), zodat je ziet waar die nog mensen tekort komt. In de **Dienstenplanner** staat het per
+  tijdvak als label, bijvoorbeeld *Bar 2/4*; de gekozen dienst staat vooraan met een rand, ook als hij geen aantal heeft.
 - **Wie kan nog?** Klik op een vak van de Bezetting (bijvoorbeeld een rood *1/2*): je ziet dan alleen wie in dat
   tijdvak *Kan* of *Misschien* zei en daar nog niet is ingepland, en die kolom licht op. Nog een klik, of **Iedereen
   tonen**, zet het terug. Met de schakelaar **Alleen wie nog kan** zie je iedereen die nog ergens in te zetten is.
