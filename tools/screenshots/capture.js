@@ -155,6 +155,8 @@ const SHOTS = [
     { name: 'report-activity', url: 'reports-activity' },
     { name: 'report-scans', url: () => `reports-scans?checkpoint_uuid=${D.checkpoints.start}` },
     { name: 'report-volunteers', url: 'reports-volunteers' },
+    // Per volunteer: shifts this year and in all, the last and the next one
+    { name: 'report-volunteers-people', url: 'reports-volunteers', viewport: { width: 1280, height: 2400 }, element: '[data-people] .card' },
     // Organisatie
     { name: 'users', url: 'users' },
     { name: 'roles', url: 'roles' },
@@ -174,6 +176,9 @@ const SHOTS = [
     // Julia's Pick-Up round on her phone: the address cards
     { name: 'vrijw-pickup', who: 'julia', url: () => `my-schedule?shift=${D.slots.pickup[0]}`, viewport: { width: 390, height: 844 }, element: '[data-shot]', before: firstItems('Adressen', 3) },
     { name: 'vrijw-availability', who: 'julia', url: 'availability' },
+    // Diensten ruilen on Julia's phone: what colleagues offer, and her own shift with "Dienst aanbieden"
+    { name: 'vrijw-swap-offers', who: 'julia', url: 'my-schedule', viewport: { width: 390, height: 844 }, element: '[data-offers]' },
+    { name: 'vrijw-swap-offer', who: 'julia', url: () => `my-schedule?shift=${D.slots.xmas[0]}`, viewport: { width: 390, height: 844 } },
     // De webshop (Lucas, een koper)
     { name: 'shop-overview', who: 'lucas', url: '' },
     { name: 'shop-buy', who: 'lucas', url: 'buy' },

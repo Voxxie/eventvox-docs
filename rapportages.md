@@ -109,6 +109,9 @@ jaar. Daaronder staat wie dit jaar meehelpt.
 Onder **Per vrijwilliger** staat elke actieve vrijwilliger met het aantal diensten dit jaar en in totaal, de laatste en
 de volgende dienst en hoeveel jaar iemand al meehelpt. Zet **Alleen wie dit jaar nog niet heeft geholpen** aan om te zien
 wie je nog kunt vragen: wie dit jaar nog geen dienst had en ook niet is ingepland. Met **Excel** download je de tabel.
+Beide aantallen tellen alleen diensten die al zijn begonnen; een ingeplande dienst staat bij **Volgende dienst**.
+
+![Per vrijwilliger]({{ '/assets/images/report-volunteers-people.png' | relative_url }})
 
 ![Vrijwilligers]({{ '/assets/images/report-volunteers.png' | relative_url }})
 

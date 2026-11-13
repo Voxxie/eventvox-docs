@@ -62,9 +62,13 @@ aanbieden**. Je collega's zien hem dan en krijgen een melding. Tot iemand hem ov
 **Aanbod intrekken** trek je hem terug. Neemt een collega hem over, dan krijg je een melding en staat de dienst niet
 meer in je rooster.
 
+![Dienst aanbieden]({{ '/assets/images/vrijw-swap-offer.png' | relative_url }})
+
 Bieden collega's een dienst aan, dan staat bovenaan Mijn rooster **Diensten om over te nemen**. Klik op
 **Overnemen** en de dienst is van jou. Staat er een reden bij (je bent dan al ingepland, de dienst is voor een rol of
 vanaf een leeftijd), dan kun je hem niet overnemen.
+
+![Diensten om over te nemen]({{ '/assets/images/vrijw-swap-offers.png' | relative_url }})
 
 ### Diensten in je eigen agenda
 
