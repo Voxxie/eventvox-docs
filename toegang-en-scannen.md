@@ -261,6 +261,26 @@ bovenaan de lijst hoeveel het er zijn. Klik op **Alle bijwerken** en ze werken z
 {: .rechten }
 **Rechten:** `terminals:read`{: .recht } om de kaart Kiosk-app te zien; `terminals:update`{: .recht } voor diagnose, opdrachten, instellingen, bijwerken en de beheer-QR-code.
 
+### Raspberry Pi met EventVOX-Pi
+
+Voor een Raspberry Pi met een scanner en een scherm bij de ingang is er **EventVOX-Pi**. Je zet het met één commando op
+een Pi met Raspberry Pi OS; daarna opent de Pi bij het aanzetten schermvullend de terminal, zonder meldingen, en werkt hij
+zichzelf 's nachts bij. Hoe je hem installeert staat in de
+[handleiding van EventVOX-Pi](https://github.com/Voxxie/eventvox-scanterminal/tree/main/v3#readme).
+
+In EventVOX werkt een Pi bijna hetzelfde als een Zebra met de kiosk-app (zie hierboven). Op de pagina van de terminal
+heet de kaart **EventVOX-Pi (Raspberry Pi)**, met het model, de temperatuur en de vrije ruimte op de SD-kaart. Verschillen:
+
+| | Raspberry Pi |
+|:--|:--|
+| **Pi herstarten** | Extra opdracht: de hele Pi start opnieuw op. |
+| **App herstarten** | Start de browser opnieuw. |
+| **Nu bijwerken** | De nieuwste EventVOX-Pi én de updates van de Pi zelf; daarna herstart hij (alleen als er iets nieuws was). |
+| **Zoek mij** | Het scherm knippert en de Pi piept via de luidsprekers van het scherm. Een Pi heeft geen GPS, dus geen locatie. |
+| **Kiosk-instellingen** | Een Pi gebruikt alleen *Kanaal*, *Automatisch bijwerken* en het nachtelijk herladen. |
+
+Op afstand meekijken op het scherm van de Pi kan met Raspberry Pi Connect; zie de handleiding van EventVOX-Pi.
+
 ### Wisselen van checkpoint met een tag
 
 Op de pagina van een checkpoint maak je een **checkpoint-tag**: een QR-code om te printen, of een NFC-chip. Scan je die
