@@ -215,6 +215,52 @@ filter toont, bijvoorbeeld alle terminals bij één checkpoint) en kies
 scannen** aan, zodat ook terminals die maar bij een paar checkpoints mogen scannen meegaan. EHBO-terminals worden
 overgeslagen. Laat je het bericht leeg, dan gaat het weg. De terminals nemen het binnen een minuut over.
 
+### Zebra-handscanner met de kiosk-app
+
+Voor een Zebra-handscanner (zoals de TC51) is er de gratis kiosk-app **EventVOX-Webkiosk**. Die toont de terminal
+schermvullend, start vanzelf bij het aanzetten en laat niemand uit de app. Scannen met de scanner en NFC-polsbandjes
+werkt meteen, ook zonder instellingen in DataWedge. De app werkt zichzelf bij. Installeren en het beheerscherm op het
+toestel staan in de [handleiding van de app](https://github.com/Voxxie/eventvox-kioskapp#readme).
+
+Draait een terminal in de kiosk-app, dan zie je in EventVOX meer:
+
+- In de lijst een oranje label **Zwak wifi** en een rood label **Accu vervangen** als Zebra dat aanraadt.
+- Op de pagina van de terminal de kaart **Kiosk-app**: de versie, het wifi-netwerk en hoe sterk het is, of de app de
+  laatste tijd is vastgelopen, of de klok van het toestel klopt, en de staat van de accu (gezondheid en laadcycli).
+  Met **Diagnose opvragen** stuurt het toestel zijn logboek mee; handig als er iets niet werkt.
+
+**Op afstand bedienen.** Op de pagina van een terminal, of voor een selectie in de lijst met **Kiosk-opdracht**:
+
+| Opdracht | Wat er gebeurt |
+|:---------|:---------------|
+| **Pagina herladen** | De terminal laadt opnieuw. |
+| **App herstarten** | De app start opnieuw op. |
+| **Nu bijwerken** | De app installeert meteen de nieuwste versie, als die er is. |
+| **Zoek mij** | Het toestel piept, trilt en knippert 30 seconden. Het zoekt ook zijn plek en die zie je op een kaartje bij de terminal. |
+
+Elke opdracht komt binnen een minuut aan en wordt één keer uitgevoerd. De locatie wordt alleen na *Zoek mij* bepaald,
+en EventVOX bewaart hem 24 uur: het toestel wordt door iemand gedragen.
+
+**Instellingen.** Met **Kiosk-instellingen** (per terminal of voor een selectie) zet je onder meer het volume, dimmen,
+scherm altijd aan, 's nachts herladen, de schermstand, trillen en de NFC-instellingen. Het adres en de PIN van het
+beheerscherm stel je alleen op het toestel zelf in. Wijzigt iemand later iets op het toestel, dan blijft dat zo tot je
+vanuit EventVOX opnieuw iets stuurt.
+
+**Bijwerken.** Heeft een terminal een oudere versie van de app, dan staat er een oranje label *App 0.0.12* bij en
+bovenaan de lijst hoeveel het er zijn. Klik op **Alle bijwerken** en ze werken zichzelf bij zodra niemand ze gebruikt.
+
+**QR-codes om te printen** (knoppen boven de lijst):
+
+- **Beheer-QR-code**: opent het beheerscherm van de app zonder PIN. Je kiest hoe lang hij geldig is (1 uur tot een
+  week). Werkt ook zonder internet. Kwijt of in verkeerde handen? Met **Alle beheer-QR-codes intrekken** werken
+  eerdere codes niet meer.
+- **Wifi-QR-code**: heeft een terminal geen netwerk, dan scan je deze code en voegt hij het wifi-netwerk toe. De code
+  wordt in je eigen browser gemaakt; het wachtwoord gaat niet naar EventVOX. Hang hem niet zichtbaar op: wie de code
+  heeft, kan het wachtwoord uitlezen.
+
+{: .rechten }
+**Rechten:** `terminals:read`{: .recht } om de kaart Kiosk-app te zien; `terminals:update`{: .recht } voor diagnose, opdrachten, instellingen, bijwerken en de beheer-QR-code.
+
 ### Wisselen van checkpoint met een tag
 
 Op de pagina van een checkpoint maak je een **checkpoint-tag**: een QR-code om te printen, of een NFC-chip. Scan je die
