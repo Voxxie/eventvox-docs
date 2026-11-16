@@ -211,8 +211,11 @@ ingevuld?". De koppeling werkt via het MCP-protocol en kan alleen **lezen**: de 
 - De koppeling is een **module**: [neem contact met ons op]({{ '/contact/' | relative_url }}) om *AI-koppeling (MCP)* aan te zetten. Daarna staat bij
   **Organisatie → API-tokens** een kaart met het adres en hoe je de assistent koppelt.
 - Koppelen kan op twee manieren: **door in te loggen** (het makkelijkst, zie hieronder), of met een **eigen token**.
-- De assistent ziet events, verkoop, aanwezigheid, rapportages, roosters en de totalen van vragenlijsten, binnen jouw
-  leesrechten (of die van het token). **Nooit**: antwoorden op gevoelige vragen, VOG's, mails, contactgegevens of
+- De assistent ziet events, verkoop (ook van vandaag), aanwezigheid, rapportages, roosters en hun bezetting, het aantal
+  diensten per vrijwilliger, de voortgang van Pick-Up rondes en checklists, de drukte bij de checkpoints en de
+  terminals, en de totalen van vragenlijsten, binnen jouw leesrechten (of die van het token). Vraag bijvoorbeeld "hoe
+  druk is het nu bij de ingang?", "welke diensten zijn zaterdag nog niet gevuld?" of "hoeveel shirts zijn er nog niet
+  uitgereikt?". **Nooit**: antwoorden op gevoelige vragen, VOG's, mails, contactgegevens of
   geboortedata.
 - Elke vraag van de assistent staat in het [logboek](#logboek).
 
