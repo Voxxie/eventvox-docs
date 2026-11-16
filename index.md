@@ -41,6 +41,7 @@ tenant.
 | cijfers bekijken en exporteren                  | [Rapportages]({{ '/rapportages/' | relative_url }})        |
 | gebruikers en rechten beheren                   | [Organisatie]({{ '/organisatie/' | relative_url }})        |
 | andere software koppelen via de API             | [API-tokens en API-documentatie]({{ '/organisatie/#api-tokens' | relative_url }}) |
+| snel antwoord op een veelgestelde vraag        | [Veelgestelde vragen]({{ '/veelgestelde-vragen/' | relative_url }}) |
 | een vraag stellen of hulp krijgen               | [Contact]({{ '/contact/' | relative_url }})                |
 
 ## Modules
