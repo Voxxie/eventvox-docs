@@ -228,6 +228,8 @@ Draait een terminal in de kiosk-app, dan zie je in EventVOX meer:
 - Op de pagina van de terminal de kaart **Kiosk-app**: de versie, het wifi-netwerk en hoe sterk het is, of de app de
   laatste tijd is vastgelopen, of de klok van het toestel klopt, en de staat van de accu (gezondheid en laadcycli).
   Met **Diagnose opvragen** stuurt het toestel zijn logboek mee; handig als er iets niet werkt.
+- Bij **Wifi uit EventVOX** zie je welke wifi-netwerken de beheerders van EventVOX op de terminal hebben gezet. Die zet
+  de terminal zelf; netwerken die je op het toestel toevoegt (bijvoorbeeld met een wifi-QR-code) blijven daarnaast staan.
 
 **Op afstand bedienen.** Op de pagina van een terminal, of voor een selectie in de lijst met **Kiosk-opdracht**:
 
