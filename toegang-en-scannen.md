@@ -266,7 +266,7 @@ bovenaan de lijst hoeveel het er zijn. Klik op **Alle bijwerken** en ze werken z
 Voor een Raspberry Pi met een scanner en een scherm bij de ingang is er **EventVOX-Pi**. Je zet het met één commando op
 een Pi met Raspberry Pi OS; daarna opent de Pi bij het aanzetten schermvullend de terminal, zonder meldingen, en werkt hij
 zichzelf 's nachts bij. Hoe je hem installeert staat in de
-[handleiding van EventVOX-Pi](https://github.com/Voxxie/eventvox-scanterminal/tree/main/v3#readme).
+[handleiding van EventVOX-Pi](https://github.com/Voxxie/eventvox-pi/blob/main/docs/inrichten.md).
 
 In EventVOX werkt een Pi bijna hetzelfde als een Zebra met de kiosk-app (zie hierboven). Op de pagina van de terminal
 heet de kaart **EventVOX-Pi (Raspberry Pi)**, met het model, de temperatuur en de vrije ruimte op de SD-kaart. Verschillen:
