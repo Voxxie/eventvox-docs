@@ -30,6 +30,8 @@
 ## Checking
 - `bundle exec jekyll serve` (see `README.md`) and look at the changed pages, the menu order and the search.
 - Check every link and image path, and that the text matches the current app (labels, menu names).
+- CI (`.github/workflows/check.yml`) runs `node tools/check-pages.mjs`, builds the site as GitHub Pages does and runs
+  `htmlproofer` on internal links, anchors and images; a new page needs a `nav_order` and `permalink` of its own.
 
 ## Documentation Rule
 - Update `README.md` when the build or the screenshot tooling changes, and this file when the conventions change.

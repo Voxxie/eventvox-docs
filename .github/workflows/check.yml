@@ -1,0 +1,36 @@
+# Checks the manual before it goes live: the pages' front matter (title, a menu order and an address of their own), the
+# site built exactly as GitHub Pages builds it, and every internal link, anchor and image in it. External links are not
+# checked (sites that are down for a while would make it fail). See README.md.
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Front matter of the pages
+        run: node tools/check-pages.mjs
+      # The same build as GitHub Pages (github-pages gem, remote theme): an error here would also stop the live site
+      - name: Build the site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - name: Internal links, anchors and images
+        env:
+          LANG: C.UTF-8
+          LC_ALL: C.UTF-8
+        run: |
+          gem install html-proofer -v '~> 5.0' --no-document
+          htmlproofer ./_site --disable-external --checks Links,Images,Scripts --allow-missing-href --ignore-empty-alt --no-enforce-https
