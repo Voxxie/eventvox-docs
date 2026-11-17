@@ -170,6 +170,12 @@ organisaties, dan kies je per organisatie (wissel bovenin van organisatie en kij
 {: .let_op }
 Op een iPhone of iPad werken meldingen alleen in de app op het beginscherm (iOS 16.4 of nieuwer).
 
+Met **Testmelding** (onder **Mijn profiel → Meldingen**) controleer je of meldingen aankomen. Komt er niets aan, dan staat
+er per apparaat waarom. Weigert de pushdienst van een apparaat (Google, Apple, …) de meldingen, dan meldt dat apparaat
+zich vanzelf opnieuw aan zodra je EventVOX daar opent; je hoeft het niet opnieuw te koppelen. Tot die tijd staat er bij
+het apparaat *Wacht op een nieuwe aanmelding*. Een apparaat dat zich binnen 30 dagen niet opnieuw aanmeldt, wordt
+ontkoppeld.
+
 {: .tip }
 Telefoon kwijt? Vraag een beheerder om je apparaten te verwijderen (Gebruikers → je account → *Apparaten
 verwijderen*). Je passkey kwijt? De beheerder kan ook je passkeys verwijderen.
