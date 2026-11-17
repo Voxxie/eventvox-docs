@@ -28,6 +28,10 @@ De handleidingen voor organisaties (tenants) die met EventVOX werken, gepublicee
 - Alleen wat organisaties zelf gebruiken staat erin; platformbeheer (tenants, betaal- en inlogmethodes,
   systeemlogs) niet.
 
+**Controle bij elke PR** (`.github/workflows/check.yml`): de kop van elke pagina (`node tools/check-pages.mjs`: titel,
+een eigen `nav_order` en een eigen `permalink`), de site gebouwd zoals GitHub Pages hem bouwt, en alle interne links,
+ankers (`#kop`) en afbeeldingen (`htmlproofer`). Externe links worden niet gecontroleerd.
+
 Lokaal bekijken (Ruby nodig):
 
 ```bash
