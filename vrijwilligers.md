@@ -103,8 +103,10 @@ Onder **Vrijwilligers → Jonge vrijwilligers** staat een lijst van de jongeren:
 te bellen) en hun **eerstvolgende dienst** (wanneer, welke dienst, bij welk evenement; *Nu bezig* als die loopt).
 Met **Zoeken** vind je iemand op naam. Per jongere zijn er twee knoppen:
 
-- **Rooster**: alle komende diensten van de jongere in gepubliceerde roosters, met per dienst met wie de jongere in dat
-  tijdvak staat. Staat er geen volwassene bij, dan staat er *Geen volwassene in dit tijdvak*.
+- **Rooster**: bovenaan hoeveel diensten de jongere heeft en wanneer de eerstvolgende is. Daaronder per dag de
+  diensten in gepubliceerde roosters: links de tijd, rechts de dienst, het evenement en het rooster. Per dienst zie je
+  op aparte regels de **volwassenen** en de **andere jongeren** in dat tijdvak, met hun dienst. Staat er geen
+  volwassene bij, dan staat er *Geen volwassene in dit tijdvak*. Een dienst die nu bezig is, is groen.
 - **Beschikbaarheid**: per tijdvak of de jongere kan, voor de roosters die open staan voor beschikbaarheid. Heeft een
   evenement meer roosters, dan kies je bovenin het rooster. Het venster opent om te bekijken; pas met **Bewerken**
   kies je per tijdvak **Ja**, **Misschien** of **Nee** (nog een keer op hetzelfde antwoord wist het), en met
