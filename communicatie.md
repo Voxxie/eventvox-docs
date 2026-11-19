@@ -122,8 +122,8 @@ Per bericht kies je:
 | Bevestiging van een bestelling | Na het bestellen in de webshop. |
 | Betaling ontvangen | Als een bestelling betaald is. |
 | Betaalherinnering | Als een bestelling nog niet betaald is. |
-| VOG verloopt binnenkort | Een instelbare tijd vóór het verlopen van een VOG. |
-| VOG nodig | Een vrijwilliger heeft een VOG nodig. |
+| VOG aangevraagd | Jullie leggen vast dat een VOG voor iemand is **aangevraagd**: de vrijwilliger hoort dat er een mail van Justis komt om de aanvraag af te ronden. |
+| VOG's aan te vragen | Aan wie VOG's aanvraagt (het recht om VOG's aan te maken, of beheerder): voor welke vrijwilligers een VOG moet worden aangevraagd (nieuw, verlopen of verloopt binnen 2 maanden). Alleen als er iemand bij is gekomen, hooguit één keer per dag. |
 | Aanmelding als vrijwilliger goedgekeurd | Je keurt een aanmelding goed bij **Vrijwilligers → Aanmeldingen**: de nieuwe vrijwilliger krijgt een welkomstbericht met een link om de beschikbaarheid door te geven. Staat standaard aan. |
 | Uitnodiging | Iemand wordt uitgenodigd voor je organisatie. |
 

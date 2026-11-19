@@ -55,7 +55,8 @@ de persoon nog niet als gebruiker? Nodig hem of haar eerst uit bij
   het kruisje.
 - **VOG**: de huidige status en tot wanneer hij geldig is. Met de knoppen leg je vast dat een VOG is **aangevraagd**,
   voer je een **geldige VOG** in (nummer en datum van afgifte; EventVOX rekent uit tot wanneer hij geldig is) of noteer
-  je dat hij is **afgekeurd**.
+  je dat hij is **afgekeurd**. Moet er een VOG worden aangevraagd, dan staat er een blok **VOG aanvragen bij Justis**
+  met knoppen om de naam en het e-mailadres te kopiëren (zie hieronder).
 - **Vragenlijsten** voor vrijwilligers, met de antwoorden.
 - **Beëindigen**: iemand stopt. De jaren en VOG's blijven bewaard; later kun je de vrijwilliger opnieuw actief maken.
 
@@ -73,9 +74,45 @@ Op de lijst met vrijwilligers open je **Instellingen**.
 - **VOG**: hoe lang een VOG geldig is (in maanden, leeg = onbeperkt) en vanaf welke leeftijd een VOG nodig is. Wie
   een VOG nodig heeft maar geen geldige heeft, krijgt het label "VOG nodig".
 
+### VOG's aanvragen
+
+Een vrijwilliger kan een VOG niet zelf aanvragen; dat doen jullie als organisatie bij Justis. Justis mailt de
+vrijwilliger daarna een link om de aanvraag af te ronden.
+
+1. Kies bij **Vrijwilligers** het filter **VOG → Aan te vragen** (of klik op het dashboard op *VOG's aan te vragen*).
+   Je ziet wie een VOG nodig heeft: nieuw, verlopen, afgekeurd of ingetrokken, of de VOG verloopt binnen 2 maanden.
+2. Klik bij een vrijwilliger op **Naam** en **E-mail**: die worden gekopieerd. Plak ze in het aanvraagformulier van
+   Justis.
+3. Klik op **Aangevraagd**. De status wordt *Aangevraagd* en de vrijwilliger verdwijnt uit de lijst.
+
 {: .tip }
-Met [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}) krijgen vrijwilligers automatisch een mail als
-hun VOG binnenkort verloopt of als ze een VOG nodig hebben.
+Met [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}):
+**VOG aangevraagd** laat de vrijwilliger weten dat er een mail van Justis komt, zodra jullie op *Aangevraagd* klikken.
+**VOG's aan te vragen** laat wie VOG's aanvraagt weten dat er (nieuwe) vrijwilligers zijn voor wie een VOG moet worden
+aangevraagd, hooguit één keer per dag. Wie de notificaties *VOG nodig* of *VOG verloopt binnenkort* aan had, heeft
+deze twee automatisch aan gekregen; die oude zijn vervallen.
+
+## Jonge vrijwilligers (begeleiders)
+
+Voor wie de jongere vrijwilligers begeleidt: de vrijwilligers die **jonger zijn dan de VOG-leeftijd** (zie
+[Instellingen](#instellingen-rol-en-vog); zonder bekende geboortedatum staat iemand er niet bij). Maak een rol, bijvoorbeeld
+*Begeleider jeugd*, met het recht **Jonge vrijwilligers** lezen (en wijzigen om beschikbaarheid door te geven). Zo'n
+begeleider ziet verder niets van de andere vrijwilligers.
+
+Onder **Vrijwilligers → Jonge vrijwilligers** staat (gemaakt voor een groep van zo'n 15 jongeren):
+
+- **Zoeken op naam**: filtert alle onderdelen hieronder op naam.
+- **Diensten**: per dag en per tijdvak één blok met de jongeren als regels: naam, leeftijd, dienst en telefoonnummer
+  (tik om te bellen). Daaronder één keer met welke volwassenen ze in dat tijdvak staan, of de waarschuwing *Geen
+  volwassene in dit tijdvak*. Kies bij **Diensten** *Ook de afgelopen week* om terug te kijken.
+- **Beschikbaarheid**: per rooster dat open staat voor beschikbaarheid een raster met de jongeren onder elkaar en de
+  tijdvakken naast elkaar, in de kleuren van de planning. Tik op een vakje om namens de jongere door te geven of die
+  kan: **Ja**, nog een keer **Misschien**, dan **Nee**, en nog een keer om het te wissen. De planner ziet het gewoon in
+  de planning.
+- **Alle jonge vrijwilligers**: een tabel met naam, leeftijd, het aantal geplande diensten en het telefoonnummer.
+
+Van de jongeren zie je alleen naam, leeftijd en telefoonnummer. Elke keer dat iemand de pagina bekijkt, komt in het
+logboek.
 
 ## Aanmeldingen
 

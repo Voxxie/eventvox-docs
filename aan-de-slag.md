@@ -87,8 +87,7 @@ op de regel opent de lijst met precies die gevallen.
 | Regel | Wat het betekent |
 |:------|:-----------------|
 | Aanmeldingen als vrijwilliger | Aanmeldingen die nog wachten op goedkeuren of afwijzen. |
-| VOG's aan te vragen | Vrijwilligers die een VOG nodig hebben, maar er nog geen hebben. |
-| VOG verloopt | VOG's die binnen 2 maanden verlopen. |
+| VOG's aan te vragen | Vrijwilligers voor wie een VOG moet worden aangevraagd: nieuw, verlopen, afgekeurd of ingetrokken, of de VOG verloopt binnen 2 maanden. Opent de lijst **Aan te vragen**. |
 | Wachten op betaling | Bestellingen die nog niet betaald zijn. |
 | Producten af te geven | Betaalde bestellingen met producten die nog niet zijn afgegeven. |
 | Verplichte vragenlijsten | Deelnemers die een verplichte vragenlijst nog niet hebben ingevuld. |

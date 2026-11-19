@@ -117,6 +117,7 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Verkoop → Bezoekersgedeelte | – | Iedereen |
 | Vrijwilligers → Vrijwilligers | `employees:read`{: .recht } | `employees:create`{: .recht } `employees:update`{: .recht } `employees:delete`{: .recht }; VOG: `vogs:read`{: .recht } `vogs:create`{: .recht } `vogs:update`{: .recht } `vogs:delete`{: .recht }; `roles:assign`{: .recht } |
 | Vrijwilligers → Aanmeldingen | `employees:read`{: .recht } | `employees:create`{: .recht } `roles:assign`{: .recht } aannemen |
+| Vrijwilligers → Jonge vrijwilligers | `young_volunteers:read`{: .recht } | `young_volunteers:update`{: .recht } beschikbaarheid doorgeven |
 | Vrijwilligers → Roosters | `schedules:read`{: .recht } | `schedules:create`{: .recht } `schedules:update`{: .recht } `schedules:delete`{: .recht }; inplannen: `schedule_planning:read`{: .recht } `schedule_planning:update`{: .recht } |
 | Vrijwilligers → Checklists | – | Iedereen met de module (de checklists van je rollen); alle checklists: `checklists:read`{: .recht }; `checklists:create`{: .recht } `checklists:update`{: .recht } `checklists:delete`{: .recht } |
 | Pick-Up | `pickups:read`{: .recht } | `pickups:create`{: .recht } `pickups:update`{: .recht } `pickups:delete`{: .recht } |
