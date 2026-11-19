@@ -68,6 +68,31 @@ Bij het kopen:
 Je opent de webshop zoals bezoekers hem zien via **Verkoop → Bezoekersgedeelte**, of met de knop **Bezoekersgedeelte**
 bovenaan de webshopinstellingen. Die opent in een nieuw tabblad.
 
+Op het **overzicht** staat het blok **Mijn tickets**: de tickets voor evenementen die nu bezig zijn of nog komen, met
+de knoppen **Alle tickets**, **Mijn bestellingen** en **Groepen** (met het aantal actieve groepen) en de knop **Tickets
+kopen**. Heeft de koper niets voor komende evenementen, dan staat er een knop **Tickets kopen** en, als er eerdere
+tickets zijn, de link **Eerdere tickets bekijken**.
+
+### Groepen
+
+Wie een **groepsticket** koopt (zie het tickettype, onder **Webshop**), krijgt een groep met een **koppelcode**. Onder
+**Groepen** in de webshop ziet de koper:
+
+- Eerst de **actieve groepen**, met bovenaan een label wanneer het is: *Nu bezig*, *Over 12 dagen* of *Morgen*. Daaronder
+  wie de groep kocht (*Jij hebt deze groep gekocht* of *Je doet mee met …*), de leden en hoeveel plekken er nog vrij
+  zijn. Met **Uit groep** haalt de koper een lid eruit (niet het eerste, betaalde ticket en niet iemand die al
+  gescand is). Met **Eigen deelnemer toevoegen** zet de koper een eigen deelnemer erbij.
+- **Iemand uitnodigen**: met **Link delen** stuurt de koper een link (op een telefoon via WhatsApp, mail en zo; op een
+  computer wordt de link gekopieerd), met **Code kopiëren** alleen de code. Is de groep vol of afgelopen, dan staat
+  dit blok er niet.
+- Groepen waarvan het evenement voorbij is, staan ingeklapt onder **Afgelopen groepen**: grijs, met het label
+  *Afgelopen*, met de leden maar zonder code of knoppen. Aansluiten bij zo'n groep kan niet meer. Zijn er alleen oude
+  groepen, dan staat er *Je zit nu niet in een groep voor een komend evenement*.
+- Aansluiten gaat met de knop **Aansluiten met een koppelcode** (of de gedeelde link, die deze meteen opent). De
+  webshop laat eerst zien welke groep het is: de naam, het evenement, de voornamen van de leden en hoeveel plekken er
+  vrij zijn. Daarna kiest de bezoeker welke deelnemer meedoet. Een deelnemer die al in de groep zit, kan niet
+  gekozen worden. Is de groep vol, geannuleerd of afgelopen, dan staat dat erbij en kan aansluiten niet.
+
 ## De webshop instellen
 
 {: .rechten }
