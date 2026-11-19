@@ -99,15 +99,17 @@ Voor wie de jongere vrijwilligers begeleidt: de vrijwilligers die **jonger zijn 
 *Begeleider jeugd*, met het recht **Jonge vrijwilligers** lezen (en wijzigen om beschikbaarheid door te geven). Zo'n
 begeleider ziet verder niets van de andere vrijwilligers.
 
-Onder **Vrijwilligers → Jonge vrijwilligers** staat:
+Onder **Vrijwilligers → Jonge vrijwilligers** staat (gemaakt voor een groep van zo'n 15 jongeren):
 
-- **Diensten**: per dag de diensten van de jongeren in gepubliceerde roosters, met de tijd, de dienst, het
-  telefoonnummer (tik om te bellen) en met wie ze in dat tijdvak staan. Staat een jongere alleen in een tijdvak, dan
-  staat dat erbij. Kies **Ook de afgelopen week** om terug te kijken.
-- **Beschikbaarheid doorgeven**: kies de jongere en geef per tijdvak **Ja**, **Misschien** of **Nee** door, net als de
-  vrijwilliger dat zelf bij Beschikbaarheid doet. Nog een keer op hetzelfde antwoord tikken wist het. De planner ziet
-  het gewoon in de planning. Alleen roosters die open staan voor beschikbaarheid staan erbij.
-- **Alle jonge vrijwilligers**: naam, leeftijd, telefoonnummer en hoeveel diensten er gepland zijn.
+- **Zoeken op naam**: filtert alle onderdelen hieronder op naam.
+- **Diensten**: per dag en per tijdvak één blok met de jongeren als regels: naam, leeftijd, dienst en telefoonnummer
+  (tik om te bellen). Daaronder één keer met welke volwassenen ze in dat tijdvak staan, of de waarschuwing *Geen
+  volwassene in dit tijdvak*. Kies bij **Diensten** *Ook de afgelopen week* om terug te kijken.
+- **Beschikbaarheid**: per rooster dat open staat voor beschikbaarheid een raster met de jongeren onder elkaar en de
+  tijdvakken naast elkaar, in de kleuren van de planning. Tik op een vakje om namens de jongere door te geven of die
+  kan: **Ja**, nog een keer **Misschien**, dan **Nee**, en nog een keer om het te wissen. De planner ziet het gewoon in
+  de planning.
+- **Alle jonge vrijwilligers**: een tabel met naam, leeftijd, het aantal geplande diensten en het telefoonnummer.
 
 Van de jongeren zie je alleen naam, leeftijd en telefoonnummer. Elke keer dat iemand de pagina bekijkt, komt in het
 logboek.
