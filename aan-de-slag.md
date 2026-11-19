@@ -38,11 +38,15 @@ je je account aan en kies je zelf je wachtwoord.
 ![Dashboard]({{ '/assets/images/dashboard.png' | relative_url }})
 
 - **Links** staat het menu. De onderdelen zijn in groepen ingedeeld: *Voor mij*, *Evenementen*, *Toegang*,
-  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. Een klik op een groep klapt
+  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. *Abonnementen* en
+  *Vragenlijsten* staan los in het menu, want ze horen niet bij één evenement. Een klik op een groep klapt
   hem open. Met de knop naast het logo klap je het menu in tot alleen pictogrammen. Pagina's die je vaak gebruikt zet je
   bij [Favorieten](#favorieten).
 - **Bovenaan** staat de zoekbalk. Begin gewoon te typen, waar je ook bent: EventVOX zoekt in events, gebruikers, rollen,
-  tickets (ticketcode of naam), bestellingen en sponsoren. Met de pijltjes kies je een resultaat, Enter opent het.
+  tickets (ticketcode of naam), bestellingen en sponsoren, en in het menu: typ *abonnementen* en Enter opent de pagina
+  Abonnementen (een kleine tikfout zoals *abbonementen* mag). Met de pijltjes kies je een resultaat, Enter opent het.
+- Krijg je van een beheerder nieuwe rechten of een nieuwe module, dan zie je die in het menu zodra je terugkomt in het
+  tabblad of na een minuut bij de volgende pagina. Opnieuw laden is niet nodig.
 - **Rechtsboven** kies je de organisatie (tenant) waarin je werkt, en via je naam open je je profiel of log je uit.
 
 ### Het dashboard
