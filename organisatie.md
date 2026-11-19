@@ -104,9 +104,9 @@ Welk recht je nodig hebt om een menu-item te zien, en wat je er met meer rechten
 | Voor mij (Mijn rooster, Beschikbaarheid, Mijn vragenlijsten) | – | Iedereen met de module |
 | Events → Events | `events:read`{: .recht } | `events:create`{: .recht } `events:update`{: .recht } `events:delete`{: .recht }; tickettypes: `ticket_types:create`{: .recht } `ticket_types:update`{: .recht } `ticket_types:delete`{: .recht }; tickets uitgeven: `orders:create`{: .recht } |
 | Events → Deelnemers | `tickets:read`{: .recht } | `users:update`{: .recht } `tickets:update`{: .recht } `tags:create`{: .recht } |
-| Events → Abonnementen | `subscriptions:read`{: .recht } | `subscriptions:create`{: .recht } `subscriptions:update`{: .recht } `subscriptions:delete`{: .recht } |
 | Events → Tickets | `tickets:read`{: .recht } | `tickets:update`{: .recht } |
-| Events → Vragenlijsten | `surveys:read`{: .recht } | `surveys:create`{: .recht } `surveys:update`{: .recht } `surveys:delete`{: .recht }; antwoorden: `survey_answers:read`{: .recht } `survey_answers:update`{: .recht }; gevoelige vragen: `survey_sensitive:read`{: .recht } `survey_sensitive:update`{: .recht } |
+| Abonnementen | `subscriptions:read`{: .recht } | `subscriptions:create`{: .recht } `subscriptions:update`{: .recht } `subscriptions:delete`{: .recht } |
+| Vragenlijsten | `surveys:read`{: .recht } | `surveys:create`{: .recht } `surveys:update`{: .recht } `surveys:delete`{: .recht }; antwoorden: `survey_answers:read`{: .recht } `survey_answers:update`{: .recht }; gevoelige vragen: `survey_sensitive:read`{: .recht } `survey_sensitive:update`{: .recht } |
 | Toegang → Checkpoints | `checkpoints:read`{: .recht } | `checkpoints:create`{: .recht } `checkpoints:update`{: .recht } `checkpoints:delete`{: .recht } |
 | Toegang → Tags | `tags:read`{: .recht } | `tags:create`{: .recht } `tags:update`{: .recht } `tags:delete`{: .recht } |
 | Toegang → Terminals | `terminals:read`{: .recht } | `terminals:create`{: .recht } `terminals:update`{: .recht } `terminals:delete`{: .recht }; EHBO: `info_terminals:update`{: .recht } |

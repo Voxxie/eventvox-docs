@@ -38,11 +38,15 @@ je je account aan en kies je zelf je wachtwoord.
 ![Dashboard]({{ '/assets/images/dashboard.png' | relative_url }})
 
 - **Links** staat het menu. De onderdelen zijn in groepen ingedeeld: *Voor mij*, *Evenementen*, *Toegang*,
-  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. Een klik op een groep klapt
+  *Verkoop*, *Vrijwilligers*, *Communicatie*, *Sponsoring*, *Rapportages* en *Organisatie*. *Abonnementen* en
+  *Vragenlijsten* staan los in het menu, want ze horen niet bij één evenement. Een klik op een groep klapt
   hem open. Met de knop naast het logo klap je het menu in tot alleen pictogrammen. Pagina's die je vaak gebruikt zet je
   bij [Favorieten](#favorieten).
 - **Bovenaan** staat de zoekbalk. Begin gewoon te typen, waar je ook bent: EventVOX zoekt in events, gebruikers, rollen,
-  tickets (ticketcode of naam), bestellingen en sponsoren. Met de pijltjes kies je een resultaat, Enter opent het.
+  tickets (ticketcode of naam), bestellingen en sponsoren, en in het menu: typ *abonnementen* en Enter opent de pagina
+  Abonnementen (een kleine tikfout zoals *abbonementen* mag). Met de pijltjes kies je een resultaat, Enter opent het.
+- Krijg je van een beheerder nieuwe rechten of een nieuwe module, dan zie je die in het menu zodra je terugkomt in het
+  tabblad of na een minuut bij de volgende pagina. Opnieuw laden is niet nodig.
 - **Rechtsboven** kies je de organisatie (tenant) waarin je werkt, en via je naam open je je profiel of log je uit.
 
 ### Het dashboard
@@ -52,7 +56,10 @@ Het dashboard is je startpagina. Je ziet er:
 - per event dat **nu bezig** is: hoeveel tickets er verkocht zijn (ook per tickettype) en hoeveel deelnemers er aanwezig
   zijn. De kaart ververst zichzelf elke 30 seconden. Een klik op *Aanwezig*, *Afwezig* of *Nog niet gescand* opent de
   deelnemerslijst met dat filter;
-- **tegels met wat aandacht nodig heeft** (zie hieronder);
+- **Aandacht nodig**: één blok met een regel per ding dat op iemand wacht (zie hieronder). Op een groot scherm staat
+  het rechts bovenaan, op een telefoon bovenaan de pagina;
+- de **kerncijfers** (events, gebruikers, rollen, nieuwe kopers) in één rij over de hele breedte; op een telefoon twee
+  naast elkaar;
 - **Scans per uur vandaag**: per checkpoint een staafje per uur, met het drukste uur (zodra er vandaag gescand is, of
   als er een event bezig is);
 - de **verkoop** van de komende events per dag, de **jubilarissen** van dit jaar en het aantal **nieuwe kopers** van de
@@ -70,10 +77,14 @@ Een event waarbij **Op het dashboard tonen** uit staat (zie [Events]({{ '/evenem
 bijvoorbeeld een doorlopend event voor abonnementen, staat niet bij de events die bezig zijn, de verkoop en de komende
 events.
 
-Een tegel staat er alleen als er iets te doen is en je de rechten voor dat onderdeel hebt. Een klik op de tegel opent
-de lijst met precies die gevallen.
+Het dashboard heeft twee kolommen die elk hun eigen blokken onder elkaar zetten: links de verkoop en de komende
+events, rechts *Aandacht nodig*, Pick-Up en de jubilarissen. Heb je maar voor één kolom iets, dan neemt die de hele
+breedte. Zo blijven er geen lege vlakken over.
 
-| Tegel | Wat het betekent |
+Een regel bij *Aandacht nodig* staat er alleen als er iets te doen is en je de rechten voor dat onderdeel hebt. Een klik
+op de regel opent de lijst met precies die gevallen.
+
+| Regel | Wat het betekent |
 |:------|:-----------------|
 | Aanmeldingen als vrijwilliger | Aanmeldingen die nog wachten op goedkeuren of afwijzen. |
 | VOG's aan te vragen | Vrijwilligers die een VOG nodig hebben, maar er nog geen hebben. |
