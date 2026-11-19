@@ -99,17 +99,17 @@ Voor wie de jongere vrijwilligers begeleidt: de vrijwilligers die **jonger zijn 
 *Begeleider jeugd*, met het recht **Jonge vrijwilligers** lezen (en wijzigen om beschikbaarheid door te geven). Zo'n
 begeleider ziet verder niets van de andere vrijwilligers.
 
-Onder **Vrijwilligers → Jonge vrijwilligers** staat (gemaakt voor een groep van zo'n 15 jongeren):
+Onder **Vrijwilligers → Jonge vrijwilligers** staat een lijst van de jongeren: naam, leeftijd, telefoonnummer (tik om
+te bellen) en hun **eerstvolgende dienst** (wanneer, welke dienst, bij welk evenement; *Nu bezig* als die loopt).
+Met **Zoeken** vind je iemand op naam. Per jongere zijn er twee knoppen:
 
-- **Zoeken op naam**: filtert alle onderdelen hieronder op naam.
-- **Diensten**: per dag en per tijdvak één blok met de jongeren als regels: naam, leeftijd, dienst en telefoonnummer
-  (tik om te bellen). Daaronder één keer met welke volwassenen ze in dat tijdvak staan, of de waarschuwing *Geen
-  volwassene in dit tijdvak*. Kies bij **Diensten** *Ook de afgelopen week* om terug te kijken.
-- **Beschikbaarheid**: per rooster dat open staat voor beschikbaarheid een raster met de jongeren onder elkaar en de
-  tijdvakken naast elkaar, in de kleuren van de planning. Tik op een vakje om namens de jongere door te geven of die
-  kan: **Ja**, nog een keer **Misschien**, dan **Nee**, en nog een keer om het te wissen. De planner ziet het gewoon in
-  de planning.
-- **Alle jonge vrijwilligers**: een tabel met naam, leeftijd, het aantal geplande diensten en het telefoonnummer.
+- **Rooster**: alle komende diensten van de jongere in gepubliceerde roosters, met per dienst met wie de jongere in dat
+  tijdvak staat. Staat er geen volwassene bij, dan staat er *Geen volwassene in dit tijdvak*.
+- **Beschikbaarheid**: per tijdvak of de jongere kan, voor de roosters die open staan voor beschikbaarheid. Heeft een
+  evenement meer roosters, dan kies je bovenin het rooster. Het venster opent om te bekijken; pas met **Bewerken**
+  kies je per tijdvak **Ja**, **Misschien** of **Nee** (nog een keer op hetzelfde antwoord wist het), en met
+  **Opslaan** bewaar je de wijzigingen van alle roosters. Zo verander je niets per ongeluk. De planner ziet het gewoon
+  in de planning.
 
 Van de jongeren zie je alleen naam, leeftijd en telefoonnummer. Elke keer dat iemand de pagina bekijkt, komt in het
 logboek.
