@@ -92,6 +92,26 @@ Met [Notificaties]({{ '/communicatie/#notificaties' | relative_url }}):
 aangevraagd, hooguit één keer per dag. Wie de notificaties *VOG nodig* of *VOG verloopt binnenkort* aan had, heeft
 deze twee automatisch aan gekregen; die oude zijn vervallen.
 
+## Jonge vrijwilligers (begeleiders)
+
+Voor wie de jongere vrijwilligers begeleidt: de vrijwilligers die **jonger zijn dan de VOG-leeftijd** (zie
+[Instellingen](#instellingen-rol-en-vog); zonder bekende geboortedatum staat iemand er niet bij). Maak een rol, bijvoorbeeld
+*Begeleider jeugd*, met het recht **Jonge vrijwilligers** lezen (en wijzigen om beschikbaarheid door te geven). Zo'n
+begeleider ziet verder niets van de andere vrijwilligers.
+
+Onder **Vrijwilligers → Jonge vrijwilligers** staat:
+
+- **Diensten**: per dag de diensten van de jongeren in gepubliceerde roosters, met de tijd, de dienst, het
+  telefoonnummer (tik om te bellen) en met wie ze in dat tijdvak staan. Staat een jongere alleen in een tijdvak, dan
+  staat dat erbij. Kies **Ook de afgelopen week** om terug te kijken.
+- **Beschikbaarheid doorgeven**: kies de jongere en geef per tijdvak **Ja**, **Misschien** of **Nee** door, net als de
+  vrijwilliger dat zelf bij Beschikbaarheid doet. Nog een keer op hetzelfde antwoord tikken wist het. De planner ziet
+  het gewoon in de planning. Alleen roosters die open staan voor beschikbaarheid staan erbij.
+- **Alle jonge vrijwilligers**: naam, leeftijd, telefoonnummer en hoeveel diensten er gepland zijn.
+
+Van de jongeren zie je alleen naam, leeftijd en telefoonnummer. Elke keer dat iemand de pagina bekijkt, komt in het
+logboek.
+
 ## Aanmeldingen
 
 {: .rechten }
