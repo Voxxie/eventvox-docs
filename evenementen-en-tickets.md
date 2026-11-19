@@ -82,7 +82,7 @@ het hele scherm, met **Opslaan** altijd onderin.
 
 | Blok | Wat erin staat |
 |:-----|:---------------|
-| **Geldigheid en toegang** | **Geldig op**: wanneer het ticket toegang geeft, bijvoorbeeld elke avond van 17:30 tot 22:00 (geen periodes = het hele event). **Alleen geldig bij checkpoints**: vink checkpoints aan als het ticket alleen daar mag worden gescand, bijvoorbeeld een parkeerkaart alleen bij "Parkeren" (niets aangevinkt = overal geldig). |
+| **Geldigheid en toegang** | **Geldig op**: wanneer het ticket toegang geeft, bijvoorbeeld elke avond van 17:30 tot 22:00 (geen periodes = het hele event). **Alleen geldig bij checkpoints**: vink checkpoints aan als het ticket alleen daar mag worden gescand, bijvoorbeeld een parkeerkaart alleen bij "Parkeren" (niets aangevinkt = overal geldig). **Niet tegelijk met andere activiteiten**: een deelnemer kan geen twee tickets met dit vinkje hebben waarvan de tijden overlappen, ook niet bij andere events; zie het voorbeeld hieronder. |
 | **Wie mag kopen** | **Rollen**: alleen accounts met deze rol kunnen het type kopen, bijvoorbeeld "Leden" (geen rollen = iedereen). **Leeftijd**: minimale en/of maximale leeftijd van de deelnemer op de eerste geldige dag van het ticket (zonder geldigheid: de start van het event), met wat er gebeurt als die niet klopt: een **harde eis** (niet te bestellen; de deelnemer moet dan ook een geboortedatum hebben), **alleen een waarschuwing**, of **zoals ingesteld bij de webshop**. **Vereist een ticket van**: alleen voor deelnemers die ook een ticket van een ander type hebben. Met de module Abonnementen ook **Alleen voor leden van**. |
 | **Webshop** | **Groepsticket**: het type wordt per groep verkocht (bijv. een tafel voor 8); elk groepslid krijgt een eigen ticket. **Volgorde** in de webshop. **Foto** (JPEG, PNG of WebP): klein bij het tickettype in de webshop, met een klik groot. Een nieuwe foto vervangt de oude; **Foto verwijderen** haalt hem weg. Foto's uit EventVOX 1 zijn overgenomen. |
 | **Op het ticket** | Een eigen **kleur** voor het e-ticket, zodat de scanners het type snel herkennen. |
@@ -91,6 +91,26 @@ het hele scherm, met **Opslaan** altijd onderin.
 
 {: .let_op }
 Een tickettype waarvoor al tickets zijn verkocht, kun je niet verwijderen. Zet het dan uit (**Te koop** uitzetten).
+
+### Voorbeeld: een avondprogramma met een keuze
+
+Bij een zomerweek kunnen deelnemers met een weekkaart één avondprogramma kiezen: smaak A of smaak B, allebei op
+dinsdag van 19:00 tot 21:00.
+
+1. Maak de types **Smaak A** en **Smaak B**. Zet bij **Geldigheid en toegang** bij allebei de periode di 19:00–21:00 en
+   zet **Niet tegelijk met andere activiteiten** aan.
+2. Kies bij **Wie mag kopen → Vereist een ticket van** de **Weekkaart**, zodat alleen deelnemers met een weekkaart een
+   smaak kunnen kiezen (dat mag in dezelfde bestelling).
+
+Zit Smaak A voor een deelnemer in het mandje, of heeft die deelnemer Smaak A al, dan is die deelnemer bij Smaak B grijs,
+met de reden erbij. Dat geldt voor alle types met het vinkje, ook bij andere events van je organisatie: een workshop
+van 19:30 tot 20:30 botst ook. Tijden die op elkaar aansluiten (de ene eindigt om 21:00, de andere begint om 21:00)
+botsen niet. Zonder geldigheid gelden de tijden van het event.
+
+{: .info }
+Geef je zelf tickets uit, of zet je een ticket op een andere deelnemer, dan mag het wel, maar krijg je een
+waarschuwing. Wil een deelnemer wisselen van smaak, dan doe jij dat als beheerder: annuleer het ene ticket en geef
+het andere uit.
 
 ### Voorbeeld: van aanmelding naar donateur
 
