@@ -39,6 +39,22 @@ Ga naar **Communicatie → Mailboxen**.
 - **Mailings: maximaal per uur**: houd je aan de limiet van je mailprovider; EventVOX verstuurt dan niet meer dan dat
   per uur vanaf deze mailbox.
 
+### Handtekeningen
+
+Met **Tenanthandtekening** bovenaan de mailboxenpagina stel je de standaardhandtekening voor je organisatie in.
+Mailboxen gebruiken deze standaard, tenzij je voor een mailbox een eigen handtekening instelt.
+
+Open voor een eigen handtekening de mailbox en klik op **Instellen**. Haal het vinkje bij **Gebruik de
+tenantstandaardhandtekening** weg en maak de handtekening in de editor. Laat het veld leeg om voor die mailbox geen
+handtekening te gebruiken. Zet het vinkje terug om weer de standaard van je organisatie te gebruiken.
+
+In de editor kun je tekst opmaken en de macro’s `{voornaam}`, `{achternaam}`, `{volledige_naam}`, `{tenantnaam}` en
+`{mailbox}` invoegen. EventVOX vult ze in voor de gebruiker die de mailbox opent.
+
+Voeg een afbeelding toe met het afbeeldingspictogram. Je kunt JPEG-, PNG- en WebP-afbeeldingen van maximaal 5 MB
+uploaden. De afbeeldingen zijn publiek bereikbaar; upload daarom geen privéafbeeldingen. De wijzigingen zijn actief
+wanneer de mailbox opnieuw via EventVOX wordt geopend.
+
 {: .info }
 Je ziet alleen de mailboxen die een van je rollen mag gebruiken.
 
