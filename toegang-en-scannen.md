@@ -112,6 +112,11 @@ beoordeelt je telefoon de scans zelf, met dezelfde regels. Zulke scans krijgen h
 gaan naar de server zodra er weer verbinding is. Bovenin zie je of je online bent, hoeveel scans er nog wachten en
 wanneer de gegevens voor het laatst zijn bijgewerkt.
 
+Wachtende scans gaan nooit verloren. Ze blijven op je telefoon bewaard, ook als je uitlogt, je sessie verloopt of
+iemand anders op dat apparaat inlogt; bij de volgende keer inloggen gaan ze alsnog naar de server. Ze tellen dan als
+scans van wie op dat moment is ingelogd. Mag dat account niet scannen, dan krijg je daar een melding van en blijven de
+scans bewaard tot iemand met scanrechten inlogt.
+
 {: .let_op }
 Zolang een apparaat offline is, weet het niet wat er bij andere ingangen gescand wordt. Een ticket kan dan bij twee
 ingangen tegelijk naar binnen. Achteraf zie je dat terug in de scans van het checkpoint.
@@ -202,6 +207,14 @@ De lijst toont per terminal of hij online is, waar hij scant, wanneer hij gezien
 wachtrij, en bij een apparaat met een batterij (zoals een Zebra) het **batterijniveau** en of hij **oplaadt** (rood als
 hij bijna leeg is). Steek je de lader erin of eruit, dan zie je dat binnen een paar seconden. Op de pagina van een terminal wijzig je hem, of trek je hem in (het apparaat stopt meteen en wist zijn
 gegevens).
+
+### Een terminal zonder internet
+
+Net als het scanscherm houdt een terminal de tickets bij en scant hij door als het internet wegvalt; de scans
+gaan naar EventVOX zodra er weer verbinding is (in de lijst zie je ze tot dan in de wachtrij). Start een terminal
+opnieuw op terwijl er geen internet is, dan scant hij gewoon verder, maar zonder naam bij de uitslag: namen bewaart
+een terminal niet op het apparaat zelf, alleen zolang hij aanstaat. Zoeken lukt dan alleen op ticketcode. Zodra
+de terminal weer verbinding heeft, zijn de namen terug.
 
 Bij **Bericht op het scherm** zet je een tekst op het scherm van de terminal. Zonder eigen bericht toont hij het bericht voor de
 scanschermen uit [Schermen]({{ '/sponsoring-en-schermen/#schermen' | relative_url }}).
