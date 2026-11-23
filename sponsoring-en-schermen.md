@@ -42,6 +42,10 @@ sponsorbrief" of "wie krijgt een presentje", die je kunt exporteren.
 De sponsorbrief verstuur je als [mailing]({{ '/communicatie/#mailings' | relative_url }}) aan *de sponsoren van een
 jaar*, met het vinkje *dit is de sponsorbrief*. Dan wordt bij elke sponsor vastgelegd dat de brief verstuurd is.
 
+{: .tip }
+Heb je een WordPress-site? Met de [WordPress-plugin]({{ '/wordpress/#sponsoren' | relative_url }}) staan de actieve
+sponsoren van dit jaar met hun logo en een link naar hun website vanzelf op je site.
+
 ## Schermen
 
 {: .rechten }
