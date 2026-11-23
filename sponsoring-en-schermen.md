@@ -57,9 +57,19 @@ Er zijn twee soorten schermen:
 - **Namenscherm**: de tekst boven de namen (bijvoorbeeld "Dit event is powered by:") met de namen van de actieve
   sponsoren van dit jaar, elke drie seconden de volgende;
 - **Sponsorslideshow**: de logo's of schermbestanden van de sponsoren met *Scherm* in de afspraken van dit jaar. Hoe
-  hoger het pakket, hoe langer een sponsor in beeld is.
+  hoger het pakket, hoe langer een sponsor in beeld is. Een logo dat niet laadt (bijvoorbeeld verwijderd), slaat de
+  slideshow over, zodat er nooit een kapot plaatje in beeld staat.
 
 Kopieer of open het adres van het scherm met de knoppen.
+
+Een scherm kan dagen blijven aanstaan. Het haalt zelf nieuwe sponsoren en berichten op en werkt zichzelf bij als er
+een nieuwe versie van EventVOX is (tussen twee dia's, nooit tijdens een waarschuwing). Op een laptop of tablet vraagt
+het scherm het apparaat om niet op slaapstand te gaan, als de browser dat kan.
+
+{: .tip }
+Staat er nog een adres van de oude EventVOX op een scherm (`/mediacast/slideshow` of `/mediacast/sponsorscreen`), dan
+stuurt EventVOX dat vanzelf door naar de slideshow of het namenscherm. Je hoeft niets aan te passen; wil je het netjes
+hebben, zet dan het adres van deze pagina op het scherm.
 
 ### Berichten
 
