@@ -52,6 +52,10 @@ nieuwsbrief. Mensen hebben geen account nodig. Ze kiezen een ronde die nog niet 
 vullen hun adres in, met maximaal 3 foto's. Op een telefoon kunnen ze met **Foto maken** meteen een foto maken met
 de camera, of met **Foto kiezen** een bestaande foto kiezen.
 
+Meldt iemand hetzelfde adres (postcode en huisnummer) nog een keer aan voor dezelfde ronde, bijvoorbeeld omdat de
+verbinding wegviel of na een tweede tik op **Aanmelden**, dan komt het er niet dubbel in. Het formulier zegt
+dan "Dit adres was al aangemeld voor deze ronde"; de aanmelding kost maar één plaats.
+
 ### Het formulier en de route instellen
 
 Met **Instellingen** op de pagina Pick-Up (recht `pickups:update`{: .recht }) bepaal je voor jouw organisatie:
