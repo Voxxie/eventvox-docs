@@ -237,15 +237,23 @@ zonder een token te kopiëren:
 2. Vul het adres van de koppeling in: `https://api.eventvox.nl/mcp`. Het staat ook op de kaart bij
    **Organisatie → API-tokens**.
 3. De assistent stuurt je naar EventVOX. Log in zoals je gewend bent.
-4. Je ziet welke app toegang vraagt en wat hij mag: **alleen lezen**. Kies de **organisatie** en klik op **Toestaan**.
-   De koppeling geldt voor die ene organisatie.
+4. Je ziet welke app toegang vraagt en wat hij mag: **alleen lezen**. Vink de **organisatie** aan, of meerdere als je
+   bij meer organisaties hoort, en klik op **Toestaan**. De koppeling geldt alleen voor de aangevinkte organisaties.
 5. Je gaat terug naar de assistent; de koppeling werkt nu. Vraag bijvoorbeeld: *"Hoeveel tickets zijn er verkocht
    voor de Kerstmarkt?"*
 
 Zie je bij stap 4 dat je nergens kunt koppelen, dan staat de module AI-koppeling uit, of mag je geen API-tokens maken.
 
+**Meer organisaties in één koppeling:** de assistent leest per vraag één organisatie. De bovenste aangevinkte is de
+standaard; noem in je vraag de andere organisatie als je die bedoelt (*"Hoeveel tickets heeft Vereniging Zuid
+verkocht?"*). Elk antwoord zegt over welke organisatie het gaat, en gegevens van verschillende organisaties komen nooit
+in één antwoord. Elke vraag staat in het logboek van de organisatie die werd gelezen. Staat de AI-koppeling in een
+organisatie later uit, of mag je daar geen API-tokens meer maken, dan leest de assistent die organisatie niet meer.
+
 **Intrekken:** bij **Organisatie → API-tokens** staan onder *Gekoppelde AI-assistenten* je koppelingen, met wanneer ze
-voor het laatst zijn gebruikt. Met **Intrekken** kan de assistent meteen niets meer lezen. Een beheerder
+voor het laatst zijn gebruikt en voor welke organisaties ze gelden. Met **Intrekken** kan de assistent meteen niets meer
+lezen. Trek je een koppeling in vanuit een organisatie die niet de standaard van die koppeling is, dan gaat alleen die
+organisatie eruit; de andere blijven gekoppeld. Een beheerder
 (`api_tokens:manage`{: .recht }) ziet en beheert de koppelingen van iedereen in de organisatie. Wijzig je je wachtwoord
 via een resetlink, dan vervallen je koppelingen ook.
 
