@@ -74,7 +74,8 @@ Kies in het menu **Scannen** (direct onder Dashboard). Op een telefoon of tablet
 met het kruisje rechtsboven ga je terug. Op een computer blijven de bovenbalk en het menu gewoon staan.
 
 1. Kies bij welk **checkpoint** je scant. Het checkpoint van de vorige keer staat bovenaan.
-2. Tik op de **camera**-knop en richt de camera op de QR-code van het ticket.
+2. Tik op de **camera**-knop en richt de camera op de QR-code van het ticket. Een gewone streepjescode (barcode) leest
+   de camera ook; houd die dan liefst horizontaal in beeld.
 3. Het resultaat verschijnt groot:
    - **groen**: welkom, het ticket is toegelaten;
    - **oranje**: toegelaten, maar let op (bijvoorbeeld al vaker langs geweest);
